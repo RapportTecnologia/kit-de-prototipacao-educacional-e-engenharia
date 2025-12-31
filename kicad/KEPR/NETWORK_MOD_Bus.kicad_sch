@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eece1513-f549-453b-97ac-3296c2d3d2a2")
+	(paper "A3")
+	(title_block
+		(date "2025-12-31")
+		(rev "0.5")
+		(company "Rapport Tecnologia")
+	)
+	(lib_symbols)
+)

@@ -494,7 +494,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${KIPRJMOD}/rapport_abnt.kicad_wks"
   },
   "project": {
     "comment": [
@@ -502,7 +502,7 @@
       "Gerado a partir do README.md do repositório"
     ],
     "company": "",
-    "rev": "0.4",
+    "rev": "0.5",
     "title": "UCE Bus (SO-DIMM 200)"
   },
   "schematic": {
@@ -609,7 +609,7 @@
     "ngspice": {
       "models": []
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "${KIPRJMOD}/rapport_abnt.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -623,7 +623,19 @@
   },
   "sheets": [
     [
+      "759e21b7-914e-4c82-b151-87a683e30730",
+      "NETWORK_MOD_Bus"
+    ],
+    [
+      "f3a7fd3b-7c89-4db6-8c71-4c5edb6a1a4f",
+      "DEBUG_MOD_Bus"
+    ],
+    [
       "9d5cdb25-ec8b-4f33-9f87-5d2f7e7c8b1a",
+      "UCE_Bus"
+    ],
+    [
+      "5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1",
       "Root"
     ]
   ],

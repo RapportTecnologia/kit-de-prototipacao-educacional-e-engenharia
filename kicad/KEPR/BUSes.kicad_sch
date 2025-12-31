@@ -1,0 +1,138 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bef36838-6b81-4bb6-8124-e0fa8899061f")
+	(paper "A3")
+	(title_block
+		(date "2025-12-31")
+		(rev "0.5")
+		(company "Rapport Tecnologia")
+	)
+	(lib_symbols)
+	(sheet
+		(at 114.3 25.4)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32d5f829-b169-471c-a009-0492c35731ba")
+		(property "Sheetname" "DEBUG_MOD_Bus"
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DEBUG_MOD_Bus.kicad_sch"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KEPR"
+				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/0260e008-78ae-4c2c-85f8-b31739d2ea08"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 25.4)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81da33e8-b949-40cf-b6bb-f99db92e18ff")
+		(property "Sheetname" "NETWORK_MOD_Bus"
+			(at 195.58 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NETWORK_MOD_Bus.kicad_sch"
+			(at 195.58 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KEPR"
+				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/0260e008-78ae-4c2c-85f8-b31739d2ea08"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 25.4)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6e289d8-1e57-42c9-86d8-5b4c62dbd3c6")
+		(property "Sheetname" "UCE_Bus"
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UCE_Bus.kicad_sch"
+			(at 33.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KEPR"
+				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/0260e008-78ae-4c2c-85f8-b31739d2ea08"
+					(page "3")
+				)
+			)
+		)
+	)
+)
