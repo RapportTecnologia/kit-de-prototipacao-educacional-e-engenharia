@@ -153,7 +153,7 @@ Isso permite:
 |    41 | UART3_TX               | UART3_RX               | 42  |
 |    43 | UART0_CTS              | UART0_RTS              | 44  |
 |    45 | UART0_DSR              | UART0_DCD              | 46  |
-|    47 | UART0_RI               | Reservado / Futuro     | 48  |
+|    47 | UART0_RI               | GND                    | 48  |
 |    49 | SPI0_SCK               | SPI0_MOSI              | 50  |
 |    51 | SPI0_MISO              | SPI0_CS0               | 52  |
 |    53 | SPI0_CS1               | SPI0_CS2               | 54  |
