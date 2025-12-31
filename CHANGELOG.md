@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5
+Inserção do conector M.2 para rede e M.2 para debug, além da organização hierárquica das folhas de esquema, com `KEPR.kicad_sch` como folha raiz e as demais como filhas.
+
 ## 0.4
 Reorganização da documentação: a especificação da UCE foi movida para `UCE_BOARD.md` e o `README.md` passou a apresentar o projeto e pontos de entrada. Adição de badges (licença CC-BY-4.0, visitas, KiCad, issues, stars e forks) e atualização das referências do repositório para `git@github.com:RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia.git`. Atualização da revisão do projeto KiCad `UCE_Bus` para 0.4.
 
