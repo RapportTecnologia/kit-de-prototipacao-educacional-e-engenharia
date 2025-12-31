@@ -63,6 +63,16 @@ O ecossistema é composto por quatro blocos principais:
 
 ---
 
+## 5. Clock
+
+- O módulo MCU fornece o clock principal
+- Pinos CLOCK_0 e CLOCK_1 disponíveis para a UCE como referência
+- Suporte a múltiplos cristais e osciladores definidos pelo módulo
+- Frequências variáveis conforme necessidade do módulo
+- Pinos CLOCK_0 e CLOCK_1 podem ser usados para sincronização entre módulos
+- A UCE pode configurar o clock conforme necessário
+- Informações sobre o Clock podem ser obtidas na eeprom de identificação.
+
 ## 5. ADC, DAC e Áudio (I²S)
 
 ### ADC / DAC
@@ -109,110 +119,111 @@ Isso permite:
 
 ### Convenção
 
-- **Coluna 1:** Contagem superior (1 → 100)
-- **Coluna 2:** Descrição pinos superiores
-- **Coluna 3:** Descrição pinos inferiores
-- **Coluna 4:** Contagem inferior (200 → 101)
+- **Coluna 1:** Pinos ímpares (1 → 199) — lado esquerdo
+- **Coluna 2:** Descrição pinos ímpares
+- **Coluna 3:** Descrição pinos pares
+- **Coluna 4:** Pinos pares (2 → 200) — lado direito
 
 ---
 
 ### Tabela de Pinagem (Resumo Funcional)
 
-|     Sup | Descrição (Superior)   | Descrição (Inferior)   |      Inf |
-| ------: | ------------------------ | ------------------------ | -------: |
-|       1 | GND                      | GND                      |      200 |
-|       2 | GND                      | GND                      |      199 |
-|       3 | VCC_5V                   | VCC_5V                   |      198 |
-|       4 | VCC_3V3                  | VCC_3V3                  |      197 |
-|       5 | VCC_1V8                  | VCC_1V8                  |      196 |
-|       6 | VREF_IO                  | VREF_IO                  |      195 |
-|       7 | VIO_BANK0                | VIO_BANK1                |      194 |
-|       8 | VIO_BANK2                | VIO_BANK3                |      193 |
-|       9 | PWR_GOOD                 | PWR_GOOD                 |      192 |
-|      10 | GND                      | GND                      |      191 |
-|      11 | GND                      | GND                      |      190 |
-|      12 | VCC_IN                   | GND                      |      189 |
-|      13 | MCU_RESET_N              | MCU_EN                   |      188 |
-|      14 | MCU_BOOT0                | MCU_BOOT1                |      187 |
-|      15 | I2C0_SCL                 | I2C0_SDA                 |      186 |
-|      16 | I2C1_SCL                 | I2C1_SDA                 |      185 |
-|      17 | I2C2_SCL                 | I2C2_SDA                 |      184 |
-|      18 | UART0_TX                 | UART0_RX                 |      183 |
-|      19 | UART1_TX                 | UART1_RX                 |      182 |
-|      20 | UART2_TX                 | UART2_RX                 |      181 |
-|      21 | UART3_TX                 | UART3_RX                 |      180 |
-|      22 | UART0_CTS                | UART0_RTS                |      179 |
-|      23 | UART0_DSR                | UART0_DCD                |      178 |
-|      24 | UART0_RI                 | Reservado / Futuro       |      177 |
-|      25 | SPI0_SCK                 | SPI0_MOSI                |      176 |
-|      26 | SPI0_MISO                | SPI0_CS0                 |      175 |
-|      27 | SPI0_CS1                 | SPI0_CS2                 |      174 |
-|      28 | SPI1_SCK                 | SPI1_MOSI                |      173 |
-|      29 | SPI1_MISO                | SPI1_CS0                 |      172 |
-|      30 | SPI1_CS1                 | SPI1_CS2                 |      171 |
-|      31 | GPIO0                    | GPIO8                    |      170 |
-|      32 | GPIO1                    | GPIO9                    |      169 |
-|      33 | GPIO2                    | GPIO10                   |      168 |
-|      34 | GPIO3                    | GPIO11                   |      167 |
-|      35 | GPIO4                    | GPIO12                   |      166 |
-|      36 | GPIO5                    | GPIO13                   |      165 |
-|      37 | GPIO6                    | GPIO14                   |      164 |
-|      38 | GPIO7                    | GPIO15                   |      163 |
-|      39 | PWM0                     | PWM4                     |      162 |
-|      40 | PWM1                     | PWM5                     |      161 |
-|      41 | PWM2                     | PWM6                     |      160 |
-|      42 | PWM3                     | PWM7                     |      159 |
-|      43 | IR_RX_IN                 | IR_TX_OUT                |      158 |
-|      44 | AIN0                     | AIN4                     |      157 |
-|      45 | AIN1                     | AIN5                     |      156 |
-|      46 | AIN2                     | AIN6                     |      155 |
-|      47 | AIN3                     | AIN7                     |      154 |
-|      48 | AOUT0                    | AOUT1                    |      153 |
-|      49 | I2S_BCLK                 | I2S_LRCLK                |      152 |
-|      50 | I2S_DOUT                 | I2S_DIN                  |      151 |
-|      51 | I2S_MCLK                 | GND                      |      150 |
-|      52 | NET_SPI_SCK              | NET_SPI_MOSI             |      149 |
-|      53 | NET_SPI_MISO             | NET_SPI_CS               |      148 |
-|      54 | NET_INT_N                | NET_RST_N                |      147 |
-|      55 | RMII_TXD0                | RMII_TXD1                |      146 |
-|      56 | RMII_RXD0                | RMII_RXD1                |      145 |
-|      57 | RMII_TXEN                | RMII_CRS_DV              |      144 |
-|      58 | RMII_REFCLK              | sMDC                     |      143 |
-|      59 | MDIO                     | PHY_RST_N                |      142 |
-|      60 | SDIO_CLK                 | SDIO_CMD                 |      141 |
-|      61 | SDIO_D0                  | SDIO_D1                  |      140 |
-|      62 | SDIO_D2                  | SDIO_D3                  |      139 |
-|      63 | Reservado / Futuro       | Reservado / Futuro       |      138 |
-|      64 | GND                      | GND                      |      137 |
-|      65 | GND                      | GND                      |      136 |
-|      66 | VCC_5V                   | VCC_5V                   |      135 |
-|      67 | VCC_3V3                  | VCC_3V3                  |      134 |
-|      68 | VCC_1V8                  | VCC_1V8                  |      133 |
-|      69 | VREF_IO                  | VREF_IO                  |      132 |
-|      70 | VIO_BANK0                | VIO_BANK1                |      131 |
-|      71 | VIO_BANK2                | VIO_BANK3                |      130 |
-|      72 | PWR_GOOD                 | PWR_GOOD                 |      129 |
-|      73 | GND                      | GND                      |      128 |
-|      74 | GND                      | GND                      |      127 |
-| 75–82 | Reservado / Futuro       | Reservado / Futuro       | 126–119 |
-|      83 | DBG_SWDIO                | DBG_SWCLK                |      118 |
-|      84 | DBG_TCK                  | DBG_TMS                  |      117 |
-|      85 | DBG_TDI                  | DBG_TDO                  |      116 |
-|      86 | DBG_RESET_N              | DBG_VREF                 |      115 |
-|      87 | DBG_UART_TX              | DBG_UART_RX              |      114 |
-|      88 | MOD_PRESENT_N            | MOD_TYPE0                |      113 |
-|      89 | MOD_TYPE1                | MOD_TYPE2                |      112 |
-|      90 | GND                      | GND                      |      111 |
-|      91 | GND                      | GND                      |      110 |
-|      92 | VCC_5V                   | VCC_5V                   |      109 |
-|      93 | VCC_3V3                  | VCC_3V3                  |      108 |
-|      94 | VCC_1V8                  | VCC_1V8                  |      107 |
-|      95 | VREF_IO                  | VREF_IO                  |      106 |
-|      96 | VIO_BANK0                | VIO_BANK1                |      105 |
-|      97 | VIO_BANK2                | VIO_BANK3                |      104 |
-|      98 | PWR_GOOD                 | PWR_GOOD                 |      103 |
-|      99 | GND                      | GND                      |      102 |
-|     100 | GND                      | GND                      |      101 |
+| Ímpar | Descrição (Ímpar) | Descrição (Par) | Par |
+| -----: | ---------------------- | ---------------------- | :------- |
+|     1 | GND                    | GND                    | 2   |
+|     3 | GND                    | GND                    | 4   |
+|     5 | VCC_5V                 | VCC_5V                 | 6   |
+|     7 | VCC_3V3                | VCC_3V3                | 8   |
+|     9 | VCC_1V8                | VCC_1V8                | 10  |
+|    11 | VREF_IO                | VREF_IO                | 12  |
+|    13 | VIO_BANK0              | VIO_BANK1              | 14  |
+|    15 | VIO_BANK2              | VIO_BANK3              | 16  |
+|    17 | PWR_GOOD               | PWR_GOOD               | 18  |
+|    19 | GND                    | GND                    | 20  |
+|    21 | GND                    | GND                    | 22  |
+|    23 | VCC_IN                 | GND                    | 24  |
+|    25 | MCU_RESET_N            | MCU_EN                 | 26  |
+|    27 | MCU_BOOT0              | MCU_BOOT1              | 28  |
+|    29 | I2C0_SCL               | I2C0_SDA               | 30  |
+|    31 | I2C1_SCL               | I2C1_SDA               | 32  |
+|    33 | I2C2_SCL               | I2C2_SDA               | 34  |
+|    35 | UART0_TX               | UART0_RX               | 36  |
+|    37 | UART1_TX               | UART1_RX               | 38  |
+|    39 | UART2_TX               | UART2_RX               | 40  |
+|    41 | UART3_TX               | UART3_RX               | 42  |
+|    43 | UART0_CTS              | UART0_RTS              | 44  |
+|    45 | UART0_DSR              | UART0_DCD              | 46  |
+|    47 | UART0_RI               | Reservado / Futuro     | 48  |
+|    49 | SPI0_SCK               | SPI0_MOSI              | 50  |
+|    51 | SPI0_MISO              | SPI0_CS0               | 52  |
+|    53 | SPI0_CS1               | SPI0_CS2               | 54  |
+|    55 | SPI1_SCK               | SPI1_MOSI              | 56  |
+|    57 | SPI1_MISO              | SPI1_CS0               | 58  |
+|    59 | SPI1_CS1               | SPI1_CS2               | 60  |
+|    61 | GPIO0                  | GPIO8                  | 62  |
+|    63 | GPIO1                  | GPIO9                  | 64  |
+|    65 | GPIO2                  | GPIO10                 | 66  |
+|    67 | GPIO3                  | GPIO11                 | 68  |
+|    69 | GPIO4                  | GPIO12                 | 70  |
+|    71 | GPIO5                  | GPIO13                 | 72  |
+|    73 | GPIO6                  | GPIO14                 | 74  |
+|    75 | GPIO7                  | GPIO15                 | 76  |
+|    77 | PWM0                   | PWM4                   | 78  |
+|    79 | PWM1                   | PWM5                   | 80  |
+|    81 | PWM2                   | PWM6                   | 82  |
+|    83 | PWM3                   | PWM7                   | 84  |
+|    85 | IR_RX_IN               | IR_TX_OUT              | 86  |
+|    87 | AIN0                   | AIN4                   | 88  |
+|    89 | AIN1                   | AIN5                   | 90  |
+|    91 | AIN2                   | AIN6                   | 92  |
+|    93 | AIN3                   | AIN7                   | 94  |
+|    95 | AOUT0                  | AOUT1                  | 96  |
+|    97 | I2S_BCLK               | I2S_LRCLK              | 98  |
+|    99 | I2S_DOUT               | I2S_DIN                | 100 |
+|   101 | I2S_MCLK               | GND                    | 102 |
+|   103 | NET_SPI_SCK            | NET_SPI_MOSI           | 104 |
+|   105 | NET_SPI_MISO           | NET_SPI_CS             | 106 |
+|   107 | NET_INT_N              | NET_RST_N              | 108 |
+|   109 | RMII_TXD0              | RMII_TXD1              | 110 |
+|   111 | RMII_RXD0              | RMII_RXD1              | 112 |
+|   113 | RMII_TXEN              | RMII_CRS_DV            | 114 |
+|   115 | RMII_REFCLK            | sMDC                   | 116 |
+|   117 | MDIO                   | PHY_RST_N              | 118 |
+|   119 | SDIO_CLK               | SDIO_CMD               | 120 |
+|   121 | SDIO_D0                | SDIO_D1                | 122 |
+|   123 | SDIO_D2                | SDIO_D3                | 124 |
+|   125 | Reservado / Futuro     | Reservado / Futuro     | 126 |
+|   127 | GND                    | GND                    | 128 |
+|   129 | GND                    | GND                    | 130 |
+|   131 | VCC_5V                 | VCC_5V                 | 132 |
+|   133 | VCC_3V3                | VCC_3V3                | 134 |
+|   135 | VCC_1V8                | VCC_1V8                | 136 |
+|   137 | VREF_IO                | VREF_IO                | 138 |
+|   139 | VIO_BANK0              | VIO_BANK1              | 140 |
+|   141 | VIO_BANK2              | VIO_BANK3              | 142 |
+|   143 | PWR_GOOD               | PWR_GOOD               | 144 |
+|   145 | GND                    | GND                    | 146 |
+|   147 | GND                    | GND                    | 148 |
+|   149 | CLOCK_0                | CLOCK_1                | 150 |
+| 151–163 | Reservado / Futuro   | Reservado / Futuro     | 150–164 |
+|   165 | DBG_SWDIO              | DBG_SWCLK              | 166 |
+|   167 | DBG_TCK                | DBG_TMS                | 168 |
+|   169 | DBG_TDI                | DBG_TDO                | 170 |
+|   171 | DBG_RESET_N            | DBG_VREF               | 172 |
+|   173 | DBG_UART_TX            | DBG_UART_RX            | 174 |
+|   175 | MOD_PRESENT_N          | MOD_TYPE0              | 176 |
+|   177 | MOD_TYPE1              | MOD_TYPE2              | 178 |
+|   179 | GND                    | GND                    | 180 |
+|   181 | GND                    | GND                    | 182 |
+|   183 | VCC_5V                 | VCC_5V                 | 184 |
+|   185 | VCC_3V3                | VCC_3V3                | 186 |
+|   187 | VCC_1V8                | VCC_1V8                | 188 |
+|   189 | VREF_IO                | VREF_IO                | 190 |
+|   191 | VIO_BANK0              | VIO_BANK1              | 192 |
+|   193 | VIO_BANK2              | VIO_BANK3              | 194 |
+|   195 | PWR_GOOD               | PWR_GOOD               | 196 |
+|   197 | GND                    | GND                    | 198 |
+|   199 | GND                    | GND                    | 200 |
 
 ---
 
