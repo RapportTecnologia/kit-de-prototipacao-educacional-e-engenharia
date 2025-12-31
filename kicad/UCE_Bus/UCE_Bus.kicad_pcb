@@ -1,0 +1,57 @@
+(kicad_pcb (version 20231120) (generator "pcbnew")
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user)
+    (33 "F.Adhes" user)
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user)
+    (41 "Cmts.User" user)
+    (42 "Eco1.User" user)
+    (43 "Eco2.User" user)
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user)
+    (47 "F.CrtYd" user)
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+  )
+
+  (net 0 "")
+
+  (gr_rect (start 20 20) (end 190 120)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts")
+  )
+
+  (footprint "Connector_Card:SO-DIMM-200" (layer "F.Cu")
+    (tstamp 7e8dfb8d-6c7f-4b71-9e2d-0f8f2b7a7b43)
+    (at 105 70 0)
+    (property "Reference" "J1" (at 0 -5 0) (layer "F.SilkS") (tstamp 0c1d6cb6-06c7-4c2a-9b63-4317a3dc3a4e)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (property "Value" "UCE_SO-DIMM_200" (at 0 5 0) (layer "F.Fab") (tstamp 6ce01922-0f40-4a1e-9d0e-f2d3c2b5c871)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (property "Footprint" "Connector_Card:SO-DIMM-200" (at 0 0 0) (unlocked yes) (layer "F.Fab") (hide yes)
+      (tstamp 6a7fa1ab-7b55-4f3d-a3fd-0c3b8e6d9776)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (attr through_hole)
+  )
+)
