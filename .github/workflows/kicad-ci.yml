@@ -1,0 +1,94 @@
+name: KiCad Validate + Update PCB Images
+
+on:
+  push:
+    paths:
+      - "kicad/**"
+      - "docs/**"
+      - ".github/workflows/kicad-ci.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-render:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/inti-cmnb/kicad9_auto:1.8.4
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create output folders
+        run: |
+          mkdir -p docs/assets/img
+          mkdir -p kicad/KEPR/reports
+
+      - name: ERC (schematic)
+        run: |
+          set +e
+          kicad-cli sch erc \
+            --format report \
+            --output kicad/KEPR/reports/erc.rpt \
+            --exit-code-violations \
+            kicad/KEPR/KEPR.kicad_sch
+          echo "ERC_EXIT_CODE=$?" >> "$GITHUB_ENV"
+
+      - name: DRC (pcb)
+        run: |
+          set +e
+          kicad-cli pcb drc \
+            --format report \
+            --output kicad/KEPR/reports/drc.rpt \
+            --schematic-parity \
+            --exit-code-violations \
+            kicad/KEPR/KEPR.kicad_pcb
+          echo "DRC_EXIT_CODE=$?" >> "$GITHUB_ENV"
+
+      - name: Export PCB 2D (SVG)
+        run: |
+          kicad-cli pcb export svg \
+            --mode-single \
+            --layers "F.Cu,F.SilkS,Edge.Cuts" \
+            --fit-page-to-board \
+            --exclude-drawing-sheet \
+            --output "docs/assets/img/kepr-pcb.svg" \
+            "kicad/KEPR/KEPR.kicad_pcb"
+
+      - name: Render PCB 3D (PNG)
+        continue-on-error: true
+        run: |
+          kicad-cli pcb render \
+            --output "docs/assets/img/kepr-pcb-3d.png" \
+            --width 1600 \
+            --height 900 \
+            --side top \
+            --background transparent \
+            --quality high \
+            --floor \
+            "kicad/KEPR/KEPR.kicad_pcb"
+
+      - name: Auto-commit updated images
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ci: update KEPR PCB images"
+          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-3d.png kicad/KEPR/reports/*.rpt"
+
+      - name: Fail if ERC/DRC violations exist
+        if: always()
+        run: |
+          ERC_EXIT_CODE="${ERC_EXIT_CODE:-0}"
+          DRC_EXIT_CODE="${DRC_EXIT_CODE:-0}"
+
+          echo "ERC exit code: ${ERC_EXIT_CODE}"
+          echo "DRC exit code: ${DRC_EXIT_CODE}"
+
+          if [ "$ERC_EXIT_CODE" != "0" ] || [ "$DRC_EXIT_CODE" != "0" ]; then
+            echo "KiCad validation failed (ERC/DRC). See kicad/KEPR/reports/*.rpt"
+            exit 1
+          fi
