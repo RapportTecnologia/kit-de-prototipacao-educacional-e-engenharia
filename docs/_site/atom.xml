@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kit Educacional e Prototipação Rapport</title>
+  <subtitle>KEPR — Kit Educacional e de Prototipação da Rapport Tecnologia</subtitle>
+  <id>https://rapport.tec.br/</id>
+  <link href="https://rapport.tec.br/atom.xml" rel="self" />
+  <link href="https://rapport.tec.br/" />
+  <updated>2026-01-01T00:10:00-03:00</updated><entry>
+    <title>Documentação inicial do projeto</title>
+    <link href="https://rapport.tec.br/2026/01/01/documentacao-inicial/" />
+    <id>https://rapport.tec.br/2026/01/01/documentacao-inicial/</id>
+    <updated>2026-01-01T00:10:00-03:00</updated>
+    <content type="html">&lt;p&gt;Referências rápidas presentes no repositório:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/UCE_BOARD.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UCE_BOARD.md&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/CHANGELOG.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CHANGELOG.md&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/NETWORK_MOD.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NETWORK_MOD.md&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/WERELESS_MOD.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WERELESS_MOD.md&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/DEBUG_MOD.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DEBUG_MOD.md&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;À medida que o projeto evoluir, esta lista pode ser atualizada com novas seções e guias.&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Bem-vindo ao KEPR</title>
+    <link href="https://rapport.tec.br/2026/01/01/bem-vindo-ao-kepr/" />
+    <id>https://rapport.tec.br/2026/01/01/bem-vindo-ao-kepr/</id>
+    <updated>2026-01-01T00:00:00-03:00</updated>
+    <content type="html">&lt;p&gt;Este é o primeiro post do site do &lt;strong&gt;KEPR&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Aqui você vai encontrar atualizações, decisões de arquitetura do barramento (UCE), evolução dos módulos e materiais de estudo relacionados ao kit.&lt;/p&gt;
+</content>
+  </entry></feed>

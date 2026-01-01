@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Kit Educacional e Prototipação Rapport</title>
+    <description>KEPR — Kit Educacional e de Prototipação da Rapport Tecnologia</description>
+    <link>https://rapport.tec.br/</link>
+    <lastBuildDate>Thu, 01 Jan 2026 00:10:00 -0300</lastBuildDate><item>
+      <title>Documentação inicial do projeto</title>
+      <link>https://rapport.tec.br/2026/01/01/documentacao-inicial/</link>
+      <guid isPermaLink="true">https://rapport.tec.br/2026/01/01/documentacao-inicial/</guid>
+      <pubDate>Thu, 01 Jan 2026 00:10:00 -0300</pubDate>
+      <description><![CDATA[Referências rápidas presentes no repositório:
+]]></description>
+    </item><item>
+      <title>Bem-vindo ao KEPR</title>
+      <link>https://rapport.tec.br/2026/01/01/bem-vindo-ao-kepr/</link>
+      <guid isPermaLink="true">https://rapport.tec.br/2026/01/01/bem-vindo-ao-kepr/</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0300</pubDate>
+      <description><![CDATA[Este é o primeiro post do site do KEPR.
+]]></description>
+    </item></channel>
+</rss>

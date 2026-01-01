@@ -1,0 +1,19 @@
+title: "Kit Educacional e Prototipação Rapport"
+description: "KEPR — Kit Educacional e de Prototipação da Rapport Tecnologia"
+url: "https://rapport.tec.br"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+kramdown:
+  input: GFM
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"

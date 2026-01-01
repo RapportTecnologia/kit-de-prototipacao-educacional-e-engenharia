@@ -1,0 +1,240 @@
+:root {
+  --bg: #fff7ed;
+  --surface: #ffffff;
+  --primary: #f28c28;
+  --primary-strong: #d46a00;
+  --button: #ffd54a;
+  --button-text: #3b2b23;
+  --outline: #2e7d32;
+  --text: #5d4037;
+  --muted: #7a5a50;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  background: radial-gradient(1000px 600px at 20% 0%, rgba(242, 140, 40, 0.18), transparent 55%),
+              radial-gradient(900px 500px at 85% 10%, rgba(46, 125, 50, 0.16), transparent 50%),
+              var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(46, 125, 50, 0.35);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+}
+
+.brand {
+  text-decoration: none;
+  display: grid;
+  gap: 0.1rem;
+}
+
+.brand-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.brand-subtitle {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text);
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.6rem;
+  border: 1px solid transparent;
+}
+
+.nav-link:hover {
+  border-color: rgba(46, 125, 50, 0.5);
+  background: rgba(255, 213, 74, 0.18);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.85rem;
+  border-radius: 0.75rem;
+  background: var(--button);
+  color: var(--button-text);
+  border: 2px solid var(--outline);
+  text-decoration: none;
+  font-weight: 800;
+  box-shadow: 0 10px 25px var(--shadow);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.page {
+  padding: 1.5rem 0 2.25rem;
+}
+
+.page-header {
+  padding: 1.25rem 1.25rem 0.85rem;
+  background: var(--surface);
+  border: 2px solid rgba(46, 125, 50, 0.55);
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px var(--shadow);
+}
+
+.page-title {
+  margin: 0;
+  font-size: clamp(1.4rem, 2.4vw, 2.1rem);
+  color: var(--text);
+}
+
+.page-subtitle {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+}
+
+.content {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background: var(--surface);
+  border: 2px solid rgba(46, 125, 50, 0.35);
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px var(--shadow);
+}
+
+.content a {
+  color: var(--primary-strong);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.content h2, .content h3 {
+  margin-top: 1.2rem;
+}
+
+.meta {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dot { opacity: 0.7; }
+
+.tag {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(46, 125, 50, 0.6);
+  background: rgba(242, 140, 40, 0.12);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgba(46, 125, 50, 0.35);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.card h3 {
+  margin: 0 0 0.4rem;
+}
+
+.card p {
+  margin: 0.2rem 0 0.6rem;
+  color: var(--muted);
+}
+
+.card a {
+  font-weight: 800;
+}
+
+.site-footer {
+  border-top: 2px solid rgba(46, 125, 50, 0.35);
+  padding: 1.25rem 0;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.footer-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(242, 140, 40, 0.5);
+}
+
+.muted { color: var(--muted); }
+
+pre, code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+pre {
+  padding: 1rem;
+  border-radius: 1rem;
+  overflow-x: auto;
+  border: 2px solid rgba(46, 125, 50, 0.35);
+  background: rgba(255, 247, 237, 0.8);
+}
+
+@media (max-width: 820px) {
+  .header-inner { justify-content: center; }
+  .btn { display: none; }
+}

@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /rss.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <lastBuildDate>{% if site.posts and site.posts.size > 0 %}{{ site.posts.first.date | date_to_rfc822 }}{% else %}{{ site.time | date_to_rfc822 }}{% endif %}</lastBuildDate>
+
+    {%- for post in site.posts limit: 20 -%}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <description><![CDATA[{{ post.excerpt | default: post.content | strip_html | truncate: 280 }}]]></description>
+    </item>
+    {%- endfor -%}
+  </channel>
+</rss>
