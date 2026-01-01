@@ -3536,9 +3536,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e74aca64-f676-4816-b260-25e26bb0c47f")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -3554,13 +3553,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.66 124.46 0)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch6.5mm_Vertical"
+			(at 200.66 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -3656,7 +3654,7 @@
 		(instances
 			(project "KEPR"
 				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/0260e008-78ae-4c2c-85f8-b31739d2ea08/81da33e8-b949-40cf-b6bb-f99db92e18ff"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
