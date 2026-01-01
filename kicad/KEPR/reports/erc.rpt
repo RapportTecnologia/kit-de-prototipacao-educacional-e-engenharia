@@ -1,0 +1,288 @@
+ERC report (2026-01-01T23:27:08+0000, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(73.66 mm, 73.66 mm): Symbol J1 [SODIMM-200]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(139.70 mm, 127.00 mm): Global Label 'NET_SPI_SCK'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(139.70 mm, 132.08 mm): Global Label 'NET_INT_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(139.70 mm, 134.62 mm): Global Label 'RMII_TXD0'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(139.70 mm, 137.16 mm): Global Label 'RMII_RXD0'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(167.64 mm, 147.32 mm): Symbol J2 [SODIMM-200]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(195.58 mm, 132.08 mm): Global Label 'NET_RST_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(195.58 mm, 134.62 mm): Global Label 'RMII_TXD1'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(195.58 mm, 137.16 mm): Global Label 'RMII_RXD1'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(215.90 mm, 373.38 mm): Global Label 'PWR_GOOD'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(111.76 mm, 109.22 mm): Symbol J6 [Conn_02x20_Odd_Even]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(185.42 mm, 132.08 mm): Symbol J9 [Conn_02x40_Odd_Even]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(269.24 mm, 132.08 mm): Symbol J10 [Conn_02x40_Odd_Even]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(208.28 mm, 248.92 mm): Symbol J7 [Conn_02x08_Odd_Even]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(243.84 mm, 246.38 mm): Symbol J8 [Conn_01x08_Pin]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(203.20 mm, 142.24 mm): Symbol J4 [Conn_02x15_Odd_Even]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(182.88 mm, 121.92 mm): Global Label 'NET_D0_ODD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(182.88 mm, 124.46 mm): Global Label 'NET_D1_ODD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(182.88 mm, 127.00 mm): Global Label 'NET_D2_ODD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(182.88 mm, 129.54 mm): Global Label 'NET_D3_ODD'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(200.66 mm, 124.46 mm): Symbol J3 [Conn_02x12_Odd_Even]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(226.06 mm, 116.84 mm): Global Label 'NET_CLK_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 160.02 mm): Global Label 'NET_CLK_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(226.06 mm, 134.62 mm): Global Label 'NET_CTL1_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(210.82 mm, 160.02 mm): Global Label 'NET_SPI_CLK'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(226.06 mm, 139.70 mm): Global Label 'PHY_RST_N_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 177.80 mm): Global Label 'NET_CTL1_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 182.88 mm): Global Label 'PHY_RST_N_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(210.82 mm, 177.80 mm): Global Label 'NET_SPI_INT_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(210.82 mm, 182.88 mm): Global Label 'NET_SPI_RST_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 200.66 mm): Global Label 'NET_D0_ODD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 203.20 mm): Global Label 'NET_D1_ODD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 205.74 mm): Global Label 'NET_D2_ODD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 208.28 mm): Global Label 'NET_D3_ODD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(210.82 mm, 200.66 mm): Global Label 'RMII_TX0'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(210.82 mm, 203.20 mm): Global Label 'RMII_TX1'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(210.82 mm, 205.74 mm): Global Label 'RMII_RX0'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(210.82 mm, 208.28 mm): Global Label 'RMII_RX1'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(190.50 mm, 134.62 mm): Global Label 'WIFI_EN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(190.50 mm, 137.16 mm): Global Label 'WIFI_INT_N'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(205.74 mm, 132.08 mm): Symbol J5 [Conn_02x08_Odd_Even]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.98 mm, 134.62 mm): Global Label 'WIFI_RST_N'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(213.36 mm, 134.62 mm): Horizontal Wire, length 8.89 mm
+
+***** Sheet /BUSes/
+
+***** Sheet /BUSes/UCE_Bus/
+[missing_unit]: Symbol J1 has unplaced units [ Unit B ]
+    ; warning
+    @(73.66 mm, 73.66 mm): Symbol J1 [SODIMM-200]
+[missing_unit]: Symbol J2 has unplaced units [ Unit A ]
+    ; warning
+    @(167.64 mm, 147.32 mm): Symbol J2 [SODIMM-200]
+
+***** Sheet /BUSes/NETWORK_MOD_Bus/
+[multiple_net_names]: Both MDIO and NET_CMD_ODD are attached to the same items; MDIO will be used in the netlist
+    ; warning
+    @(210.82 mm, 198.12 mm): Global Label 'MDIO'
+    @(182.88 mm, 119.38 mm): Global Label 'NET_CMD_ODD'
+[multiple_net_names]: Both NET_CLK_EVEN and NET_SPI_CLK are attached to the same items; NET_CLK_EVEN will be used in the netlist
+    ; warning
+    @(198.12 mm, 160.02 mm): Global Label 'NET_CLK_EVEN'
+    @(210.82 mm, 160.02 mm): Global Label 'NET_SPI_CLK'
+[multiple_net_names]: Both NET_D0_EVEN and NET_SPI_MOSI are attached to the same items; NET_D0_EVEN will be used in the netlist
+    ; warning
+    @(226.06 mm, 121.92 mm): Global Label 'NET_D0_EVEN'
+    @(210.82 mm, 165.10 mm): Global Label 'NET_SPI_MOSI'
+[multiple_net_names]: Both NET_SPI_RST_N and PHY_RST_N_EVEN are attached to the same items; NET_SPI_RST_N will be used in the netlist
+    ; warning
+    @(210.82 mm, 182.88 mm): Global Label 'NET_SPI_RST_N'
+    @(198.12 mm, 182.88 mm): Global Label 'PHY_RST_N_EVEN'
+[multiple_net_names]: Both NET_CMD_EVEN and RESERVADO are attached to the same items; NET_CMD_EVEN will be used in the netlist
+    ; warning
+    @(198.12 mm, 162.56 mm): Global Label 'NET_CMD_EVEN'
+    @(210.82 mm, 172.72 mm): Global Label 'RESERVADO'
+[multiple_net_names]: Both NET_CTL0_EVEN and NET_SPI_CS are attached to the same items; NET_CTL0_EVEN will be used in the netlist
+    ; warning
+    @(226.06 mm, 132.08 mm): Global Label 'NET_CTL0_EVEN'
+    @(210.82 mm, 175.26 mm): Global Label 'NET_SPI_CS'
+[multiple_net_names]: Both NET_CTL1_EVEN and NET_SPI_INT_N are attached to the same items; NET_CTL1_EVEN will be used in the netlist
+    ; warning
+    @(226.06 mm, 134.62 mm): Global Label 'NET_CTL1_EVEN'
+    @(210.82 mm, 177.80 mm): Global Label 'NET_SPI_INT_N'
+[multiple_net_names]: Both NET_CLK_ODD and RMII_REFCLK are attached to the same items; NET_CLK_ODD will be used in the netlist
+    ; warning
+    @(198.12 mm, 195.58 mm): Global Label 'NET_CLK_ODD'
+    @(210.82 mm, 195.58 mm): Global Label 'RMII_REFCLK'
+[multiple_net_names]: Both NET_D0_ODD and RMII_TX0 are attached to the same items; NET_D0_ODD will be used in the netlist
+    ; warning
+    @(198.12 mm, 200.66 mm): Global Label 'NET_D0_ODD'
+    @(210.82 mm, 200.66 mm): Global Label 'RMII_TX0'
+[multiple_net_names]: Both NET_D1_ODD and RMII_TX1 are attached to the same items; NET_D1_ODD will be used in the netlist
+    ; warning
+    @(182.88 mm, 124.46 mm): Global Label 'NET_D1_ODD'
+    @(210.82 mm, 203.20 mm): Global Label 'RMII_TX1'
+[multiple_net_names]: Both NET_D2_ODD and RMII_RX0 are attached to the same items; NET_D2_ODD will be used in the netlist
+    ; warning
+    @(198.12 mm, 205.74 mm): Global Label 'NET_D2_ODD'
+    @(210.82 mm, 205.74 mm): Global Label 'RMII_RX0'
+[multiple_net_names]: Both NET_D3_ODD and RMII_RX1 are attached to the same items; NET_D3_ODD will be used in the netlist
+    ; warning
+    @(198.12 mm, 208.28 mm): Global Label 'NET_D3_ODD'
+    @(210.82 mm, 208.28 mm): Global Label 'RMII_RX1'
+[multiple_net_names]: Both NET_CTL0_ODD and RMII_TXEN are attached to the same items; NET_CTL0_ODD will be used in the netlist
+    ; warning
+    @(198.12 mm, 210.82 mm): Global Label 'NET_CTL0_ODD'
+    @(210.82 mm, 210.82 mm): Global Label 'RMII_TXEN'
+[multiple_net_names]: Both NET_CTL1_ODD and RMII_CRS_DV are attached to the same items; NET_CTL1_ODD will be used in the netlist
+    ; warning
+    @(198.12 mm, 213.36 mm): Global Label 'NET_CTL1_ODD'
+    @(210.82 mm, 213.36 mm): Global Label 'RMII_CRS_DV'
+[multiple_net_names]: Both NET_CTL2_ODD and PHY_RST_N are attached to the same items; NET_CTL2_ODD will be used in the netlist
+    ; warning
+    @(182.88 mm, 137.16 mm): Global Label 'NET_CTL2_ODD'
+    @(210.82 mm, 218.44 mm): Global Label 'PHY_RST_N'
+
+***** Sheet /BUSes/DEBUG_MOD_Bus/
+
+***** Sheet /BUSes/WIRELESS_MOD_Bus/
+[multiple_net_names]: Both SDIO_CLK and SDIO_D0 are attached to the same items; SDIO_CLK will be used in the netlist
+    ; warning
+    @(190.50 mm, 127.00 mm): Global Label 'SDIO_CLK'
+    @(190.50 mm, 129.54 mm): Global Label 'SDIO_D0'
+
+***** Sheet /BUSes/UCE_External_Bus/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 241.30 mm): Symbol J7 Pin 1 [Pin_1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 243.84 mm): Symbol J7 Pin 3 [Pin_3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 246.38 mm): Symbol J7 Pin 5 [Pin_5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 248.92 mm): Symbol J7 Pin 7 [Pin_7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 251.46 mm): Symbol J7 Pin 9 [Pin_9, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 241.30 mm): Symbol J7 Pin 2 [Pin_2, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 254.00 mm): Symbol J7 Pin 11 [Pin_11, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 243.84 mm): Symbol J7 Pin 4 [Pin_4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 256.54 mm): Symbol J7 Pin 13 [Pin_13, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 246.38 mm): Symbol J7 Pin 6 [Pin_6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(203.20 mm, 259.08 mm): Symbol J7 Pin 15 [Pin_15, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 248.92 mm): Symbol J7 Pin 8 [Pin_8, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 251.46 mm): Symbol J7 Pin 10 [Pin_10, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 254.00 mm): Symbol J7 Pin 12 [Pin_12, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 256.54 mm): Symbol J7 Pin 14 [Pin_14, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(215.90 mm, 259.08 mm): Symbol J7 Pin 16 [Pin_16, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 238.76 mm): Symbol J8 Pin 1 [Pin_1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 241.30 mm): Symbol J8 Pin 2 [Pin_2, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 243.84 mm): Symbol J8 Pin 3 [Pin_3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 246.38 mm): Symbol J8 Pin 4 [Pin_4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 248.92 mm): Symbol J8 Pin 5 [Pin_5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 251.46 mm): Symbol J8 Pin 6 [Pin_6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 254.00 mm): Symbol J8 Pin 7 [Pin_7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(248.92 mm, 256.54 mm): Symbol J8 Pin 8 [Pin_8, Passive, Line]
+
+ ** ERC messages: 85  Errors 24  Warnings 61
