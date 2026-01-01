@@ -3926,6 +3926,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 83.82) (xy 55.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21192f8b-55cd-46ff-9dc2-a8d2f6c78cd0")
+	)
+	(wire
+		(pts
 			(xy 139.7 55.88) (xy 149.86 55.88)
 		)
 		(stroke
@@ -4343,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "53855033-2167-442d-8040-b197c4039422")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54967a83-7443-4e8e-82f9-2904fa721a73")
 	)
 	(wire
 		(pts
@@ -4776,7 +4796,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 99.06 86.36)
+			(xy 91.44 86.36) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4816,6 +4836,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf33b78-b2fa-4e45-ab8b-30ae0a9321d8")
+	)
+	(wire
+		(pts
 			(xy 139.7 162.56) (xy 149.86 162.56)
 		)
 		(stroke
@@ -4833,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "8eb0385d-180a-4a92-a61a-0ec8dbb3b173")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 55.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900e3c1c-c46d-42f1-9ff6-171ba023c85f")
 	)
 	(wire
 		(pts
@@ -5216,6 +5256,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65290ff-0514-401f-bac9-c3c6d5c2452b")
+	)
+	(wire
+		(pts
 			(xy 185.42 241.3) (xy 195.58 241.3)
 		)
 		(stroke
@@ -5293,6 +5343,16 @@
 			(type default)
 		)
 		(uuid "d45c6856-f7e7-4f75-b7de-94e980dd40d4")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d462beb4-5cad-48ac-9950-88b4c9d04a73")
 	)
 	(wire
 		(pts
@@ -5396,7 +5456,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 99.06 99.06)
+			(xy 91.44 99.06) (xy 101.6 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5416,7 +5476,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 99.06 88.9)
+			(xy 91.44 88.9) (xy 101.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5426,7 +5486,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 93.98) (xy 99.06 93.98)
+			(xy 91.44 93.98) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5436,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 99.06 96.52)
+			(xy 91.44 96.52) (xy 101.6 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5596,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 99.06 91.44)
+			(xy 91.44 91.44) (xy 101.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5749,7 +5809,7 @@
 	)
 	(global_label "UART0_RX"
 		(shape passive)
-		(at 99.06 93.98 0)
+		(at 101.6 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5758,7 +5818,7 @@
 		)
 		(uuid "088e9f25-9013-47c6-86ea-b8f129cc393e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 93.98 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +7032,7 @@
 	)
 	(global_label "UART1_RX"
 		(shape passive)
-		(at 99.06 96.52 0)
+		(at 101.6 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6981,7 +7041,7 @@
 		)
 		(uuid "5dd62c1d-c030-4010-a117-d919f8663662")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 96.52 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7053,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape passive)
-		(at 99.06 88.9 0)
+		(at 101.6 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7002,7 +7062,7 @@
 		)
 		(uuid "5e5b9343-bfc8-45d1-ba94-95ce824a379e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7525,7 @@
 	)
 	(global_label "UART2_RX"
 		(shape passive)
-		(at 99.06 99.06 0)
+		(at 101.6 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7474,7 +7534,7 @@
 		)
 		(uuid "735c2d3a-334d-4721-9be3-5a86dd5e2c85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 99.06 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8179,7 @@
 	)
 	(global_label "I2C2_SDA"
 		(shape passive)
-		(at 99.06 91.44 0)
+		(at 101.6 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8128,7 +8188,7 @@
 		)
 		(uuid "9a723c31-0b42-4aea-8a38-b31835e35c02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +9472,7 @@
 	)
 	(global_label "I2C0_SDA"
 		(shape passive)
-		(at 99.06 86.36 0)
+		(at 101.6 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9421,7 +9481,7 @@
 		)
 		(uuid "e7238bac-12b0-4052-bc73-c8007273ab36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 86.36 0)
+			(at 101.6 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -494,7 +494,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KIPRJMOD}/rapport_abnt.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://abnt.kicad_wks"
   },
   "project": {
     "comment": [

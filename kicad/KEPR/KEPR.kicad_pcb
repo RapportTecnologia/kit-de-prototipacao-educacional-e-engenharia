@@ -7,6 +7,14 @@
 		(legacy_teardrops no)
 	)
 	(paper "A3")
+	(title_block
+		(title "UCE Board")
+		(date "2026-01-01")
+		(rev "0.5")
+		(company "Rapport Tecnologia")
+		(comment 1 "Carlos Delfino Carvalho Pinheiro")
+		(comment 2 "consultoria@carlosdelfino.eti.br")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -214,7 +222,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0f874871-2d25-41f7-a68a-8bbd3bb6140b")
-		(at 136.52 210.54 90)
+		(at 172.52 216.08 90)
 		(descr "Through hole straight pin header, 2x40, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x40 2.54mm double row")
 		(property "Reference" "J10"
@@ -1345,7 +1353,7 @@
 	(footprint "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch6.5mm_Vertical"
 		(layer "F.Cu")
 		(uuid "11d7e5e3-2ef6-4a8f-b849-acd50b3b360e")
-		(at 78 105.5)
+		(at 114 111.04)
 		(descr "Through hole IDC header, 2x25, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC header THT 2x25 2.54mm double row")
 		(property "Reference" "J3"
@@ -2319,7 +2327,7 @@
 	(footprint "Connector_IDC:IDC-Header_2x15-1MP_P2.54mm_Latch_Vertical"
 		(layer "F.Cu")
 		(uuid "2090a7a6-6a8b-41be-9182-925a2d2e8d56")
-		(at 243.94 79.02 90)
+		(at 279.94 84.56 90)
 		(descr "Through hole IDC header, 2x15, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC header THT 2x15 2.54mm double row")
 		(property "Reference" "J4"
@@ -3067,7 +3075,7 @@
 	(footprint "Connector_PCBEdge:SODIMM-200_2.5V_Card_edge"
 		(layer "F.Cu")
 		(uuid "269f688a-5ba6-4eb7-a852-acac9037326e")
-		(at 131 78.75)
+		(at 167 84.29)
 		(descr "SODIMM 200-pins edge connector, Jedec MO-224 Variation AA compliant (2.5V DDR SDRAM), 0.6mm pitch, https://www.jst-mfg.com/product/pdf/eng/eDM-200P.pdf")
 		(tags "sodimm")
 		(property "Reference" "J2"
@@ -5845,7 +5853,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.85 66.15) (xy 130.85 66.15) (xy 130.85 60.125) (xy 128.85 60.125)
+					(xy 164.85 71.69) (xy 166.85 71.69) (xy 166.85 65.665) (xy 164.85 65.665)
 				)
 			)
 		)
@@ -5877,7 +5885,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.85 77.575) (xy 130.725 77.575) (xy 130.725 80.125) (xy 128.85 80.125)
+					(xy 164.85 83.115) (xy 166.725 83.115) (xy 166.725 85.665) (xy 164.85 85.665)
 				)
 			)
 		)
@@ -5909,7 +5917,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.85 80.125) (xy 129.85 80.125) (xy 129.85 66.15) (xy 128.85 66.15)
+					(xy 164.85 85.665) (xy 165.85 85.665) (xy 165.85 71.69) (xy 164.85 71.69)
 				)
 			)
 		)
@@ -5941,7 +5949,7 @@
 			)
 			(polygon
 				(pts
-					(xy 142.975 77.575) (xy 146.35 77.575) (xy 146.35 80.125) (xy 142.975 80.125)
+					(xy 178.975 83.115) (xy 182.35 83.115) (xy 182.35 85.665) (xy 178.975 85.665)
 				)
 			)
 		)
@@ -5973,7 +5981,7 @@
 			)
 			(polygon
 				(pts
-					(xy 194.45 66.15) (xy 196.45 66.15) (xy 196.45 60.125) (xy 194.45 60.125)
+					(xy 230.45 71.69) (xy 232.45 71.69) (xy 232.45 65.665) (xy 230.45 65.665)
 				)
 			)
 		)
@@ -6005,7 +6013,7 @@
 			)
 			(polygon
 				(pts
-					(xy 194.575 77.575) (xy 196.45 77.575) (xy 196.45 80.125) (xy 194.575 80.125)
+					(xy 230.575 83.115) (xy 232.45 83.115) (xy 232.45 85.665) (xy 230.575 85.665)
 				)
 			)
 		)
@@ -6037,7 +6045,7 @@
 			)
 			(polygon
 				(pts
-					(xy 195.45 80.125) (xy 196.45 80.125) (xy 196.45 66.15) (xy 195.45 66.15)
+					(xy 231.45 85.665) (xy 232.45 85.665) (xy 232.45 71.69) (xy 231.45 71.69)
 				)
 			)
 		)
@@ -6069,7 +6077,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.85 62.625) (xy 130.85 62.625) (xy 130.85 60.125) (xy 128.85 60.125)
+					(xy 164.85 68.165) (xy 166.85 68.165) (xy 166.85 65.665) (xy 164.85 65.665)
 				)
 			)
 		)
@@ -6101,7 +6109,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.85 80.125) (xy 128.85 79.125) (xy 196.45 79.125) (xy 196.45 80.125)
+					(xy 164.85 85.665) (xy 164.85 84.665) (xy 232.45 84.665) (xy 232.45 85.665)
 				)
 			)
 		)
@@ -6133,7 +6141,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.85 80.125) (xy 129.35 80.125) (xy 129.35 62.625) (xy 128.85 62.625)
+					(xy 164.85 85.665) (xy 165.35 85.665) (xy 165.35 68.165) (xy 164.85 68.165)
 				)
 			)
 		)
@@ -6165,7 +6173,7 @@
 			)
 			(polygon
 				(pts
-					(xy 194.45 62.625) (xy 196.45 62.625) (xy 196.45 60.125) (xy 194.45 60.125)
+					(xy 230.45 68.165) (xy 232.45 68.165) (xy 232.45 65.665) (xy 230.45 65.665)
 				)
 			)
 		)
@@ -6197,7 +6205,7 @@
 			)
 			(polygon
 				(pts
-					(xy 195.95 80.125) (xy 196.45 80.125) (xy 196.45 62.625) (xy 195.95 62.625)
+					(xy 231.95 85.665) (xy 232.45 85.665) (xy 232.45 68.165) (xy 231.95 68.165)
 				)
 			)
 		)
@@ -6206,7 +6214,7 @@
 	(footprint "Connector_IDC:IDC-Header_2x08_P2.54mm_Latch12.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5c3f090a-5b91-45bf-8d8c-d7e518ee85cd")
-		(at 235.46 129.22)
+		(at 271.46 134.76)
 		(descr "Through hole IDC header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 12.0mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC header THT 2x08 2.54mm double row")
 		(property "Reference" "J5"
@@ -6884,7 +6892,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "652b1569-fc41-4072-8bb4-471a35ee8583")
-		(at 25.46 210.54 90)
+		(at 61.46 216.08 90)
 		(descr "Through hole straight pin header, 2x40, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x40 2.54mm double row")
 		(property "Reference" "J9"
@@ -8015,7 +8023,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "dafabe46-50a3-4fd9-a073-175f92c0da56")
-		(at 294.06 208 -90)
+		(at 330.06 213.54 -90)
 		(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x20 2.54mm double row")
 		(property "Reference" "J6"
@@ -8704,4 +8712,24 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "abnt.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAtCaUUAGZdXSEA1TZqxSYpSnAbOsWn6jgBcMQyc4EzL++4wmTo/39CwQRTAEwAVwAfib/D
+				sXnSvpaTvVHzGxcLF61mdz60Ir9WLFwVbS/Z8kf+BAAgQILey1kpKA2V8dvQNSJJdcbvZb/OIQAC
+				BYxSatVZ+2JbZg8RAIHyI9KEHmg/hLSv2iUmKUr1j/y/v6Z11Z4XaZTBa99z0nP2mzH4Ys+e1AfE
+				4tcuvv32znd4QTh7TfVfH0cM1q4dXj9YPSntz96XFNU+evdBzyP+xwFZpWS5UMRfH+qG0Swht2AY
+				1RBaHVox6YSycRYNo2lkjA1iGlzV1ZNSRYXoBHbSuqyh0S4ct5kGvfD3GjlnUva/DjZpY78Eea7a
+				NCPVq+f3fZNagMBfvAmBAqJeCqtah6qwKKJOi3YTTUK6HjlixqyZSVaRUBiJR5dVOk17cBhmVQdJ
+				NtEim8M6QCt6bztRTapFuq0T33aVhrbfvcMJDCdBuFH93pjxprOTXsWiVQJ/oBFFhhRNSQqSFDLM
+				AXBEpObIdIhoeADgyjYO5AUHII+5zeGUZ8OCCgxpYQqEQHAhLidmCx0AKeQ9n6T/yBrb7V12yDYr
+				OiEXJglxtvK15pFxtmAHCO91fmulXHfWElz75BBUrBctqPwIp/TZhV6iCDIApxHAeXt16x/Kg7DG
+				kiWEXtJRLCUAuZbMBWDdLI5A4osumcUmrV5EsjmvZPcMXsOAYTw4linxEUyETifR+zbQER70Mm3G
+				h/OmhDwS8UnyTSUo/nDK0UuSa6aYZw+3mSUACEI+UaM6ItXawEKAG2ER79AKTrs0yN07DJnJ2GGX
+				ZfKigD5qX0sOMakP3fYKbZusDnmUYtdHdIyXSuldo/AF/MS73bQI2vgwVQ==|
+			)
+			(checksum "9F561F2F5A0DC32E669BBA2695209430")
+		)
+	)
 )
