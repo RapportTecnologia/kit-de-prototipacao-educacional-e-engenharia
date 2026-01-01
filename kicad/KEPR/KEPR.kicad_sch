@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 30.48 25.4)
+		(at 30.48 20.32)
 		(size 78.74 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24,11 +24,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 97 121 1.0000)
 		)
 		(uuid "0260e008-78ae-4c2c-85f8-b31739d2ea08")
 		(property "Sheetname" "BUSes"
-			(at 30.48 24.6884 0)
+			(at 30.48 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +37,7 @@
 			)
 		)
 		(property "Sheetfile" "BUSes.kicad_sch"
-			(at 30.48 66.6246 0)
+			(at 30.48 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		(instances
 			(project "KEPR"
 				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1"
-					(page "5")
+					(page "A001")
 				)
 			)
 		)

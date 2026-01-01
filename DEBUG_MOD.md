@@ -1,8 +1,8 @@
-# DEBUG_MOD – Módulo de Depuração (conector M.2)
+# DEBUG_MOD – Módulo de Depuração (Header genérico 2x15)
 
 ## 1. Objetivo
 
-O **DEBUG_MOD** é um módulo encaixável na Carrier via **conector M.2** (referido no projeto como “M2.0”), cuja função é dar acesso ao **Barramento Universal de Depuração** do UCE.
+O **DEBUG_MOD** é um módulo encaixável na Carrier via **conector header genérico 2x15 (macho)**, com espaçamento maior para facilitar uso com jumpers, cuja função é dar acesso ao **Barramento Universal de Depuração** do UCE.
 
 Ele existe para permitir a troca do “método de debug/programação” (ex.: CMSIS-DAP, J-Link, AVR-ISP/UPDI, bridge USB-UART, etc.) sem alterar a placa base.
 
@@ -36,15 +36,15 @@ E referências elétricas:
 
 No conector UCE SO-DIMM 200 pinos (J1), a região de depuração está definida no `README.md` como:
 
-| Pino (Sup) | Sinal | Pino (Inf) | Sinal |
-| ---: | --- | ---: | --- |
-| 83 | `DBG_SWDIO` | 118 | `DBG_SWCLK` |
-| 84 | `DBG_TCK` | 117 | `DBG_TMS` |
-| 85 | `DBG_TDI` | 116 | `DBG_TDO` |
-| 86 | `DBG_RESET_N` | 115 | `DBG_VREF` |
-| 87 | `DBG_UART_TX` | 114 | `DBG_UART_RX` |
-| 88 | `MOD_PRESENT_N` | 113 | `MOD_TYPE0` |
-| 89 | `MOD_TYPE1` | 112 | `MOD_TYPE2` |
+| Pino (Sup) | Sinal             | Pino (Inf) | Sinal           |
+| ---------: | ----------------- | ---------: | --------------- |
+|         83 | `DBG_SWDIO`     |        118 | `DBG_SWCLK`   |
+|         84 | `DBG_TCK`       |        117 | `DBG_TMS`     |
+|         85 | `DBG_TDI`       |        116 | `DBG_TDO`     |
+|         86 | `DBG_RESET_N`   |        115 | `DBG_VREF`    |
+|         87 | `DBG_UART_TX`   |        114 | `DBG_UART_RX` |
+|         88 | `MOD_PRESENT_N` |        113 | `MOD_TYPE0`   |
+|         89 | `MOD_TYPE1`     |        112 | `MOD_TYPE2`   |
 
 ## 3. Convenção de pinagem “bordas → miolo”
 
@@ -55,50 +55,35 @@ Este documento descreve a pinagem do conector do módulo **das bordas para o mio
 
 > Observação importante
 >
-> O projeto KiCad neste repositório atualmente descreve o barramento UCE no conector SO-DIMM (J1). A definição exata de **quantidade de vias** e **numeração física** do conector “M2.0” (M.2) do módulo de depuração deve ser alinhada com o footprint/socket escolhido.
->
-> A pinagem abaixo fixa a **distribuição funcional** (bordas→miolo) e o conjunto de sinais; a correspondência 1:1 com “Axx/Bxx” (padrão M.2) ou “Pin 1..N” deve ser feita conforme a numeração do footprint adotado na PCB.
+> O projeto KiCad neste repositório atualmente descreve o barramento UCE no conector SO-DIMM (J1). A pinagem abaixo fixa a **distribuição funcional** e o conjunto de sinais do DEBUG_MOD no conector **header genérico 2x15**.
 
-## 4. Pinagem do DEBUG_MOD (distribuição funcional)
+Além disso, em versões futuras haverá um **segundo conector** com passo **0.05"** para compatibilidade ainda maior com padrões de cabos/ICE.
 
-### 4.1 Região de borda (pinos externos)
+## 4. Pinagem do DEBUG_MOD (Header 2x15)
 
-Distribuição recomendada para os pinos externos (começando pelos mais externos e avançando para o centro):
+- Total: **30 vias** (pinos **1..30**)
+- Numeração: padrão 2xN (ímpares em uma coluna e pares na outra)
 
-**Borda – Grupo 1 (Alimentação/Referência e handshakes)**
+### 4.1 Tabela de pinagem
 
-1. `GND`
-2. `DBG_VREF`
-3. `GND`
-4. `MOD_PRESENT_N`
-5. `MOD_TYPE0`
-6. `MOD_TYPE1`
-7. `MOD_TYPE2`
-8. `GND`
+| Pino | Sinal                           | Pino | Sinal           |
+| ---: | ------------------------------- | ---: | --------------- |
+|    1 | `DBG_VREF` *(VTref)*            |    2 | `GND`           |
+|    3 | `DBG_TMS` *(JTAG TMS / SWDIO)*  |    4 | `GND`           |
+|    5 | `DBG_TCK` *(JTAG TCK / SWCLK)*  |    6 | `GND`           |
+|    7 | `DBG_TDO`                       |    8 | `GND`           |
+|    9 | `DBG_TDI`                       |   10 | `GND`           |
+|   11 | `DBG_RESET_N` *(nRESET)*        |   12 | `GND`           |
+|   13 | `DBG_SWDIO` *(alternativo / uso dedicado quando aplicável)* |   14 | `DBG_SWCLK` *(alternativo / uso dedicado quando aplicável)* |
+|   15 | `DBG_UART_TX`                   |   16 | `DBG_UART_RX`   |
+|   17 | `MOD_PRESENT_N`                 |   18 | `MOD_TYPE0`     |
+|   19 | `MOD_TYPE1`                     |   20 | `MOD_TYPE2`     |
+|   21 | `GND`                           |   22 | `GND`           |
+|   23 | `RESERVADO`                     |   24 | `RESERVADO`     |
+|   25 | `RESERVADO`                     |   26 | `RESERVADO`     |
+|   27 | `RESERVADO`                     |   28 | `RESERVADO`     |
+|   29 | `GND`                           |   30 | `GND`           |
 
-**Borda – Grupo 2 (Debug principal)**
-
-9. `DBG_RESET_N`
-10. `DBG_SWDIO`
-11. `DBG_SWCLK`
-12. `GND`
-13. `DBG_TMS`
-14. `DBG_TCK`
-15. `DBG_TDI`
-16. `DBG_TDO`
-17. `GND`
-
-**Borda – Grupo 3 (Canal UART de depuração)**
-
-18. `DBG_UART_TX`
-19. `DBG_UART_RX`
-20. `GND`
-
-### 4.2 Região de miolo (pinos centrais)
-
-- Todos os demais pinos do conector, não utilizados pelos grupos acima, devem ser marcados como:
-
-- `RESERVADO`
 
 ## 5. Regras elétricas e de integração
 
@@ -107,8 +92,6 @@ Distribuição recomendada para os pinos externos (começando pelos mais externo
 - `DBG_RESET_N` é ativo em nível baixo.
 - `DBG_UART_TX/RX` são para console/boot/debug e não substituem SWD/JTAG.
 
-## 6. Pontos em aberto (para fechar junto do footprint M.2)
+## 6. Pontos em aberto
 
-- **Tipo de chave do M.2 (Key)** e o **socket** a ser utilizado.
-- **Tabela final de pinos físicos** (mapeamento para “Pin 1..N” ou “Axx/Bxx”) conforme a numeração do footprint.
-- Definir se o conector terá pinos dedicados adicionais para `VCC_3V3`/`VCC_5V` (caso o DEBUG_MOD precise de alimentação pelo slot) ou se o módulo será autoalimentado.
+- Definir se o DEBUG_MOD deve receber alimentação exclusivamente por `DBG_VREF` (apenas detecção de nível) ou se também haverá necessidade de `VCC_3V3` dedicado em revisões futuras.

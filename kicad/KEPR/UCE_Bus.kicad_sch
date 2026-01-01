@@ -10443,7 +10443,7 @@
 	(symbol
 		(lib_id "Connector:SODIMM-200")
 		(at 167.64 147.32 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11097,7 +11097,7 @@
 			(project "KEPR"
 				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/0260e008-78ae-4c2c-85f8-b31739d2ea08/f6e289d8-1e57-42c9-86d8-5b4c62dbd3c6"
 					(reference "J2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
