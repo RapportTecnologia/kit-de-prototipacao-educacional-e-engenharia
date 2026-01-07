@@ -609,7 +609,7 @@
     "ngspice": {
       "models": []
     },
-    "page_layout_descr_file": "${KIPRJMOD}/rapport_abnt.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://rapport_abnt_with_logo.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -622,6 +622,10 @@
     "subpart_id_separator": 0
   },
   "sheets": [
+    [
+      "51ee32d1-fe48-4676-ab84-bc891947886f",
+      "Power Rails"
+    ],
     [
       "5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1",
       "Root"

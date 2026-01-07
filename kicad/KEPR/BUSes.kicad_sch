@@ -8,6 +8,10 @@
 		(date "2025-12-31")
 		(rev "0.5")
 		(company "Rapport Tecnologia")
+		(comment 1 "Rua José Alves Pereira, 50, Casa 1")
+		(comment 4 "Aquiraz, CE, Brasil")
+		(comment 6 "Carlos Delfino Carvalho Pinheiro")
+		(comment 7 "Carlos Delfino Carvalho Pinheiro")
 	)
 	(lib_symbols)
 	(sheet
