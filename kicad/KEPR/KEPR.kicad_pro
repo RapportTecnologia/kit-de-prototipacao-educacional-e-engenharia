@@ -569,14 +569,68 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descrição",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referência"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -625,6 +679,10 @@
     [
       "51ee32d1-fe48-4676-ab84-bc891947886f",
       "Power Rails"
+    ],
+    [
+      "4741b4dc-2a05-46d3-a722-9e7e2f449984",
+      "External Power Rails"
     ],
     [
       "5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1",
