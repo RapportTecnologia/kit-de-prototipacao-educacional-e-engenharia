@@ -12,10 +12,10 @@
 		(bottom_margin 10)
 	)
 	(rect
-		(name "")
-		(start 110 34)
+		(name "carimbo_externo")
+		(start 177 57)
 		(end 2 2)
-		(comment "rect around the title block")
+		(comment "Contorno externo do carimbo NBR 6492")
 	)
 	(rect
 		(name "")
@@ -91,98 +91,291 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "Date: ${ISSUE_DATE}"
-		(name "")
-		(pos 87 6.9)
-	)
 	(line
-		(name "")
-		(start 110 5.5)
-		(end 2 5.5)
+		(name "linha_empresa")
+		(start 177 45)
+		(end 2 45)
+		(comment "Linha separadora - Empresa")
 	)
-	(tbtext "${KICAD_VERSION}"
-		(name "")
-		(pos 109 4.1)
-		(comment "Kicad version")
-	)
-	(line
-		(name "")
-		(start 110 8.5)
-		(end 2 8.5)
-	)
-	(tbtext "Rev: ${REVISION}"
-		(name "")
-		(pos 24 6.9)
-		(font bold)
-	)
-	(tbtext "Size: ${PAPER}"
-		(name "")
-		(pos 109 6.9)
-		(comment "Paper format name")
-	)
-	(tbtext "Id: ${#}/${##}"
-		(name "")
-		(pos 24 4.1)
-		(comment "Sheet id")
-	)
-	(line
-		(name "")
-		(start 110 12.5)
-		(end 2 12.5)
-	)
-	(tbtext "Title: ${TITLE}"
-		(name "")
-		(pos 109 10.7)
+	(tbtext "EMPRESA:"
+		(name "label_empresa")
+		(pos 175 55.5)
 		(font
-			(size 2 2) bold italic)
-	)
-	(tbtext "File: ${FILENAME}"
-		(name "")
-		(pos 109 14.3)
-	)
-	(line
-		(name "")
-		(start 110 18.5)
-		(end 2 18.5)
-	)
-	(tbtext "Sheet: ${SHEETPATH}"
-		(name "")
-		(pos 109 17)
+			(size 1.2 1.2)
+		)
+		(comment "Label Empresa")
 	)
 	(tbtext "${COMPANY}"
-		(name "")
-		(pos 109 20)
-		(font bold)
-		(comment "Company name")
+		(name "empresa")
+		(pos 175 52)
+		(font
+			(size 2.5 2.5) bold
+		)
+		(comment "Nome da Empresa")
 	)
 	(tbtext "${COMMENT1}"
-		(name "")
-		(pos 109 23)
-		(comment "Comment 0")
+		(name "endereco_empresa")
+		(pos 175 48)
+		(font
+			(size 1.3 1.3)
+		)
+		(comment "Endereço, CNPJ, Telefone")
+	)
+	(line
+		(name "linha_cliente")
+		(start 177 37)
+		(end 2 37)
+		(comment "Linha separadora - Cliente")
+	)
+	(tbtext "CLIENTE:"
+		(name "label_cliente")
+		(pos 175 43.5)
+		(font
+			(size 1.2 1.2)
+		)
+		(comment "Label Cliente")
 	)
 	(tbtext "${COMMENT2}"
-		(name "")
-		(pos 109 26)
-		(comment "Comment 1")
+		(name "cliente")
+		(pos 175 40)
+		(font
+			(size 1.8 1.8) bold
+		)
+		(comment "Nome do Cliente/Contratante")
+	)
+	(line
+		(name "linha_projeto")
+		(start 177 29)
+		(end 2 29)
+		(comment "Linha separadora - Projeto")
+	)
+	(tbtext "PROJETO:"
+		(name "label_projeto")
+		(pos 175 35.5)
+		(font
+			(size 1.2 1.2)
+		)
+		(comment "Label Projeto")
+	)
+	(tbtext "${TITLE}"
+		(name "projeto")
+		(pos 175 32)
+		(font
+			(size 2.2 2.2) bold italic
+		)
+		(comment "Nome do Projeto")
+	)
+	(line
+		(name "linha_conteudo")
+		(start 177 21)
+		(end 2 21)
+		(comment "Linha separadora - Conteúdo")
+	)
+	(tbtext "CONTEÚDO:"
+		(name "label_conteudo")
+		(pos 175 27.5)
+		(font
+			(size 1.2 1.2)
+		)
+		(comment "Label Conteúdo da Prancha")
 	)
 	(tbtext "${COMMENT3}"
-		(name "")
-		(pos 109 29)
-		(comment "Comment 2")
+		(name "conteudo")
+		(pos 175 24)
+		(font
+			(size 1.8 1.8)
+		)
+		(comment "Descrição do conteúdo da prancha")
+	)
+	(line
+		(name "linha_dados")
+		(start 177 13)
+		(end 2 13)
+		(comment "Linha separadora - Dados")
+	)
+	(line
+		(name "div_local_data")
+		(start 142 21)
+		(end 142 13)
+		(comment "Divisória Local|Data")
+	)
+	(line
+		(name "div_data_escala")
+		(start 107 21)
+		(end 107 13)
+		(comment "Divisória Data|Escala")
+	)
+	(line
+		(name "div_escala_prancha")
+		(start 72 21)
+		(end 72 13)
+		(comment "Divisória Escala|Prancha")
+	)
+	(line
+		(name "div_prancha_rev")
+		(start 37 21)
+		(end 37 13)
+		(comment "Divisória Prancha|Revisão")
+	)
+	(tbtext "LOCAL:"
+		(name "label_local")
+		(pos 175 19.5)
+		(font
+			(size 1.2 1.2)
+		)
 	)
 	(tbtext "${COMMENT4}"
-		(name "")
-		(pos 109 32)
-		(comment "Comment 3")
+		(name "local")
+		(pos 175 16)
+		(font
+			(size 1.5 1.5)
+		)
+		(comment "Local/Cidade")
+	)
+	(tbtext "DATA:"
+		(name "label_data")
+		(pos 140 19.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "data")
+		(pos 140 16)
+		(font
+			(size 1.5 1.5)
+		)
+		(comment "Data de emissão")
+	)
+	(tbtext "ESCALA:"
+		(name "label_escala")
+		(pos 105 19.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${COMMENT5}"
+		(name "escala")
+		(pos 105 16)
+		(font
+			(size 1.5 1.5) bold
+		)
+		(comment "Escala do desenho")
+	)
+	(tbtext "PRANCHA:"
+		(name "label_prancha")
+		(pos 70 19.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${#}/${##}"
+		(name "prancha")
+		(pos 70 16)
+		(font
+			(size 1.5 1.5) bold
+		)
+		(comment "Número da prancha")
+	)
+	(tbtext "REVISÃO:"
+		(name "label_revisao")
+		(pos 35 19.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${REVISION}"
+		(name "revisao")
+		(pos 35 16)
+		(font
+			(size 1.5 1.5) bold
+		)
+		(comment "Número da revisão")
 	)
 	(line
-		(name "")
-		(start 90 8.5)
-		(end 90 5.5)
+		(name "div_desenho_verif")
+		(start 133 13)
+		(end 133 2)
+		(comment "Divisória Desenho|Verificação")
 	)
 	(line
-		(name "")
-		(start 26 8.5)
-		(end 26 2)
+		(name "div_verif_aprov")
+		(start 89 13)
+		(end 89 2)
+		(comment "Divisória Verificação|Aprovação")
+	)
+	(line
+		(name "div_aprov_formato")
+		(start 45 13)
+		(end 45 2)
+		(comment "Divisória Aprovação|Formato")
+	)
+	(tbtext "DESENHO:"
+		(name "label_desenho")
+		(pos 175 11.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${COMMENT6}"
+		(name "desenho")
+		(pos 175 7)
+		(font
+			(size 1.3 1.3)
+		)
+		(comment "Responsável pelo desenho")
+	)
+	(tbtext "VERIFICAÇÃO:"
+		(name "label_verificacao")
+		(pos 131 11.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${COMMENT7}"
+		(name "verificacao")
+		(pos 131 7)
+		(font
+			(size 1.3 1.3)
+		)
+		(comment "Responsável pela verificação")
+	)
+	(tbtext "APROVAÇÃO:"
+		(name "label_aprovacao")
+		(pos 87 11.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${COMMENT8}"
+		(name "aprovacao")
+		(pos 87 7)
+		(font
+			(size 1.3 1.3)
+		)
+		(comment "Responsável pela aprovação")
+	)
+	(tbtext "FORMATO:"
+		(name "label_formato")
+		(pos 43 11.5)
+		(font
+			(size 1.2 1.2)
+		)
+	)
+	(tbtext "${PAPER}"
+		(name "formato")
+		(pos 43 7)
+		(font
+			(size 1.5 1.5) bold
+		)
+		(comment "Formato do papel")
+	)
+	(tbtext "${FILENAME}"
+		(name "arquivo")
+		(pos 43 4)
+		(font
+			(size 1 1)
+		)
+		(comment "Nome do arquivo")
 	)
 )
