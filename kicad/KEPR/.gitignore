@@ -3,3 +3,5 @@
 \#*#
 _autosave-*
 fp-info-cache
+*.log
+.json
