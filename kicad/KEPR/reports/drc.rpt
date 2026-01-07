@@ -1,0 +1,1907 @@
+** Drc report for KEPR.kicad_pcb **
+** Created on 2026-01-03T00:00:22+0000 **
+
+** Found 177 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(167.0000 mm, 84.2900 mm): Pad 1 [<no net>] of J2 on F.Cu
+    @(167.6000 mm, 84.2900 mm): Pad 3 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(167.3000 mm, 84.2900 mm): Pad 2 [<no net>] of J2 on B.Cu
+    @(167.9000 mm, 84.2900 mm): Pad 4 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(167.6000 mm, 84.2900 mm): Pad 3 [<no net>] of J2 on F.Cu
+    @(168.2000 mm, 84.2900 mm): Pad 5 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(167.9000 mm, 84.2900 mm): Pad 4 [<no net>] of J2 on B.Cu
+    @(168.5000 mm, 84.2900 mm): Pad 6 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(168.2000 mm, 84.2900 mm): Pad 5 [<no net>] of J2 on F.Cu
+    @(168.8000 mm, 84.2900 mm): Pad 7 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(168.5000 mm, 84.2900 mm): Pad 6 [<no net>] of J2 on B.Cu
+    @(169.1000 mm, 84.2900 mm): Pad 8 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(168.8000 mm, 84.2900 mm): Pad 7 [<no net>] of J2 on F.Cu
+    @(169.4000 mm, 84.2900 mm): Pad 9 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(169.1000 mm, 84.2900 mm): Pad 8 [<no net>] of J2 on B.Cu
+    @(169.7000 mm, 84.2900 mm): Pad 10 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(169.4000 mm, 84.2900 mm): Pad 9 [<no net>] of J2 on F.Cu
+    @(170.0000 mm, 84.2900 mm): Pad 11 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(169.7000 mm, 84.2900 mm): Pad 10 [<no net>] of J2 on B.Cu
+    @(170.3000 mm, 84.2900 mm): Pad 12 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(170.0000 mm, 84.2900 mm): Pad 11 [<no net>] of J2 on F.Cu
+    @(170.6000 mm, 84.2900 mm): Pad 13 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(170.3000 mm, 84.2900 mm): Pad 12 [<no net>] of J2 on B.Cu
+    @(170.9000 mm, 84.2900 mm): Pad 14 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(170.6000 mm, 84.2900 mm): Pad 13 [<no net>] of J2 on F.Cu
+    @(171.2000 mm, 84.2900 mm): Pad 15 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(170.9000 mm, 84.2900 mm): Pad 14 [<no net>] of J2 on B.Cu
+    @(171.5000 mm, 84.2900 mm): Pad 16 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(171.2000 mm, 84.2900 mm): Pad 15 [<no net>] of J2 on F.Cu
+    @(171.8000 mm, 84.2900 mm): Pad 17 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(171.5000 mm, 84.2900 mm): Pad 16 [<no net>] of J2 on B.Cu
+    @(172.1000 mm, 84.2900 mm): Pad 18 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(171.8000 mm, 84.2900 mm): Pad 17 [<no net>] of J2 on F.Cu
+    @(172.4000 mm, 84.2900 mm): Pad 19 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(172.1000 mm, 84.2900 mm): Pad 18 [<no net>] of J2 on B.Cu
+    @(172.7000 mm, 84.2900 mm): Pad 20 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(172.4000 mm, 84.2900 mm): Pad 19 [<no net>] of J2 on F.Cu
+    @(173.0000 mm, 84.2900 mm): Pad 21 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(172.7000 mm, 84.2900 mm): Pad 20 [<no net>] of J2 on B.Cu
+    @(173.3000 mm, 84.2900 mm): Pad 22 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(173.0000 mm, 84.2900 mm): Pad 21 [<no net>] of J2 on F.Cu
+    @(173.6000 mm, 84.2900 mm): Pad 23 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(173.3000 mm, 84.2900 mm): Pad 22 [<no net>] of J2 on B.Cu
+    @(173.9000 mm, 84.2900 mm): Pad 24 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(173.6000 mm, 84.2900 mm): Pad 23 [<no net>] of J2 on F.Cu
+    @(174.2000 mm, 84.2900 mm): Pad 25 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(173.9000 mm, 84.2900 mm): Pad 24 [<no net>] of J2 on B.Cu
+    @(174.5000 mm, 84.2900 mm): Pad 26 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(174.2000 mm, 84.2900 mm): Pad 25 [<no net>] of J2 on F.Cu
+    @(174.8000 mm, 84.2900 mm): Pad 27 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(174.5000 mm, 84.2900 mm): Pad 26 [<no net>] of J2 on B.Cu
+    @(175.1000 mm, 84.2900 mm): Pad 28 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(174.8000 mm, 84.2900 mm): Pad 27 [<no net>] of J2 on F.Cu
+    @(175.4000 mm, 84.2900 mm): Pad 29 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(175.1000 mm, 84.2900 mm): Pad 28 [<no net>] of J2 on B.Cu
+    @(175.7000 mm, 84.2900 mm): Pad 30 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(175.4000 mm, 84.2900 mm): Pad 29 [<no net>] of J2 on F.Cu
+    @(176.0000 mm, 84.2900 mm): Pad 31 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(175.7000 mm, 84.2900 mm): Pad 30 [<no net>] of J2 on B.Cu
+    @(176.3000 mm, 84.2900 mm): Pad 32 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(176.0000 mm, 84.2900 mm): Pad 31 [<no net>] of J2 on F.Cu
+    @(176.6000 mm, 84.2900 mm): Pad 33 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(176.3000 mm, 84.2900 mm): Pad 32 [<no net>] of J2 on B.Cu
+    @(176.9000 mm, 84.2900 mm): Pad 34 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(176.6000 mm, 84.2900 mm): Pad 33 [<no net>] of J2 on F.Cu
+    @(177.2000 mm, 84.2900 mm): Pad 35 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(176.9000 mm, 84.2900 mm): Pad 34 [<no net>] of J2 on B.Cu
+    @(177.5000 mm, 84.2900 mm): Pad 36 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(177.2000 mm, 84.2900 mm): Pad 35 [<no net>] of J2 on F.Cu
+    @(177.8000 mm, 84.2900 mm): Pad 37 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(177.5000 mm, 84.2900 mm): Pad 36 [<no net>] of J2 on B.Cu
+    @(178.1000 mm, 84.2900 mm): Pad 38 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(177.8000 mm, 84.2900 mm): Pad 37 [<no net>] of J2 on F.Cu
+    @(178.4000 mm, 84.2900 mm): Pad 39 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(178.1000 mm, 84.2900 mm): Pad 38 [<no net>] of J2 on B.Cu
+    @(178.7000 mm, 84.2900 mm): Pad 40 [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(182.6000 mm, 84.2900 mm): Pad 41 [UART3_TX] of J2 on F.Cu
+    @(183.2000 mm, 84.2900 mm): Pad 43 [UART0_CTS] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(182.9000 mm, 84.2900 mm): Pad 42 [UART3_RX] of J2 on B.Cu
+    @(183.5000 mm, 84.2900 mm): Pad 44 [UART0_RTS] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(183.2000 mm, 84.2900 mm): Pad 43 [UART0_CTS] of J2 on F.Cu
+    @(183.8000 mm, 84.2900 mm): Pad 45 [UART0_DSR] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(183.5000 mm, 84.2900 mm): Pad 44 [UART0_RTS] of J2 on B.Cu
+    @(184.1000 mm, 84.2900 mm): Pad 46 [UART0_DCD] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(183.8000 mm, 84.2900 mm): Pad 45 [UART0_DSR] of J2 on F.Cu
+    @(184.4000 mm, 84.2900 mm): Pad 47 [UART0_RI] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.1000 mm, 84.2900 mm): Pad 46 [UART0_DCD] of J2 on B.Cu
+    @(184.7000 mm, 84.2900 mm): Pad 48 [GND] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.4000 mm, 84.2900 mm): Pad 47 [UART0_RI] of J2 on F.Cu
+    @(185.0000 mm, 84.2900 mm): Pad 49 [SPI0_SCK] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.7000 mm, 84.2900 mm): Pad 48 [GND] of J2 on B.Cu
+    @(185.3000 mm, 84.2900 mm): Pad 50 [SPI0_MOSI] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.0000 mm, 84.2900 mm): Pad 49 [SPI0_SCK] of J2 on F.Cu
+    @(185.6000 mm, 84.2900 mm): Pad 51 [SPI0_MISO] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.3000 mm, 84.2900 mm): Pad 50 [SPI0_MOSI] of J2 on B.Cu
+    @(185.9000 mm, 84.2900 mm): Pad 52 [SPI0_CS0] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.6000 mm, 84.2900 mm): Pad 51 [SPI0_MISO] of J2 on F.Cu
+    @(186.2000 mm, 84.2900 mm): Pad 53 [SPI0_CS1] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.9000 mm, 84.2900 mm): Pad 52 [SPI0_CS0] of J2 on B.Cu
+    @(186.5000 mm, 84.2900 mm): Pad 54 [SPI0_CS2] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(186.2000 mm, 84.2900 mm): Pad 53 [SPI0_CS1] of J2 on F.Cu
+    @(186.8000 mm, 84.2900 mm): Pad 55 [SPI1_SCK] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(186.5000 mm, 84.2900 mm): Pad 54 [SPI0_CS2] of J2 on B.Cu
+    @(187.1000 mm, 84.2900 mm): Pad 56 [SPI1_MOSI] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(186.8000 mm, 84.2900 mm): Pad 55 [SPI1_SCK] of J2 on F.Cu
+    @(187.4000 mm, 84.2900 mm): Pad 57 [SPI1_MISO] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(187.1000 mm, 84.2900 mm): Pad 56 [SPI1_MOSI] of J2 on B.Cu
+    @(187.7000 mm, 84.2900 mm): Pad 58 [SPI1_CS0] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(187.4000 mm, 84.2900 mm): Pad 57 [SPI1_MISO] of J2 on F.Cu
+    @(188.0000 mm, 84.2900 mm): Pad 59 [SPI1_CS1] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(187.7000 mm, 84.2900 mm): Pad 58 [SPI1_CS0] of J2 on B.Cu
+    @(188.3000 mm, 84.2900 mm): Pad 60 [SPI1_CS2] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(188.0000 mm, 84.2900 mm): Pad 59 [SPI1_CS1] of J2 on F.Cu
+    @(188.6000 mm, 84.2900 mm): Pad 61 [GPIO0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(188.3000 mm, 84.2900 mm): Pad 60 [SPI1_CS2] of J2 on B.Cu
+    @(188.9000 mm, 84.2900 mm): Pad 62 [GPIO8] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(188.6000 mm, 84.2900 mm): Pad 61 [GPIO0] of J2 on F.Cu
+    @(189.2000 mm, 84.2900 mm): Pad 63 [GPIO1] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(188.9000 mm, 84.2900 mm): Pad 62 [GPIO8] of J2 on B.Cu
+    @(189.5000 mm, 84.2900 mm): Pad 64 [GPIO9] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(189.2000 mm, 84.2900 mm): Pad 63 [GPIO1] of J2 on F.Cu
+    @(189.8000 mm, 84.2900 mm): Pad 65 [GPIO2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(189.5000 mm, 84.2900 mm): Pad 64 [GPIO9] of J2 on B.Cu
+    @(190.1000 mm, 84.2900 mm): Pad 66 [GPIO10] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(189.8000 mm, 84.2900 mm): Pad 65 [GPIO2] of J2 on F.Cu
+    @(190.4000 mm, 84.2900 mm): Pad 67 [GPIO3] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(190.1000 mm, 84.2900 mm): Pad 66 [GPIO10] of J2 on B.Cu
+    @(190.7000 mm, 84.2900 mm): Pad 68 [GPIO11] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(190.4000 mm, 84.2900 mm): Pad 67 [GPIO3] of J2 on F.Cu
+    @(191.0000 mm, 84.2900 mm): Pad 69 [GPIO4] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(190.7000 mm, 84.2900 mm): Pad 68 [GPIO11] of J2 on B.Cu
+    @(191.3000 mm, 84.2900 mm): Pad 70 [GPIO12] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(191.0000 mm, 84.2900 mm): Pad 69 [GPIO4] of J2 on F.Cu
+    @(191.6000 mm, 84.2900 mm): Pad 71 [GPIO5] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(191.3000 mm, 84.2900 mm): Pad 70 [GPIO12] of J2 on B.Cu
+    @(191.9000 mm, 84.2900 mm): Pad 72 [GPIO13] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(191.6000 mm, 84.2900 mm): Pad 71 [GPIO5] of J2 on F.Cu
+    @(192.2000 mm, 84.2900 mm): Pad 73 [GPIO6] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(191.9000 mm, 84.2900 mm): Pad 72 [GPIO13] of J2 on B.Cu
+    @(192.5000 mm, 84.2900 mm): Pad 74 [GPIO14] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(192.2000 mm, 84.2900 mm): Pad 73 [GPIO6] of J2 on F.Cu
+    @(192.8000 mm, 84.2900 mm): Pad 75 [GPIO7] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(192.5000 mm, 84.2900 mm): Pad 74 [GPIO14] of J2 on B.Cu
+    @(193.1000 mm, 84.2900 mm): Pad 76 [GPIO15] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(192.8000 mm, 84.2900 mm): Pad 75 [GPIO7] of J2 on F.Cu
+    @(193.4000 mm, 84.2900 mm): Pad 77 [PWM0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(193.1000 mm, 84.2900 mm): Pad 76 [GPIO15] of J2 on B.Cu
+    @(193.7000 mm, 84.2900 mm): Pad 78 [PWM4] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(193.4000 mm, 84.2900 mm): Pad 77 [PWM0] of J2 on F.Cu
+    @(194.0000 mm, 84.2900 mm): Pad 79 [PWM1] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(193.7000 mm, 84.2900 mm): Pad 78 [PWM4] of J2 on B.Cu
+    @(194.3000 mm, 84.2900 mm): Pad 80 [PWM5] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(194.0000 mm, 84.2900 mm): Pad 79 [PWM1] of J2 on F.Cu
+    @(194.6000 mm, 84.2900 mm): Pad 81 [PWM2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(194.3000 mm, 84.2900 mm): Pad 80 [PWM5] of J2 on B.Cu
+    @(194.9000 mm, 84.2900 mm): Pad 82 [PWM6] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(194.6000 mm, 84.2900 mm): Pad 81 [PWM2] of J2 on F.Cu
+    @(195.2000 mm, 84.2900 mm): Pad 83 [PWM3] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(194.9000 mm, 84.2900 mm): Pad 82 [PWM6] of J2 on B.Cu
+    @(195.5000 mm, 84.2900 mm): Pad 84 [PWM7] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(195.2000 mm, 84.2900 mm): Pad 83 [PWM3] of J2 on F.Cu
+    @(195.8000 mm, 84.2900 mm): Pad 85 [IR_RX_IN] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(195.5000 mm, 84.2900 mm): Pad 84 [PWM7] of J2 on B.Cu
+    @(196.1000 mm, 84.2900 mm): Pad 86 [IR_TX_OUT] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(195.8000 mm, 84.2900 mm): Pad 85 [IR_RX_IN] of J2 on F.Cu
+    @(196.4000 mm, 84.2900 mm): Pad 87 [AIN0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(196.1000 mm, 84.2900 mm): Pad 86 [IR_TX_OUT] of J2 on B.Cu
+    @(196.7000 mm, 84.2900 mm): Pad 88 [AIN4] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(196.4000 mm, 84.2900 mm): Pad 87 [AIN0] of J2 on F.Cu
+    @(197.0000 mm, 84.2900 mm): Pad 89 [AIN1] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(196.7000 mm, 84.2900 mm): Pad 88 [AIN4] of J2 on B.Cu
+    @(197.3000 mm, 84.2900 mm): Pad 90 [AIN5] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(197.0000 mm, 84.2900 mm): Pad 89 [AIN1] of J2 on F.Cu
+    @(197.6000 mm, 84.2900 mm): Pad 91 [AIN2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(197.3000 mm, 84.2900 mm): Pad 90 [AIN5] of J2 on B.Cu
+    @(197.9000 mm, 84.2900 mm): Pad 92 [AIN6] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(197.6000 mm, 84.2900 mm): Pad 91 [AIN2] of J2 on F.Cu
+    @(198.2000 mm, 84.2900 mm): Pad 93 [AIN3] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(197.9000 mm, 84.2900 mm): Pad 92 [AIN6] of J2 on B.Cu
+    @(198.5000 mm, 84.2900 mm): Pad 94 [AIN7] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(198.2000 mm, 84.2900 mm): Pad 93 [AIN3] of J2 on F.Cu
+    @(198.8000 mm, 84.2900 mm): Pad 95 [AOUT0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(198.5000 mm, 84.2900 mm): Pad 94 [AIN7] of J2 on B.Cu
+    @(199.1000 mm, 84.2900 mm): Pad 96 [AOUT1] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(198.8000 mm, 84.2900 mm): Pad 95 [AOUT0] of J2 on F.Cu
+    @(199.4000 mm, 84.2900 mm): Pad 97 [I2S_BCLK] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(199.1000 mm, 84.2900 mm): Pad 96 [AOUT1] of J2 on B.Cu
+    @(199.7000 mm, 84.2900 mm): Pad 98 [I2S_LRCLK] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(199.4000 mm, 84.2900 mm): Pad 97 [I2S_BCLK] of J2 on F.Cu
+    @(200.0000 mm, 84.2900 mm): Pad 99 [I2S_DOUT] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(199.7000 mm, 84.2900 mm): Pad 98 [I2S_LRCLK] of J2 on B.Cu
+    @(200.3000 mm, 84.2900 mm): Pad 100 [I2S_DIN] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(200.0000 mm, 84.2900 mm): Pad 99 [I2S_DOUT] of J2 on F.Cu
+    @(200.6000 mm, 84.2900 mm): Pad 101 [I2S_MCLK] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(200.3000 mm, 84.2900 mm): Pad 100 [I2S_DIN] of J2 on B.Cu
+    @(200.9000 mm, 84.2900 mm): Pad 102 [GND] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(200.6000 mm, 84.2900 mm): Pad 101 [I2S_MCLK] of J2 on F.Cu
+    @(201.2000 mm, 84.2900 mm): Pad 103 [NET_SPI_SCK] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(200.9000 mm, 84.2900 mm): Pad 102 [GND] of J2 on B.Cu
+    @(201.5000 mm, 84.2900 mm): Pad 104 [NET_D0_EVEN] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(201.2000 mm, 84.2900 mm): Pad 103 [NET_SPI_SCK] of J2 on F.Cu
+    @(201.8000 mm, 84.2900 mm): Pad 105 [NET_CMD_EVEN] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(201.5000 mm, 84.2900 mm): Pad 104 [NET_D0_EVEN] of J2 on B.Cu
+    @(202.1000 mm, 84.2900 mm): Pad 106 [NET_CTL0_EVEN] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(201.8000 mm, 84.2900 mm): Pad 105 [NET_CMD_EVEN] of J2 on F.Cu
+    @(202.4000 mm, 84.2900 mm): Pad 107 [NET_INT_N] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(202.1000 mm, 84.2900 mm): Pad 106 [NET_CTL0_EVEN] of J2 on B.Cu
+    @(202.7000 mm, 84.2900 mm): Pad 108 [NET_RST_N] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(202.4000 mm, 84.2900 mm): Pad 107 [NET_INT_N] of J2 on F.Cu
+    @(203.0000 mm, 84.2900 mm): Pad 109 [RMII_TXD0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(202.7000 mm, 84.2900 mm): Pad 108 [NET_RST_N] of J2 on B.Cu
+    @(203.3000 mm, 84.2900 mm): Pad 110 [RMII_TXD1] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(203.0000 mm, 84.2900 mm): Pad 109 [RMII_TXD0] of J2 on F.Cu
+    @(203.6000 mm, 84.2900 mm): Pad 111 [RMII_RXD0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(203.3000 mm, 84.2900 mm): Pad 110 [RMII_TXD1] of J2 on B.Cu
+    @(203.9000 mm, 84.2900 mm): Pad 112 [RMII_RXD1] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(203.6000 mm, 84.2900 mm): Pad 111 [RMII_RXD0] of J2 on F.Cu
+    @(204.2000 mm, 84.2900 mm): Pad 113 [NET_CTL0_ODD] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(203.9000 mm, 84.2900 mm): Pad 112 [RMII_RXD1] of J2 on B.Cu
+    @(204.5000 mm, 84.2900 mm): Pad 114 [NET_CTL1_ODD] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(204.2000 mm, 84.2900 mm): Pad 113 [NET_CTL0_ODD] of J2 on F.Cu
+    @(204.8000 mm, 84.2900 mm): Pad 115 [NET_CLK_ODD] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(204.5000 mm, 84.2900 mm): Pad 114 [NET_CTL1_ODD] of J2 on B.Cu
+    @(205.1000 mm, 84.2900 mm): Pad 116 [NET_CTL2_ODD] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(204.8000 mm, 84.2900 mm): Pad 115 [NET_CLK_ODD] of J2 on F.Cu
+    @(205.4000 mm, 84.2900 mm): Pad 117 [MDIO] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(205.4000 mm, 84.2900 mm): Pad 117 [MDIO] of J2 on F.Cu
+    @(206.0000 mm, 84.2900 mm): Pad 119 [SDIO_CLK] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(205.7000 mm, 84.2900 mm): Pad 118 [NET_CTL2_ODD] of J2 on B.Cu
+    @(206.3000 mm, 84.2900 mm): Pad 120 [SDIO_CMD] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(206.3000 mm, 84.2900 mm): Pad 120 [SDIO_CMD] of J2 on B.Cu
+    @(206.9000 mm, 84.2900 mm): Pad 122 [SDIO_D1] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(206.6000 mm, 84.2900 mm): Pad 121 [SDIO_CLK] of J2 on F.Cu
+    @(207.2000 mm, 84.2900 mm): Pad 123 [SDIO_D2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(206.9000 mm, 84.2900 mm): Pad 122 [SDIO_D1] of J2 on B.Cu
+    @(207.5000 mm, 84.2900 mm): Pad 124 [SDIO_D3] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(207.2000 mm, 84.2900 mm): Pad 123 [SDIO_D2] of J2 on F.Cu
+    @(207.8000 mm, 84.2900 mm): Pad 125 [RESERVED] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(207.5000 mm, 84.2900 mm): Pad 124 [SDIO_D3] of J2 on B.Cu
+    @(208.1000 mm, 84.2900 mm): Pad 126 [RESERVED] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(207.8000 mm, 84.2900 mm): Pad 125 [RESERVED] of J2 on F.Cu
+    @(208.4000 mm, 84.2900 mm): Pad 127 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(208.1000 mm, 84.2900 mm): Pad 126 [RESERVED] of J2 on B.Cu
+    @(208.7000 mm, 84.2900 mm): Pad 128 [GND] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(209.0000 mm, 84.2900 mm): Pad 129 [GND] of J2 on F.Cu
+    @(209.6000 mm, 84.2900 mm): Pad 131 [VCC_5V] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(209.3000 mm, 84.2900 mm): Pad 130 [GND] of J2 on B.Cu
+    @(209.9000 mm, 84.2900 mm): Pad 132 [VCC_5V] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(209.6000 mm, 84.2900 mm): Pad 131 [VCC_5V] of J2 on F.Cu
+    @(210.2000 mm, 84.2900 mm): Pad 133 [VCC_3V3] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(209.9000 mm, 84.2900 mm): Pad 132 [VCC_5V] of J2 on B.Cu
+    @(210.5000 mm, 84.2900 mm): Pad 134 [VCC_3V3] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(210.2000 mm, 84.2900 mm): Pad 133 [VCC_3V3] of J2 on F.Cu
+    @(210.8000 mm, 84.2900 mm): Pad 135 [VCC_1V8] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(210.5000 mm, 84.2900 mm): Pad 134 [VCC_3V3] of J2 on B.Cu
+    @(211.1000 mm, 84.2900 mm): Pad 136 [VCC_1V8] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(210.8000 mm, 84.2900 mm): Pad 135 [VCC_1V8] of J2 on F.Cu
+    @(211.4000 mm, 84.2900 mm): Pad 137 [VREF_IO] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(211.1000 mm, 84.2900 mm): Pad 136 [VCC_1V8] of J2 on B.Cu
+    @(211.7000 mm, 84.2900 mm): Pad 138 [VREF_IO] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(211.4000 mm, 84.2900 mm): Pad 137 [VREF_IO] of J2 on F.Cu
+    @(212.0000 mm, 84.2900 mm): Pad 139 [VIO_BANK0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(211.7000 mm, 84.2900 mm): Pad 138 [VREF_IO] of J2 on B.Cu
+    @(212.3000 mm, 84.2900 mm): Pad 140 [VIO_BANK1] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(212.0000 mm, 84.2900 mm): Pad 139 [VIO_BANK0] of J2 on F.Cu
+    @(212.6000 mm, 84.2900 mm): Pad 141 [VIO_BANK2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(212.3000 mm, 84.2900 mm): Pad 140 [VIO_BANK1] of J2 on B.Cu
+    @(212.9000 mm, 84.2900 mm): Pad 142 [VIO_BANK3] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(212.6000 mm, 84.2900 mm): Pad 141 [VIO_BANK2] of J2 on F.Cu
+    @(213.2000 mm, 84.2900 mm): Pad 143 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(212.9000 mm, 84.2900 mm): Pad 142 [VIO_BANK3] of J2 on B.Cu
+    @(213.5000 mm, 84.2900 mm): Pad 144 [GND] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(213.8000 mm, 84.2900 mm): Pad 145 [GND] of J2 on F.Cu
+    @(214.4000 mm, 84.2900 mm): Pad 147 [CLOCK_0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(214.1000 mm, 84.2900 mm): Pad 146 [GND] of J2 on B.Cu
+    @(214.7000 mm, 84.2900 mm): Pad 148 [CLOCK_0] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(214.4000 mm, 84.2900 mm): Pad 147 [CLOCK_0] of J2 on F.Cu
+    @(215.0000 mm, 84.2900 mm): Pad 149 [RESERVED] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(214.7000 mm, 84.2900 mm): Pad 148 [CLOCK_0] of J2 on B.Cu
+    @(215.3000 mm, 84.2900 mm): Pad 150 [RESERVED] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(219.2000 mm, 84.2900 mm): Pad 163 [RESERVED] of J2 on F.Cu
+    @(219.8000 mm, 84.2900 mm): Pad 165 [DBG_SWDIO] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(219.5000 mm, 84.2900 mm): Pad 164 [RESERVED] of J2 on B.Cu
+    @(220.1000 mm, 84.2900 mm): Pad 166 [DBG_SWCLK] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(219.8000 mm, 84.2900 mm): Pad 165 [DBG_SWDIO] of J2 on F.Cu
+    @(220.4000 mm, 84.2900 mm): Pad 167 [DBG_TCK] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(220.1000 mm, 84.2900 mm): Pad 166 [DBG_SWCLK] of J2 on B.Cu
+    @(220.7000 mm, 84.2900 mm): Pad 168 [DBG_TMS] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(220.4000 mm, 84.2900 mm): Pad 167 [DBG_TCK] of J2 on F.Cu
+    @(221.0000 mm, 84.2900 mm): Pad 169 [DBG_TDI] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(220.7000 mm, 84.2900 mm): Pad 168 [DBG_TMS] of J2 on B.Cu
+    @(221.3000 mm, 84.2900 mm): Pad 170 [DBG_TDO] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(221.0000 mm, 84.2900 mm): Pad 169 [DBG_TDI] of J2 on F.Cu
+    @(221.6000 mm, 84.2900 mm): Pad 171 [DBG_RESET_N] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(221.3000 mm, 84.2900 mm): Pad 170 [DBG_TDO] of J2 on B.Cu
+    @(221.9000 mm, 84.2900 mm): Pad 172 [DBG_VREF] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(221.6000 mm, 84.2900 mm): Pad 171 [DBG_RESET_N] of J2 on F.Cu
+    @(222.2000 mm, 84.2900 mm): Pad 173 [DBG_UART_TX] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(221.9000 mm, 84.2900 mm): Pad 172 [DBG_VREF] of J2 on B.Cu
+    @(222.5000 mm, 84.2900 mm): Pad 174 [DBG_UART_RX] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(222.2000 mm, 84.2900 mm): Pad 173 [DBG_UART_TX] of J2 on F.Cu
+    @(222.8000 mm, 84.2900 mm): Pad 175 [MOD_PRESENT_N] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(222.5000 mm, 84.2900 mm): Pad 174 [DBG_UART_RX] of J2 on B.Cu
+    @(223.1000 mm, 84.2900 mm): Pad 176 [MOD_TYPE0] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(222.8000 mm, 84.2900 mm): Pad 175 [MOD_PRESENT_N] of J2 on F.Cu
+    @(223.4000 mm, 84.2900 mm): Pad 177 [MOD_TYPE1] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(223.1000 mm, 84.2900 mm): Pad 176 [MOD_TYPE0] of J2 on B.Cu
+    @(223.7000 mm, 84.2900 mm): Pad 178 [MOD_TYPE2] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(223.4000 mm, 84.2900 mm): Pad 177 [MOD_TYPE1] of J2 on F.Cu
+    @(224.0000 mm, 84.2900 mm): Pad 179 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(223.7000 mm, 84.2900 mm): Pad 178 [MOD_TYPE2] of J2 on B.Cu
+    @(224.3000 mm, 84.2900 mm): Pad 180 [GND] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(224.6000 mm, 84.2900 mm): Pad 181 [GND] of J2 on F.Cu
+    @(225.2000 mm, 84.2900 mm): Pad 183 [VCC_5V] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(224.9000 mm, 84.2900 mm): Pad 182 [GND] of J2 on B.Cu
+    @(225.5000 mm, 84.2900 mm): Pad 184 [VCC_5V] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(225.2000 mm, 84.2900 mm): Pad 183 [VCC_5V] of J2 on F.Cu
+    @(225.8000 mm, 84.2900 mm): Pad 185 [VCC_3V3] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(225.5000 mm, 84.2900 mm): Pad 184 [VCC_5V] of J2 on B.Cu
+    @(226.1000 mm, 84.2900 mm): Pad 186 [VCC_1V8] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(225.8000 mm, 84.2900 mm): Pad 185 [VCC_3V3] of J2 on F.Cu
+    @(226.4000 mm, 84.2900 mm): Pad 187 [VCC_1V8] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(226.1000 mm, 84.2900 mm): Pad 186 [VCC_1V8] of J2 on B.Cu
+    @(226.7000 mm, 84.2900 mm): Pad 188 [VCC_3V3] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(226.4000 mm, 84.2900 mm): Pad 187 [VCC_1V8] of J2 on F.Cu
+    @(227.0000 mm, 84.2900 mm): Pad 189 [VREF_IO] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(226.7000 mm, 84.2900 mm): Pad 188 [VCC_3V3] of J2 on B.Cu
+    @(227.3000 mm, 84.2900 mm): Pad 190 [VREF_IO] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(227.0000 mm, 84.2900 mm): Pad 189 [VREF_IO] of J2 on F.Cu
+    @(227.6000 mm, 84.2900 mm): Pad 191 [VIO_BANK0] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(227.3000 mm, 84.2900 mm): Pad 190 [VREF_IO] of J2 on B.Cu
+    @(227.9000 mm, 84.2900 mm): Pad 192 [VIO_BANK1] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(227.6000 mm, 84.2900 mm): Pad 191 [VIO_BANK0] of J2 on F.Cu
+    @(228.2000 mm, 84.2900 mm): Pad 193 [VIO_BANK2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(227.9000 mm, 84.2900 mm): Pad 192 [VIO_BANK1] of J2 on B.Cu
+    @(228.5000 mm, 84.2900 mm): Pad 194 [VIO_BANK3] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(228.2000 mm, 84.2900 mm): Pad 193 [VIO_BANK2] of J2 on F.Cu
+    @(228.8000 mm, 84.2900 mm): Pad 195 [PWR_GOOD] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(228.5000 mm, 84.2900 mm): Pad 194 [VIO_BANK3] of J2 on B.Cu
+    @(229.1000 mm, 84.2900 mm): Pad 196 [PWR_GOOD] of J2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(228.8000 mm, 84.2900 mm): Pad 195 [PWR_GOOD] of J2 on F.Cu
+    @(229.4000 mm, 84.2900 mm): Pad 197 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(229.1000 mm, 84.2900 mm): Pad 196 [PWR_GOOD] of J2 on B.Cu
+    @(229.7000 mm, 84.2900 mm): Pad 198 [GND] of J2 on B.Cu
+[lib_footprint_mismatch]: Footprint 'IDC-Header_2x25_P2.54mm_Latch6.5mm_Vertical' does not match copy in library 'Connector_IDC'.
+    Local override; warning
+    @(114.0000 mm, 111.0400 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'IDC-Header_2x15-1MP_P2.54mm_Latch_Vertical' does not match copy in library 'Connector_IDC'.
+    Local override; warning
+    @(279.9400 mm, 84.5600 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'SODIMM-200_2.5V_Card_edge' does not match copy in library 'Connector_PCBEdge'.
+    Local override; warning
+    @(167.0000 mm, 84.2900 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'IDC-Header_2x08_P2.54mm_Latch12.0mm_Vertical' does not match copy in library 'Connector_IDC'.
+    Local override; warning
+    @(271.4600 mm, 134.7600 mm): Footprint J5
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; error
+    @(232.4500 mm, 63.6650 mm): Segment of J2 on Edge.Cuts
+
+** Found 297 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(226.4000 mm, 84.2900 mm): Pad 187 [VCC_1V8] of J2 on F.Cu
+    @(226.1000 mm, 84.2900 mm): Pad 186 [VCC_1V8] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(211.1000 mm, 84.2900 mm): Pad 136 [VCC_1V8] of J2 on B.Cu
+    @(210.8000 mm, 84.2900 mm): Pad 135 [VCC_1V8] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(192.8400 mm, 213.5400 mm): PTH pad 18 [VCC_1V8] of J10
+    @(192.8400 mm, 216.0800 mm): PTH pad 17 [VCC_1V8] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(319.9000 mm, 213.5400 mm): PTH pad 9 [VCC_1V8] of J6
+    @(322.4400 mm, 216.0800 mm): PTH pad 8 [VCC_1V8] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(238.5600 mm, 213.5400 mm): PTH pad 54 [VCC_1V8] of J10
+    @(241.1000 mm, 216.0800 mm): PTH pad 55 [VCC_1V8] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.0800 mm, 213.5400 mm): PTH pad 8 [VCC_1V8] of J9
+    @(71.6200 mm, 216.0800 mm): PTH pad 9 [VCC_1V8] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(226.1000 mm, 84.2900 mm): Pad 186 [VCC_1V8] of J2 on B.Cu
+    @(211.1000 mm, 84.2900 mm): Pad 136 [VCC_1V8] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(238.5600 mm, 213.5400 mm): PTH pad 54 [VCC_1V8] of J10
+    @(192.8400 mm, 213.5400 mm): PTH pad 18 [VCC_1V8] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(319.9000 mm, 213.5400 mm): PTH pad 9 [VCC_1V8] of J6
+    @(241.1000 mm, 216.0800 mm): PTH pad 55 [VCC_1V8] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.6200 mm, 216.0800 mm): PTH pad 9 [VCC_1V8] of J9
+    @(192.8400 mm, 216.0800 mm): PTH pad 17 [VCC_1V8] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(226.4000 mm, 84.2900 mm): Pad 187 [VCC_1V8] of J2 on F.Cu
+    @(238.5600 mm, 213.5400 mm): PTH pad 54 [VCC_1V8] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(230.0000 mm, 84.2900 mm): Pad 199 [GND] of J2 on F.Cu
+    @(230.3000 mm, 84.2900 mm): Pad 200 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(209.0000 mm, 84.2900 mm): Pad 129 [GND] of J2 on F.Cu
+    @(208.7000 mm, 84.2900 mm): Pad 128 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(209.0000 mm, 84.2900 mm): Pad 129 [GND] of J2 on F.Cu
+    @(209.3000 mm, 84.2900 mm): Pad 130 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(208.7000 mm, 84.2900 mm): Pad 128 [GND] of J2 on B.Cu
+    @(208.4000 mm, 84.2900 mm): Pad 127 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(213.2000 mm, 84.2900 mm): Pad 143 [GND] of J2 on F.Cu
+    @(213.5000 mm, 84.2900 mm): Pad 144 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(229.7000 mm, 84.2900 mm): Pad 198 [GND] of J2 on B.Cu
+    @(229.4000 mm, 84.2900 mm): Pad 197 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(213.5000 mm, 84.2900 mm): Pad 144 [GND] of J2 on B.Cu
+    @(213.8000 mm, 84.2900 mm): Pad 145 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(213.8000 mm, 84.2900 mm): Pad 145 [GND] of J2 on F.Cu
+    @(214.1000 mm, 84.2900 mm): Pad 146 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(224.0000 mm, 84.2900 mm): Pad 179 [GND] of J2 on F.Cu
+    @(224.3000 mm, 84.2900 mm): Pad 180 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(224.3000 mm, 84.2900 mm): Pad 180 [GND] of J2 on B.Cu
+    @(224.6000 mm, 84.2900 mm): Pad 181 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(224.6000 mm, 84.2900 mm): Pad 181 [GND] of J2 on F.Cu
+    @(224.9000 mm, 84.2900 mm): Pad 182 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(229.7000 mm, 84.2900 mm): Pad 198 [GND] of J2 on B.Cu
+    @(230.0000 mm, 84.2900 mm): Pad 199 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(205.5400 mm, 213.5400 mm): PTH pad 28 [GND] of J10
+    @(203.0000 mm, 213.5400 mm): PTH pad 26 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(205.5400 mm, 216.0800 mm): PTH pad 27 [GND] of J10
+    @(205.5400 mm, 213.5400 mm): PTH pad 28 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(307.2000 mm, 213.5400 mm): PTH pad 19 [GND] of J6
+    @(304.6600 mm, 213.5400 mm): PTH pad 21 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.5200 mm, 213.5400 mm): PTH pad 80 [GND] of J9
+    @(157.9800 mm, 213.5400 mm): PTH pad 78 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(307.2000 mm, 216.0800 mm): PTH pad 20 [GND] of J6
+    @(307.2000 mm, 213.5400 mm): PTH pad 19 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.5200 mm, 216.0800 mm): PTH pad 79 [GND] of J9
+    @(160.5200 mm, 213.5400 mm): PTH pad 80 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(327.5200 mm, 216.0800 mm): PTH pad 4 [GND] of J6
+    @(327.5200 mm, 213.5400 mm): PTH pad 3 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(230.9400 mm, 216.0800 mm): PTH pad 47 [GND] of J10
+    @(230.9400 mm, 213.5400 mm): PTH pad 48 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(290.1000 mm, 82.0200 mm): PTH pad 10 [GND] of J4
+    @(287.5600 mm, 82.0200 mm): PTH pad 8 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.6800 mm, 216.0800 mm): PTH pad 9 [GND] of J10
+    @(182.6800 mm, 213.5400 mm): PTH pad 10 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(233.4800 mm, 213.5400 mm): PTH pad 50 [GND] of J10
+    @(230.9400 mm, 213.5400 mm): PTH pad 48 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(327.5200 mm, 213.5400 mm): PTH pad 3 [GND] of J6
+    @(330.0600 mm, 213.5400 mm): PTH pad 1 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(203.0000 mm, 213.5400 mm): PTH pad 26 [GND] of J10
+    @(203.0000 mm, 216.0800 mm): PTH pad 25 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(233.4800 mm, 216.0800 mm): PTH pad 49 [GND] of J10
+    @(233.4800 mm, 213.5400 mm): PTH pad 50 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 111.0400 mm): PTH pad 1 [GND] of J3
+    @(116.5400 mm, 111.0400 mm): PTH pad 2 [GND] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(315.5000 mm, 84.5600 mm): PTH pad 29 [GND] of J4
+    @(315.5000 mm, 82.0200 mm): PTH pad 30 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(269.0400 mm, 213.5400 mm): PTH pad 78 [GND] of J10
+    @(269.0400 mm, 216.0800 mm): PTH pad 77 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.5800 mm, 216.0800 mm): PTH pad 79 [GND] of J10
+    @(271.5800 mm, 213.5400 mm): PTH pad 80 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.5800 mm, 213.5400 mm): PTH pad 80 [GND] of J10
+    @(269.0400 mm, 213.5400 mm): PTH pad 78 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(185.2200 mm, 213.5400 mm): PTH pad 12 [GND] of J10
+    @(182.6800 mm, 213.5400 mm): PTH pad 10 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(185.2200 mm, 216.0800 mm): PTH pad 11 [GND] of J10
+    @(185.2200 mm, 213.5400 mm): PTH pad 12 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.9800 mm, 216.0800 mm): PTH pad 77 [GND] of J9
+    @(157.9800 mm, 213.5400 mm): PTH pad 78 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(330.0600 mm, 216.0800 mm): PTH pad 2 [GND] of J6
+    @(330.0600 mm, 213.5400 mm): PTH pad 1 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(304.6600 mm, 216.0800 mm): PTH pad 22 [GND] of J6
+    @(304.6600 mm, 213.5400 mm): PTH pad 21 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(282.4800 mm, 82.0200 mm): PTH pad 4 [GND] of J4
+    @(279.9400 mm, 82.0200 mm): PTH pad 2 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.4600 mm, 213.5400 mm): PTH pad 2 [GND] of J9
+    @(64.0000 mm, 213.5400 mm): PTH pad 4 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(305.3400 mm, 84.5600 mm): PTH pad 21 [GND] of J4
+    @(305.3400 mm, 82.0200 mm): PTH pad 22 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(64.0000 mm, 213.5400 mm): PTH pad 4 [GND] of J9
+    @(64.0000 mm, 216.0800 mm): PTH pad 3 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(287.5600 mm, 82.0200 mm): PTH pad 8 [GND] of J4
+    @(285.0200 mm, 82.0200 mm): PTH pad 6 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(292.6400 mm, 82.0200 mm): PTH pad 12 [GND] of J4
+    @(290.1000 mm, 82.0200 mm): PTH pad 10 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(302.1200 mm, 216.0800 mm): PTH pad 24 [GND] of J6
+    @(304.6600 mm, 216.0800 mm): PTH pad 22 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(285.0200 mm, 82.0200 mm): PTH pad 6 [GND] of J4
+    @(282.4800 mm, 82.0200 mm): PTH pad 4 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.4600 mm, 213.5400 mm): PTH pad 2 [GND] of J9
+    @(61.4600 mm, 216.0800 mm): PTH pad 1 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(213.2000 mm, 84.2900 mm): Pad 143 [GND] of J2 on F.Cu
+    @(209.3000 mm, 84.2900 mm): Pad 130 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(224.9000 mm, 84.2900 mm): Pad 182 [GND] of J2 on B.Cu
+    @(229.4000 mm, 84.2900 mm): Pad 197 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.9800 mm, 213.5400 mm): PTH pad 78 [GND] of J9
+    @(152.9000 mm, 213.5400 mm): PTH pad 74 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(208.4000 mm, 84.2900 mm): Pad 127 [GND] of J2 on F.Cu
+    @(200.9000 mm, 84.2900 mm): Pad 102 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(214.1000 mm, 84.2900 mm): Pad 146 [GND] of J2 on B.Cu
+    @(224.0000 mm, 84.2900 mm): Pad 179 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(315.5000 mm, 84.5600 mm): PTH pad 29 [GND] of J4
+    @(305.3400 mm, 84.5600 mm): PTH pad 21 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(305.3400 mm, 82.0200 mm): PTH pad 22 [GND] of J4
+    @(292.6400 mm, 82.0200 mm): PTH pad 12 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.7000 mm, 84.2900 mm): Pad 48 [GND] of J2 on B.Cu
+    @(200.9000 mm, 84.2900 mm): Pad 102 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(185.2200 mm, 213.5400 mm): PTH pad 12 [GND] of J10
+    @(203.0000 mm, 213.5400 mm): PTH pad 26 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 152.5400 mm): PTH pad 16 [GND] of J5
+    @(271.4600 mm, 134.7600 mm): PTH pad 1 [GND] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.3200 mm, 213.5400 mm): PTH pad 20 [GND] of J9
+    @(64.0000 mm, 213.5400 mm): PTH pad 4 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(307.2000 mm, 213.5400 mm): PTH pad 19 [GND] of J6
+    @(327.5200 mm, 213.5400 mm): PTH pad 3 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.6800 mm, 213.5400 mm): PTH pad 10 [GND] of J10
+    @(160.5200 mm, 213.5400 mm): PTH pad 80 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(230.9400 mm, 213.5400 mm): PTH pad 48 [GND] of J10
+    @(205.5400 mm, 213.5400 mm): PTH pad 28 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.5800 mm, 216.0800 mm): PTH pad 79 [GND] of J10
+    @(302.1200 mm, 216.0800 mm): PTH pad 24 [GND] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(233.4800 mm, 213.5400 mm): PTH pad 50 [GND] of J10
+    @(269.0400 mm, 213.5400 mm): PTH pad 78 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(230.3000 mm, 84.2900 mm): Pad 200 [GND] of J2 on B.Cu
+    @(279.9400 mm, 82.0200 mm): PTH pad 2 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.4600 mm, 134.7600 mm): PTH pad 1 [GND] of J5
+    @(279.9400 mm, 82.0200 mm): PTH pad 2 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 152.5400 mm): PTH pad 16 [GND] of J5
+    @(271.5800 mm, 213.5400 mm): PTH pad 80 [GND] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.3200 mm, 213.5400 mm): PTH pad 20 [GND] of J9
+    @(152.9000 mm, 213.5400 mm): PTH pad 74 [GND] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5400 mm, 111.0400 mm): PTH pad 2 [GND] of J3
+    @(184.7000 mm, 84.2900 mm): Pad 48 [GND] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.8200 mm, 216.0800 mm): PTH pad 69 [I2S_BCLK] of J9
+    @(199.4000 mm, 84.2900 mm): Pad 97 [I2S_BCLK] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 118.6600 mm): PTH pad 7 [MDIO] of J3
+    @(205.4000 mm, 84.2900 mm): Pad 117 [MDIO] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(295.1800 mm, 82.0200 mm): PTH pad 14 [DBG_SWCLK] of J4
+    @(220.1000 mm, 84.2900 mm): Pad 166 [DBG_SWCLK] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(220.1000 mm, 84.2900 mm): Pad 166 [DBG_SWCLK] of J2 on B.Cu
+    @(213.1600 mm, 213.5400 mm): PTH pad 34 [DBG_SWCLK] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.1000 mm, 216.0800 mm): PTH pad 33 [GPIO0] of J9
+    @(188.6000 mm, 84.2900 mm): Pad 61 [GPIO0] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(302.8000 mm, 84.5600 mm): PTH pad 19 [MOD_TYPE0] of J4
+    @(223.1000 mm, 84.2900 mm): Pad 176 [MOD_TYPE0] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(223.1000 mm, 84.2900 mm): Pad 176 [MOD_TYPE0] of J2 on B.Cu
+    @(225.8600 mm, 213.5400 mm): PTH pad 44 [MOD_TYPE0] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 142.3800 mm): PTH pad 8 [SDIO_D3] of J5
+    @(207.5000 mm, 84.2900 mm): Pad 124 [SDIO_D3] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.6000 mm, 213.5400 mm): PTH pad 6 [SDIO_D3] of J10
+    @(274.0000 mm, 142.3800 mm): PTH pad 8 [SDIO_D3] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(218.6000 mm, 84.2900 mm): Pad 161 [RESERVED] of J2 on F.Cu
+    @(218.3000 mm, 84.2900 mm): Pad 160 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(217.4000 mm, 84.2900 mm): Pad 157 [RESERVED] of J2 on F.Cu
+    @(217.1000 mm, 84.2900 mm): Pad 156 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(217.1000 mm, 84.2900 mm): Pad 156 [RESERVED] of J2 on B.Cu
+    @(216.8000 mm, 84.2900 mm): Pad 155 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(217.7000 mm, 84.2900 mm): Pad 158 [RESERVED] of J2 on B.Cu
+    @(217.4000 mm, 84.2900 mm): Pad 157 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(215.3000 mm, 84.2900 mm): Pad 150 [RESERVED] of J2 on B.Cu
+    @(215.0000 mm, 84.2900 mm): Pad 149 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(218.0000 mm, 84.2900 mm): Pad 159 [RESERVED] of J2 on F.Cu
+    @(217.7000 mm, 84.2900 mm): Pad 158 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(208.1000 mm, 84.2900 mm): Pad 126 [RESERVED] of J2 on B.Cu
+    @(207.8000 mm, 84.2900 mm): Pad 125 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(218.3000 mm, 84.2900 mm): Pad 160 [RESERVED] of J2 on B.Cu
+    @(218.0000 mm, 84.2900 mm): Pad 159 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(215.6000 mm, 84.2900 mm): Pad 151 [RESERVED] of J2 on F.Cu
+    @(215.3000 mm, 84.2900 mm): Pad 150 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(218.9000 mm, 84.2900 mm): Pad 162 [RESERVED] of J2 on B.Cu
+    @(218.6000 mm, 84.2900 mm): Pad 161 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(215.9000 mm, 84.2900 mm): Pad 152 [RESERVED] of J2 on B.Cu
+    @(215.6000 mm, 84.2900 mm): Pad 151 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(216.8000 mm, 84.2900 mm): Pad 155 [RESERVED] of J2 on F.Cu
+    @(216.5000 mm, 84.2900 mm): Pad 154 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(219.2000 mm, 84.2900 mm): Pad 163 [RESERVED] of J2 on F.Cu
+    @(218.9000 mm, 84.2900 mm): Pad 162 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(219.5000 mm, 84.2900 mm): Pad 164 [RESERVED] of J2 on B.Cu
+    @(219.2000 mm, 84.2900 mm): Pad 163 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(216.2000 mm, 84.2900 mm): Pad 153 [RESERVED] of J2 on F.Cu
+    @(215.9000 mm, 84.2900 mm): Pad 152 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(216.5000 mm, 84.2900 mm): Pad 154 [RESERVED] of J2 on B.Cu
+    @(216.2000 mm, 84.2900 mm): Pad 153 [RESERVED] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(266.5000 mm, 213.5400 mm): PTH pad 76 [RESERVED] of J10
+    @(263.9600 mm, 213.5400 mm): PTH pad 74 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(261.4200 mm, 213.5400 mm): PTH pad 72 [RESERVED] of J10
+    @(258.8800 mm, 213.5400 mm): PTH pad 70 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(261.4200 mm, 216.0800 mm): PTH pad 71 [RESERVED] of J10
+    @(261.4200 mm, 213.5400 mm): PTH pad 72 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(263.9600 mm, 216.0800 mm): PTH pad 73 [RESERVED] of J10
+    @(263.9600 mm, 213.5400 mm): PTH pad 74 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(263.9600 mm, 213.5400 mm): PTH pad 74 [RESERVED] of J10
+    @(261.4200 mm, 213.5400 mm): PTH pad 72 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(266.5000 mm, 216.0800 mm): PTH pad 75 [RESERVED] of J10
+    @(266.5000 mm, 213.5400 mm): PTH pad 76 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(253.8000 mm, 213.5400 mm): PTH pad 66 [RESERVED] of J10
+    @(256.3400 mm, 213.5400 mm): PTH pad 68 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(258.8800 mm, 213.5400 mm): PTH pad 70 [RESERVED] of J10
+    @(258.8800 mm, 216.0800 mm): PTH pad 69 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(258.8800 mm, 213.5400 mm): PTH pad 70 [RESERVED] of J10
+    @(256.3400 mm, 213.5400 mm): PTH pad 68 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(256.3400 mm, 213.5400 mm): PTH pad 68 [RESERVED] of J10
+    @(256.3400 mm, 216.0800 mm): PTH pad 67 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(253.8000 mm, 213.5400 mm): PTH pad 66 [RESERVED] of J10
+    @(253.8000 mm, 216.0800 mm): PTH pad 65 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.6200 mm, 213.5400 mm): PTH pad 32 [RESERVED] of J10
+    @(210.6200 mm, 216.0800 mm): PTH pad 31 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.1400 mm, 216.0800 mm): PTH pad 7 [RESERVED] of J10
+    @(180.1400 mm, 213.5400 mm): PTH pad 8 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.4400 mm, 213.5400 mm): PTH pad 76 [RESERVED] of J9
+    @(155.4400 mm, 216.0800 mm): PTH pad 75 [RESERVED] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(215.0000 mm, 84.2900 mm): Pad 149 [RESERVED] of J2 on F.Cu
+    @(208.1000 mm, 84.2900 mm): Pad 126 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.4400 mm, 213.5400 mm): PTH pad 76 [RESERVED] of J9
+    @(180.1400 mm, 213.5400 mm): PTH pad 8 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.1400 mm, 213.5400 mm): PTH pad 8 [RESERVED] of J10
+    @(210.6200 mm, 213.5400 mm): PTH pad 32 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(253.8000 mm, 213.5400 mm): PTH pad 66 [RESERVED] of J10
+    @(210.6200 mm, 213.5400 mm): PTH pad 32 [RESERVED] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.6200 mm, 213.5400 mm): PTH pad 32 [RESERVED] of J10
+    @(208.1000 mm, 84.2900 mm): Pad 126 [RESERVED] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(205.7000 mm, 84.2900 mm): Pad 118 [NET_CTL2_ODD] of J2 on B.Cu
+    @(205.1000 mm, 84.2900 mm): Pad 116 [NET_CTL2_ODD] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 136.4400 mm): PTH pad 21 [NET_CTL2_ODD] of J3
+    @(114.0000 mm, 138.9800 mm): PTH pad 23 [NET_CTL2_ODD] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(205.1000 mm, 84.2900 mm): Pad 116 [NET_CTL2_ODD] of J2 on B.Cu
+    @(114.0000 mm, 136.4400 mm): PTH pad 21 [NET_CTL2_ODD] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.4600 mm, 142.3800 mm): PTH pad 7 [SDIO_D2] of J5
+    @(207.2000 mm, 84.2900 mm): Pad 123 [SDIO_D2] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.6000 mm, 216.0800 mm): PTH pad 5 [SDIO_D2] of J10
+    @(271.4600 mm, 142.3800 mm): PTH pad 7 [SDIO_D2] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(227.9000 mm, 84.2900 mm): Pad 192 [VIO_BANK1] of J2 on B.Cu
+    @(212.3000 mm, 84.2900 mm): Pad 140 [VIO_BANK1] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(197.9200 mm, 213.5400 mm): PTH pad 22 [VIO_BANK1] of J10
+    @(246.1800 mm, 213.5400 mm): PTH pad 60 [VIO_BANK1] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(314.8200 mm, 216.0800 mm): PTH pad 14 [VIO_BANK1] of J6
+    @(246.1800 mm, 213.5400 mm): PTH pad 60 [VIO_BANK1] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(212.3000 mm, 84.2900 mm): Pad 140 [VIO_BANK1] of J2 on B.Cu
+    @(197.9200 mm, 213.5400 mm): PTH pad 22 [VIO_BANK1] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.8200 mm, 213.5400 mm): PTH pad 70 [I2S_LRCLK] of J9
+    @(199.7000 mm, 84.2900 mm): Pad 98 [I2S_LRCLK] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.3600 mm, 216.0800 mm): PTH pad 71 [I2S_DOUT] of J9
+    @(200.0000 mm, 84.2900 mm): Pad 99 [I2S_DOUT] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.3400 mm, 216.0800 mm): PTH pad 45 [GPIO6] of J9
+    @(192.2000 mm, 84.2900 mm): Pad 73 [GPIO6] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 131.3600 mm): PTH pad 17 [NET_CTL0_ODD] of J3
+    @(204.2000 mm, 84.2900 mm): Pad 113 [NET_CTL0_ODD] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.5000 mm, 84.2900 mm): Pad 134 [VCC_3V3] of J2 on B.Cu
+    @(210.2000 mm, 84.2900 mm): Pad 133 [VCC_3V3] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(226.7000 mm, 84.2900 mm): Pad 188 [VCC_3V3] of J2 on B.Cu
+    @(225.8000 mm, 84.2900 mm): Pad 185 [VCC_3V3] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.3000 mm, 213.5400 mm): PTH pad 16 [VCC_3V3] of J10
+    @(190.3000 mm, 216.0800 mm): PTH pad 15 [VCC_3V3] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 113.5800 mm): PTH pad 3 [VCC_3V3] of J3
+    @(116.5400 mm, 113.5800 mm): PTH pad 4 [VCC_3V3] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(241.1000 mm, 213.5400 mm): PTH pad 56 [VCC_3V3] of J10
+    @(238.5600 mm, 216.0800 mm): PTH pad 53 [VCC_3V3] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.0800 mm, 216.0800 mm): PTH pad 7 [VCC_3V3] of J9
+    @(71.6200 mm, 213.5400 mm): PTH pad 10 [VCC_3V3] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(319.9000 mm, 216.0800 mm): PTH pad 10 [VCC_3V3] of J6
+    @(322.4400 mm, 213.5400 mm): PTH pad 7 [VCC_3V3] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(225.8000 mm, 84.2900 mm): Pad 185 [VCC_3V3] of J2 on F.Cu
+    @(210.5000 mm, 84.2900 mm): Pad 134 [VCC_3V3] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.3000 mm, 216.0800 mm): PTH pad 15 [VCC_3V3] of J10
+    @(238.5600 mm, 216.0800 mm): PTH pad 53 [VCC_3V3] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 134.7600 mm): PTH pad 2 [VCC_3V3] of J5
+    @(226.7000 mm, 84.2900 mm): Pad 188 [VCC_3V3] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(241.1000 mm, 213.5400 mm): PTH pad 56 [VCC_3V3] of J10
+    @(319.9000 mm, 216.0800 mm): PTH pad 10 [VCC_3V3] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 134.7600 mm): PTH pad 2 [VCC_3V3] of J5
+    @(241.1000 mm, 213.5400 mm): PTH pad 56 [VCC_3V3] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.2000 mm, 84.2900 mm): Pad 133 [VCC_3V3] of J2 on F.Cu
+    @(116.5400 mm, 113.5800 mm): PTH pad 4 [VCC_3V3] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.6200 mm, 213.5400 mm): PTH pad 10 [VCC_3V3] of J9
+    @(114.0000 mm, 113.5800 mm): PTH pad 3 [VCC_3V3] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(297.7200 mm, 82.0200 mm): PTH pad 16 [DBG_UART_RX] of J4
+    @(222.5000 mm, 84.2900 mm): Pad 174 [DBG_UART_RX] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(222.5000 mm, 84.2900 mm): Pad 174 [DBG_UART_RX] of J2 on B.Cu
+    @(223.3200 mm, 213.5400 mm): PTH pad 42 [DBG_UART_RX] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(229.1000 mm, 84.2900 mm): Pad 196 [PWR_GOOD] of J2 on B.Cu
+    @(228.8000 mm, 84.2900 mm): Pad 195 [PWR_GOOD] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(309.7400 mm, 216.0800 mm): PTH pad 18 [PWR_GOOD] of J6
+    @(309.7400 mm, 213.5400 mm): PTH pad 17 [PWR_GOOD] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(251.2600 mm, 216.0800 mm): PTH pad 63 [PWR_GOOD] of J10
+    @(251.2600 mm, 213.5400 mm): PTH pad 64 [PWR_GOOD] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(251.2600 mm, 213.5400 mm): PTH pad 64 [PWR_GOOD] of J10
+    @(309.7400 mm, 213.5400 mm): PTH pad 17 [PWR_GOOD] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(251.2600 mm, 213.5400 mm): PTH pad 64 [PWR_GOOD] of J10
+    @(229.1000 mm, 84.2900 mm): Pad 196 [PWR_GOOD] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 133.9000 mm): PTH pad 19 [NET_CTL1_ODD] of J3
+    @(204.5000 mm, 84.2900 mm): Pad 114 [NET_CTL1_ODD] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.5000 mm, 216.0800 mm): PTH pad 53 [PWM2] of J9
+    @(194.6000 mm, 84.2900 mm): Pad 81 [PWM2] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.2000 mm, 216.0800 mm): PTH pad 63 [AIN2] of J9
+    @(197.6000 mm, 84.2900 mm): Pad 91 [AIN2] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.9400 mm, 213.5400 mm): PTH pad 26 [SPI0_CS2] of J9
+    @(186.5000 mm, 84.2900 mm): Pad 54 [SPI0_CS2] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.3200 mm, 216.0800 mm): PTH pad 19 [UART0_RI] of J9
+    @(184.4000 mm, 84.2900 mm): Pad 47 [UART0_RI] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.5000 mm, 213.5400 mm): PTH pad 54 [PWM6] of J9
+    @(194.9000 mm, 84.2900 mm): Pad 82 [PWM6] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5400 mm, 121.2000 mm): PTH pad 10 [NET_D0_EVEN] of J3
+    @(201.5000 mm, 84.2900 mm): Pad 104 [NET_D0_EVEN] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.7800 mm, 213.5400 mm): PTH pad 18 [UART0_DCD] of J9
+    @(184.1000 mm, 84.2900 mm): Pad 46 [UART0_DCD] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.2000 mm, 213.5400 mm): PTH pad 64 [AIN6] of J9
+    @(197.9000 mm, 84.2900 mm): Pad 92 [AIN6] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(282.4800 mm, 84.5600 mm): PTH pad 3 [DBG_TMS] of J4
+    @(220.7000 mm, 84.2900 mm): Pad 168 [DBG_TMS] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(220.7000 mm, 84.2900 mm): Pad 168 [DBG_TMS] of J2 on B.Cu
+    @(215.7000 mm, 213.5400 mm): PTH pad 36 [DBG_TMS] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(228.5000 mm, 84.2900 mm): Pad 194 [VIO_BANK3] of J2 on B.Cu
+    @(212.9000 mm, 84.2900 mm): Pad 142 [VIO_BANK3] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(200.4600 mm, 213.5400 mm): PTH pad 24 [VIO_BANK3] of J10
+    @(248.7200 mm, 213.5400 mm): PTH pad 62 [VIO_BANK3] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(312.2800 mm, 216.0800 mm): PTH pad 16 [VIO_BANK3] of J6
+    @(248.7200 mm, 213.5400 mm): PTH pad 62 [VIO_BANK3] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(212.9000 mm, 84.2900 mm): Pad 142 [VIO_BANK3] of J2 on B.Cu
+    @(200.4600 mm, 213.5400 mm): PTH pad 24 [VIO_BANK3] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.4000 mm, 216.0800 mm): PTH pad 23 [SPI0_MISO] of J9
+    @(185.6000 mm, 84.2900 mm): Pad 51 [SPI0_MISO] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(206.6000 mm, 84.2900 mm): Pad 121 [SDIO_CLK] of J2 on F.Cu
+    @(206.0000 mm, 84.2900 mm): Pad 119 [SDIO_CLK] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.4600 mm, 139.8400 mm): PTH pad 5 [SDIO_CLK] of J5
+    @(271.4600 mm, 137.3000 mm): PTH pad 3 [SDIO_CLK] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.5200 mm, 216.0800 mm): PTH pad 1 [SDIO_CLK] of J10
+    @(175.0600 mm, 216.0800 mm): PTH pad 3 [SDIO_CLK] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.4600 mm, 137.3000 mm): PTH pad 3 [SDIO_CLK] of J5
+    @(206.6000 mm, 84.2900 mm): Pad 121 [SDIO_CLK] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.0600 mm, 216.0800 mm): PTH pad 3 [SDIO_CLK] of J10
+    @(271.4600 mm, 139.8400 mm): PTH pad 5 [SDIO_CLK] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.1800 mm, 213.5400 mm): PTH pad 38 [GPIO10] of J9
+    @(190.1000 mm, 84.2900 mm): Pad 66 [GPIO10] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.9600 mm, 216.0800 mm): PTH pad 51 [PWM1] of J9
+    @(194.0000 mm, 84.2900 mm): Pad 79 [PWM1] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.4200 mm, 216.0800 mm): PTH pad 49 [PWM0] of J9
+    @(193.4000 mm, 84.2900 mm): Pad 77 [PWM0] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.4800 mm, 216.0800 mm): PTH pad 27 [SPI1_SCK] of J9
+    @(186.8000 mm, 84.2900 mm): Pad 55 [SPI1_SCK] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5400 mm, 131.3600 mm): PTH pad 18 [NET_CTL0_EVEN] of J3
+    @(202.1000 mm, 84.2900 mm): Pad 106 [NET_CTL0_EVEN] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(279.9400 mm, 84.5600 mm): PTH pad 1 [DBG_VREF] of J4
+    @(221.9000 mm, 84.2900 mm): Pad 172 [DBG_VREF] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(221.9000 mm, 84.2900 mm): Pad 172 [DBG_VREF] of J2 on B.Cu
+    @(220.7800 mm, 213.5400 mm): PTH pad 40 [DBG_VREF] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.6400 mm, 216.0800 mm): PTH pad 35 [GPIO1] of J9
+    @(189.2000 mm, 84.2900 mm): Pad 63 [GPIO1] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(211.7000 mm, 84.2900 mm): Pad 138 [VREF_IO] of J2 on B.Cu
+    @(211.4000 mm, 84.2900 mm): Pad 137 [VREF_IO] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(227.3000 mm, 84.2900 mm): Pad 190 [VREF_IO] of J2 on B.Cu
+    @(227.0000 mm, 84.2900 mm): Pad 189 [VREF_IO] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(243.6400 mm, 213.5400 mm): PTH pad 58 [VREF_IO] of J10
+    @(243.6400 mm, 216.0800 mm): PTH pad 57 [VREF_IO] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.3800 mm, 216.0800 mm): PTH pad 19 [VREF_IO] of J10
+    @(195.3800 mm, 213.5400 mm): PTH pad 20 [VREF_IO] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.1600 mm, 213.5400 mm): PTH pad 12 [VREF_IO] of J9
+    @(74.1600 mm, 216.0800 mm): PTH pad 11 [VREF_IO] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(317.3600 mm, 216.0800 mm): PTH pad 12 [VREF_IO] of J6
+    @(317.3600 mm, 213.5400 mm): PTH pad 11 [VREF_IO] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(227.0000 mm, 84.2900 mm): Pad 189 [VREF_IO] of J2 on F.Cu
+    @(211.7000 mm, 84.2900 mm): Pad 138 [VREF_IO] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(243.6400 mm, 213.5400 mm): PTH pad 58 [VREF_IO] of J10
+    @(195.3800 mm, 213.5400 mm): PTH pad 20 [VREF_IO] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(243.6400 mm, 213.5400 mm): PTH pad 58 [VREF_IO] of J10
+    @(317.3600 mm, 213.5400 mm): PTH pad 11 [VREF_IO] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.1600 mm, 213.5400 mm): PTH pad 12 [VREF_IO] of J9
+    @(195.3800 mm, 213.5400 mm): PTH pad 20 [VREF_IO] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.3800 mm, 213.5400 mm): PTH pad 20 [VREF_IO] of J10
+    @(211.4000 mm, 84.2900 mm): Pad 137 [VREF_IO] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.6600 mm, 216.0800 mm): PTH pad 61 [AIN1] of J9
+    @(197.0000 mm, 84.2900 mm): Pad 89 [AIN1] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.1200 mm, 216.0800 mm): PTH pad 59 [AIN0] of J9
+    @(196.4000 mm, 84.2900 mm): Pad 87 [AIN0] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.7000 mm, 216.0800 mm): PTH pad 13 [UART3_TX] of J9
+    @(182.6000 mm, 84.2900 mm): Pad 41 [UART3_TX] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.0200 mm, 216.0800 mm): PTH pad 29 [SPI1_MISO] of J9
+    @(187.4000 mm, 84.2900 mm): Pad 57 [SPI1_MISO] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(285.0200 mm, 84.5600 mm): PTH pad 5 [DBG_TCK] of J4
+    @(220.4000 mm, 84.2900 mm): Pad 167 [DBG_TCK] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(220.4000 mm, 84.2900 mm): Pad 167 [DBG_TCK] of J2 on F.Cu
+    @(215.7000 mm, 216.0800 mm): PTH pad 35 [DBG_TCK] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(227.6000 mm, 84.2900 mm): Pad 191 [VIO_BANK0] of J2 on F.Cu
+    @(212.0000 mm, 84.2900 mm): Pad 139 [VIO_BANK0] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(197.9200 mm, 216.0800 mm): PTH pad 21 [VIO_BANK0] of J10
+    @(246.1800 mm, 216.0800 mm): PTH pad 59 [VIO_BANK0] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(246.1800 mm, 216.0800 mm): PTH pad 59 [VIO_BANK0] of J10
+    @(314.8200 mm, 213.5400 mm): PTH pad 13 [VIO_BANK0] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(212.0000 mm, 84.2900 mm): Pad 139 [VIO_BANK0] of J2 on F.Cu
+    @(197.9200 mm, 216.0800 mm): PTH pad 21 [VIO_BANK0] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.8600 mm, 213.5400 mm): PTH pad 22 [SPI0_MOSI] of J9
+    @(185.3000 mm, 84.2900 mm): Pad 50 [SPI0_MOSI] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(290.1000 mm, 84.5600 mm): PTH pad 9 [DBG_TDI] of J4
+    @(221.0000 mm, 84.2900 mm): Pad 169 [DBG_TDI] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(221.0000 mm, 84.2900 mm): Pad 169 [DBG_TDI] of J2 on F.Cu
+    @(218.2400 mm, 216.0800 mm): PTH pad 37 [DBG_TDI] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0400 mm, 216.0800 mm): PTH pad 55 [PWM3] of J9
+    @(195.2000 mm, 84.2900 mm): Pad 83 [PWM3] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(225.5000 mm, 84.2900 mm): Pad 184 [VCC_5V] of J2 on B.Cu
+    @(225.2000 mm, 84.2900 mm): Pad 183 [VCC_5V] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(209.9000 mm, 84.2900 mm): Pad 132 [VCC_5V] of J2 on B.Cu
+    @(209.6000 mm, 84.2900 mm): Pad 131 [VCC_5V] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(324.9800 mm, 216.0800 mm): PTH pad 6 [VCC_5V] of J6
+    @(324.9800 mm, 213.5400 mm): PTH pad 5 [VCC_5V] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(236.0200 mm, 213.5400 mm): PTH pad 52 [VCC_5V] of J10
+    @(236.0200 mm, 216.0800 mm): PTH pad 51 [VCC_5V] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.7600 mm, 216.0800 mm): PTH pad 13 [VCC_5V] of J10
+    @(187.7600 mm, 213.5400 mm): PTH pad 14 [VCC_5V] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.5400 mm, 213.5400 mm): PTH pad 6 [VCC_5V] of J9
+    @(66.5400 mm, 216.0800 mm): PTH pad 5 [VCC_5V] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(225.2000 mm, 84.2900 mm): Pad 183 [VCC_5V] of J2 on F.Cu
+    @(209.9000 mm, 84.2900 mm): Pad 132 [VCC_5V] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(236.0200 mm, 213.5400 mm): PTH pad 52 [VCC_5V] of J10
+    @(187.7600 mm, 213.5400 mm): PTH pad 14 [VCC_5V] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(324.9800 mm, 213.5400 mm): PTH pad 5 [VCC_5V] of J6
+    @(236.0200 mm, 213.5400 mm): PTH pad 52 [VCC_5V] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.5400 mm, 213.5400 mm): PTH pad 6 [VCC_5V] of J9
+    @(187.7600 mm, 213.5400 mm): PTH pad 14 [VCC_5V] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(225.5000 mm, 84.2900 mm): Pad 184 [VCC_5V] of J2 on B.Cu
+    @(236.0200 mm, 213.5400 mm): PTH pad 52 [VCC_5V] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.8000 mm, 213.5400 mm): PTH pad 44 [GPIO13] of J9
+    @(191.9000 mm, 84.2900 mm): Pad 72 [GPIO13] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.2600 mm, 213.5400 mm): PTH pad 42 [GPIO12] of J9
+    @(191.3000 mm, 84.2900 mm): Pad 70 [GPIO12] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(297.7200 mm, 84.5600 mm): PTH pad 15 [DBG_UART_TX] of J4
+    @(222.2000 mm, 84.2900 mm): Pad 173 [DBG_UART_TX] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(222.2000 mm, 84.2900 mm): Pad 173 [DBG_UART_TX] of J2 on F.Cu
+    @(223.3200 mm, 216.0800 mm): PTH pad 41 [DBG_UART_TX] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.2400 mm, 216.0800 mm): PTH pad 15 [UART0_CTS] of J9
+    @(183.2000 mm, 84.2900 mm): Pad 43 [UART0_CTS] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(295.1800 mm, 84.5600 mm): PTH pad 13 [DBG_SWDIO] of J4
+    @(219.8000 mm, 84.2900 mm): Pad 165 [DBG_SWDIO] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(219.8000 mm, 84.2900 mm): Pad 165 [DBG_SWDIO] of J2 on F.Cu
+    @(213.1600 mm, 216.0800 mm): PTH pad 33 [DBG_SWDIO] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 137.3000 mm): PTH pad 4 [SDIO_CMD] of J5
+    @(206.3000 mm, 84.2900 mm): Pad 120 [SDIO_CMD] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.5200 mm, 213.5400 mm): PTH pad 2 [SDIO_CMD] of J10
+    @(274.0000 mm, 137.3000 mm): PTH pad 4 [SDIO_CMD] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.5600 mm, 216.0800 mm): PTH pad 31 [SPI1_CS1] of J9
+    @(188.0000 mm, 84.2900 mm): Pad 59 [SPI1_CS1] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.2400 mm, 213.5400 mm): PTH pad 16 [UART0_RTS] of J9
+    @(183.5000 mm, 84.2900 mm): Pad 44 [UART0_RTS] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.7000 mm, 213.5400 mm): PTH pad 14 [UART3_RX] of J9
+    @(182.9000 mm, 84.2900 mm): Pad 42 [UART3_RX] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.9400 mm, 216.0800 mm): PTH pad 25 [SPI0_CS1] of J9
+    @(186.2000 mm, 84.2900 mm): Pad 53 [SPI0_CS1] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.5600 mm, 213.5400 mm): PTH pad 32 [SPI1_CS2] of J9
+    @(188.3000 mm, 84.2900 mm): Pad 60 [SPI1_CS2] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.9600 mm, 213.5400 mm): PTH pad 52 [PWM5] of J9
+    @(194.3000 mm, 84.2900 mm): Pad 80 [PWM5] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.3600 mm, 213.5400 mm): PTH pad 72 [I2S_DIN] of J9
+    @(200.3000 mm, 84.2900 mm): Pad 100 [I2S_DIN] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.7400 mm, 213.5400 mm): PTH pad 66 [AIN7] of J9
+    @(198.5000 mm, 84.2900 mm): Pad 94 [AIN7] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.4200 mm, 213.5400 mm): PTH pad 50 [PWM4] of J9
+    @(193.7000 mm, 84.2900 mm): Pad 78 [PWM4] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.8800 mm, 216.0800 mm): PTH pad 47 [GPIO7] of J9
+    @(192.8000 mm, 84.2900 mm): Pad 75 [GPIO7] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.7800 mm, 216.0800 mm): PTH pad 17 [UART0_DSR] of J9
+    @(183.8000 mm, 84.2900 mm): Pad 45 [UART0_DSR] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.7200 mm, 213.5400 mm): PTH pad 40 [GPIO11] of J9
+    @(190.7000 mm, 84.2900 mm): Pad 68 [GPIO11] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.1000 mm, 213.5400 mm): PTH pad 34 [GPIO8] of J9
+    @(188.9000 mm, 84.2900 mm): Pad 62 [GPIO8] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(271.4600 mm, 152.5400 mm): PTH pad 15 [NET_CMD_EVEN] of J5
+    @(271.4600 mm, 150.0000 mm): PTH pad 13 [NET_CMD_EVEN] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(307.8800 mm, 82.0200 mm): PTH pad 24 [NET_CMD_EVEN] of J4
+    @(307.8800 mm, 84.5600 mm): PTH pad 23 [NET_CMD_EVEN] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(307.8800 mm, 84.5600 mm): PTH pad 23 [NET_CMD_EVEN] of J4
+    @(310.4200 mm, 84.5600 mm): PTH pad 25 [NET_CMD_EVEN] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(310.4200 mm, 84.5600 mm): PTH pad 25 [NET_CMD_EVEN] of J4
+    @(310.4200 mm, 82.0200 mm): PTH pad 26 [NET_CMD_EVEN] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(312.9600 mm, 84.5600 mm): PTH pad 27 [NET_CMD_EVEN] of J4
+    @(310.4200 mm, 84.5600 mm): PTH pad 25 [NET_CMD_EVEN] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(312.9600 mm, 84.5600 mm): PTH pad 27 [NET_CMD_EVEN] of J4
+    @(312.9600 mm, 82.0200 mm): PTH pad 28 [NET_CMD_EVEN] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5400 mm, 123.7400 mm): PTH pad 12 [NET_CMD_EVEN] of J3
+    @(116.5400 mm, 126.2800 mm): PTH pad 14 [NET_CMD_EVEN] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5400 mm, 126.2800 mm): PTH pad 14 [NET_CMD_EVEN] of J3
+    @(116.5400 mm, 128.8200 mm): PTH pad 16 [NET_CMD_EVEN] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5400 mm, 118.6600 mm): PTH pad 8 [NET_CMD_EVEN] of J3
+    @(116.5400 mm, 123.7400 mm): PTH pad 12 [NET_CMD_EVEN] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5400 mm, 128.8200 mm): PTH pad 16 [NET_CMD_EVEN] of J3
+    @(116.5400 mm, 136.4400 mm): PTH pad 22 [NET_CMD_EVEN] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(307.8800 mm, 84.5600 mm): PTH pad 23 [NET_CMD_EVEN] of J4
+    @(271.4600 mm, 150.0000 mm): PTH pad 13 [NET_CMD_EVEN] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(201.8000 mm, 84.2900 mm): Pad 105 [NET_CMD_EVEN] of J2 on F.Cu
+    @(116.5400 mm, 118.6600 mm): PTH pad 8 [NET_CMD_EVEN] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(201.8000 mm, 84.2900 mm): Pad 105 [NET_CMD_EVEN] of J2 on F.Cu
+    @(271.4600 mm, 150.0000 mm): PTH pad 13 [NET_CMD_EVEN] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.2600 mm, 216.0800 mm): PTH pad 41 [GPIO4] of J9
+    @(191.0000 mm, 84.2900 mm): Pad 69 [GPIO4] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(287.5600 mm, 84.5600 mm): PTH pad 7 [DBG_TDO] of J4
+    @(221.3000 mm, 84.2900 mm): Pad 170 [DBG_TDO] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(221.3000 mm, 84.2900 mm): Pad 170 [DBG_TDO] of J2 on B.Cu
+    @(218.2400 mm, 213.5400 mm): PTH pad 38 [DBG_TDO] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.6400 mm, 213.5400 mm): PTH pad 36 [GPIO9] of J9
+    @(189.5000 mm, 84.2900 mm): Pad 64 [GPIO9] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(292.6400 mm, 84.5600 mm): PTH pad 11 [DBG_RESET_N] of J4
+    @(221.6000 mm, 84.2900 mm): Pad 171 [DBG_RESET_N] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(221.6000 mm, 84.2900 mm): Pad 171 [DBG_RESET_N] of J2 on F.Cu
+    @(220.7800 mm, 216.0800 mm): PTH pad 39 [DBG_RESET_N] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.7200 mm, 216.0800 mm): PTH pad 39 [GPIO3] of J9
+    @(190.4000 mm, 84.2900 mm): Pad 67 [GPIO3] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0400 mm, 213.5400 mm): PTH pad 56 [PWM7] of J9
+    @(195.5000 mm, 84.2900 mm): Pad 84 [PWM7] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.0200 mm, 213.5400 mm): PTH pad 30 [SPI1_CS0] of J9
+    @(187.7000 mm, 84.2900 mm): Pad 58 [SPI1_CS0] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(302.8000 mm, 82.0200 mm): PTH pad 20 [MOD_TYPE2] of J4
+    @(223.7000 mm, 84.2900 mm): Pad 178 [MOD_TYPE2] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(223.7000 mm, 84.2900 mm): Pad 178 [MOD_TYPE2] of J2 on B.Cu
+    @(228.4000 mm, 213.5400 mm): PTH pad 46 [MOD_TYPE2] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(228.2000 mm, 84.2900 mm): Pad 193 [VIO_BANK2] of J2 on F.Cu
+    @(212.6000 mm, 84.2900 mm): Pad 141 [VIO_BANK2] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(200.4600 mm, 216.0800 mm): PTH pad 23 [VIO_BANK2] of J10
+    @(248.7200 mm, 216.0800 mm): PTH pad 61 [VIO_BANK2] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(248.7200 mm, 216.0800 mm): PTH pad 61 [VIO_BANK2] of J10
+    @(312.2800 mm, 213.5400 mm): PTH pad 15 [VIO_BANK2] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(212.6000 mm, 84.2900 mm): Pad 141 [VIO_BANK2] of J2 on F.Cu
+    @(200.4600 mm, 216.0800 mm): PTH pad 23 [VIO_BANK2] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.4800 mm, 213.5400 mm): PTH pad 28 [SPI1_MOSI] of J9
+    @(187.1000 mm, 84.2900 mm): Pad 56 [SPI1_MOSI] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.5800 mm, 213.5400 mm): PTH pad 58 [IR_TX_OUT] of J9
+    @(196.1000 mm, 84.2900 mm): Pad 86 [IR_TX_OUT] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.8600 mm, 216.0800 mm): PTH pad 21 [SPI0_SCK] of J9
+    @(185.0000 mm, 84.2900 mm): Pad 49 [SPI0_SCK] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.7400 mm, 216.0800 mm): PTH pad 65 [AIN3] of J9
+    @(198.2000 mm, 84.2900 mm): Pad 93 [AIN3] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 116.1200 mm): PTH pad 5 [NET_CLK_ODD] of J3
+    @(204.8000 mm, 84.2900 mm): Pad 115 [NET_CLK_ODD] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.4000 mm, 213.5400 mm): PTH pad 24 [SPI0_CS0] of J9
+    @(185.9000 mm, 84.2900 mm): Pad 52 [SPI0_CS0] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.8800 mm, 213.5400 mm): PTH pad 48 [GPIO15] of J9
+    @(193.1000 mm, 84.2900 mm): Pad 76 [GPIO15] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 139.8400 mm): PTH pad 6 [SDIO_D1] of J5
+    @(206.9000 mm, 84.2900 mm): Pad 122 [SDIO_D1] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.0600 mm, 213.5400 mm): PTH pad 4 [SDIO_D1] of J10
+    @(274.0000 mm, 139.8400 mm): PTH pad 6 [SDIO_D1] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.2800 mm, 213.5400 mm): PTH pad 68 [AOUT1] of J9
+    @(199.1000 mm, 84.2900 mm): Pad 96 [AOUT1] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(300.2600 mm, 84.5600 mm): PTH pad 17 [MOD_PRESENT_N] of J4
+    @(222.8000 mm, 84.2900 mm): Pad 175 [MOD_PRESENT_N] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(222.8000 mm, 84.2900 mm): Pad 175 [MOD_PRESENT_N] of J2 on F.Cu
+    @(225.8600 mm, 216.0800 mm): PTH pad 43 [MOD_PRESENT_N] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.6600 mm, 213.5400 mm): PTH pad 62 [AIN5] of J9
+    @(197.3000 mm, 84.2900 mm): Pad 90 [AIN5] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(300.2600 mm, 82.0200 mm): PTH pad 18 [MOD_TYPE1] of J4
+    @(223.4000 mm, 84.2900 mm): Pad 177 [MOD_TYPE1] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(223.4000 mm, 84.2900 mm): Pad 177 [MOD_TYPE1] of J2 on F.Cu
+    @(228.4000 mm, 216.0800 mm): PTH pad 45 [MOD_TYPE1] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(214.7000 mm, 84.2900 mm): Pad 148 [CLOCK_0] of J2 on B.Cu
+    @(214.4000 mm, 84.2900 mm): Pad 147 [CLOCK_0] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(208.0800 mm, 213.5400 mm): PTH pad 30 [CLOCK_0] of J10
+    @(208.0800 mm, 216.0800 mm): PTH pad 29 [CLOCK_0] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(214.4000 mm, 84.2900 mm): Pad 147 [CLOCK_0] of J2 on F.Cu
+    @(208.0800 mm, 213.5400 mm): PTH pad 30 [CLOCK_0] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.5800 mm, 216.0800 mm): PTH pad 57 [IR_RX_IN] of J9
+    @(195.8000 mm, 84.2900 mm): Pad 85 [IR_RX_IN] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.3400 mm, 213.5400 mm): PTH pad 46 [GPIO14] of J9
+    @(192.5000 mm, 84.2900 mm): Pad 74 [GPIO14] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.8000 mm, 216.0800 mm): PTH pad 43 [GPIO5] of J9
+    @(191.6000 mm, 84.2900 mm): Pad 71 [GPIO5] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.1200 mm, 213.5400 mm): PTH pad 60 [AIN4] of J9
+    @(196.7000 mm, 84.2900 mm): Pad 88 [AIN4] of J2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.9000 mm, 216.0800 mm): PTH pad 73 [I2S_MCLK] of J9
+    @(200.6000 mm, 84.2900 mm): Pad 101 [I2S_MCLK] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.2800 mm, 216.0800 mm): PTH pad 67 [AOUT0] of J9
+    @(198.8000 mm, 84.2900 mm): Pad 95 [AOUT0] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.1800 mm, 216.0800 mm): PTH pad 37 [GPIO2] of J9
+    @(189.8000 mm, 84.2900 mm): Pad 65 [GPIO2] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 150.0000 mm): PTH pad 14 [UART0_RX] of J5
+    @(286.8800 mm, 216.0800 mm): PTH pad 36 [UART0_RX] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(274.0000 mm, 147.4600 mm): PTH pad 12 [UART0_TX] of J5
+    @(286.8800 mm, 213.5400 mm): PTH pad 35 [UART0_TX] of J6
+
+** Found 3 Footprint errors **
+[missing_footprint]: Missing footprint J1 (SODIMM-200)
+    Local override; warning
+[missing_footprint]: Missing footprint J7 (Conn_02x08_Odd_Even)
+    Local override; warning
+[missing_footprint]: Missing footprint J8 (Conn_01x08_Pin)
+    Local override; warning
+
+** End of Report **
