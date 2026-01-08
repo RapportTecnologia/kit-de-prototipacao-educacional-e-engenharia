@@ -677,20 +677,16 @@
   },
   "sheets": [
     [
-      "51ee32d1-fe48-4676-ab84-bc891947886f",
-      "Power Rails"
-    ],
-    [
-      "4741b4dc-2a05-46d3-a722-9e7e2f449984",
-      "External Power Rails"
-    ],
-    [
       "5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1",
       "Root"
     ],
     [
       "0260e008-78ae-4c2c-85f8-b31739d2ea08",
       "BUSes"
+    ],
+    [
+      "51ee32d1-fe48-4676-ab84-bc891947886f",
+      "Power Rails"
     ],
     [
       "f6e289d8-1e57-42c9-86d8-5b4c62dbd3c6",
@@ -711,6 +707,10 @@
     [
       "3ddfbbf2-c792-4085-8f54-b8dc39bf204d",
       "UCE_External_Bus"
+    ],
+    [
+      "4741b4dc-2a05-46d3-a722-9e7e2f449984",
+      "External Power Rails"
     ]
   ],
   "text_variables": {}

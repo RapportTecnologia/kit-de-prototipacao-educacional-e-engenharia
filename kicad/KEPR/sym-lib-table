@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DC-DC-Converters")(type "KiCad")(uri "${KIPRJMOD}/DC-DC-Converters.kicad_sym")(options "")(descr ""))
+)
