@@ -73,7 +73,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "51ee32d1-fe48-4676-ab84-bc891947886f")
-		(property "Sheetname" "Power Rails"
+		(property "Sheetname" "Power"
 			(at 137.16 19.6084 0)
 			(effects
 				(font
@@ -94,7 +94,49 @@
 		(instances
 			(project "KEPR"
 				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1"
-					(page "A001")
+					(page "A002")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 20.32)
+		(size 81.28 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 23 51 1.0000)
+		)
+		(uuid "fdc41c7f-76d0-4a6a-9947-620e5325b70e")
+		(property "Sheetname" "UCE board"
+			(at 238.76 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UCE_board.kicad_sch"
+			(at 238.76 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KEPR"
+				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1"
+					(page "A003")
 				)
 			)
 		)
