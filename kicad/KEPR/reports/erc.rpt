@@ -1,4 +1,4 @@
-ERC report (2026-01-08T00:47:17+0000, Encoding UTF8)
+ERC report (2026-01-08T23:25:13+0000, Encoding UTF8)
 
 ***** Sheet /
 [lib_symbol_issues]: The current configuration does not include the symbol library '10141995-005RLF'
@@ -178,18 +178,16 @@ ERC report (2026-01-08T00:47:17+0000, Encoding UTF8)
 [label_dangling]: Label not connected to anything
     ; error
     @(45.72 mm, 139.70 mm): Label 'UCE_MCU_VCTL_5V'
-[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+[no_connect_connected]: Pin with 'no connection' type is connected
     ; warning
-    @(106.68 mm, 101.60 mm): Symbol #PWR031 [+3.3V]
+    @(101.60 mm, 109.22 mm): Symbol PS1 Pin 5 [NC, Unconnected, Line]
+    @(101.60 mm, 109.22 mm): Vertical Wire, length 5.08 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(137.16 mm, 68.58 mm): Symbol #PWR02 [+12V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(142.24 mm, 68.58 mm): Symbol #PWR03 [+5V]
-[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
-    ; warning
-    @(121.92 mm, 101.60 mm): Symbol #PWR023 [+12V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
     ; warning
     @(140.97 mm, 76.20 mm): Symbol J25 [PINHD_2x3_Male]
@@ -202,6 +200,10 @@ ERC report (2026-01-08T00:47:17+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(148.59 mm, 68.58 mm): Symbol #PWR04 [+3.3V]
+[no_connect_connected]: Pin with 'no connection' type is connected
+    ; warning
+    @(101.60 mm, 139.70 mm): Symbol PS2 Pin 5 [NC, Unconnected, Line]
+    @(101.60 mm, 139.70 mm): Vertical Wire, length 5.08 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
     ; warning
     @(137.16 mm, 107.95 mm): Symbol J1 [PINHD_1x20_Male]
@@ -232,6 +234,10 @@ ERC report (2026-01-08T00:47:17+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
     ; warning
     @(167.64 mm, 107.95 mm): Symbol J2 [PINHD_1x20_Male]
+[no_connect_connected]: Pin with 'no connection' type is connected
+    ; warning
+    @(101.60 mm, 172.72 mm): Symbol PS3 Pin 5 [NC, Unconnected, Line]
+    @(101.60 mm, 172.72 mm): Vertical Wire, length 5.08 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(203.20 mm, 68.58 mm): Symbol #PWR011 [+12V]
@@ -325,10 +331,213 @@ ERC report (2026-01-08T00:47:17+0000, Encoding UTF8)
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(294.64 mm, 210.82 mm): Vertical Wire, length 2.54 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Shunt Rohm'.
+    ; warning
+    @(60.96 mm, 119.38 mm): Symbol R2 [GMR320HJAAFD5L00]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Shunt Rohm'
+    ; warning
+    @(60.96 mm, 119.38 mm): Symbol R2 [GMR320HJAAFD5L00]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(83.82 mm, 111.76 mm): Symbol #PWR031 [+3.3V]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Shunt Rohm'.
+    ; warning
+    @(60.96 mm, 129.54 mm): Symbol R3 [GMR320HJAAFD5L00]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Shunt Rohm'
+    ; warning
+    @(60.96 mm, 129.54 mm): Symbol R3 [GMR320HJAAFD5L00]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(91.44 mm, 111.76 mm): Symbol #PWR030 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(99.06 mm, 111.76 mm): Symbol #PWR023 [+12V]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Shunt Rohm'.
+    ; warning
+    @(60.96 mm, 139.70 mm): Symbol R4 [GMR320HJAAFD5L00]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Shunt Rohm'
+    ; warning
+    @(60.96 mm, 139.70 mm): Symbol R4 [GMR320HJAAFD5L00]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(142.24 mm, 116.84 mm): Global Label '+12v Shunt'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(200.66 mm, 55.88 mm): Symbol #PWR033 [+3.3V]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistors SMD'.
+    ; warning
+    @(200.66 mm, 71.12 mm): Symbol R1 [CRCW0805100RFKEAC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'CRCW0805100RFKEAC'
+    ; warning
+    @(200.66 mm, 71.12 mm): Symbol R1 [CRCW0805100RFKEAC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Diode'
+    ; warning
+    @(200.66 mm, 88.90 mm): Symbol D1 [BZV55B3V3]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(200.66 mm, 99.06 mm): Symbol #PWR034 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'MCU_ST_STM32G4'
+    ; warning
+    @(213.36 mm, 147.32 mm): Symbol U2 [STM32G484CETx]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor'.
+    ; warning
+    @(137.16 mm, 248.92 mm): Symbol C1 [4.7nF_Ceramic]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Capacitors'
+    ; warning
+    @(137.16 mm, 248.92 mm): Symbol C1 [4.7nF_Ceramic]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(213.36 mm, 193.04 mm): Symbol #PWR036 [GND]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor'.
+    ; warning
+    @(147.32 mm, 248.92 mm): Symbol C2 [4.7nF_Ceramic]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Capacitors'
+    ; warning
+    @(147.32 mm, 248.92 mm): Symbol C2 [4.7nF_Ceramic]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor'.
+    ; warning
+    @(157.48 mm, 248.92 mm): Symbol C3 [4.7nF_Ceramic]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Capacitors'
+    ; warning
+    @(157.48 mm, 248.92 mm): Symbol C3 [4.7nF_Ceramic]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(147.32 mm, 259.08 mm): Symbol #PWR035 [GND]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor'.
+    ; warning
+    @(167.64 mm, 248.92 mm): Symbol C4 [4.7nF_Ceramic]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Capacitors'
+    ; warning
+    @(167.64 mm, 248.92 mm): Symbol C4 [4.7nF_Ceramic]
 
 ***** Sheet /BUSes/
 
-***** Sheet /Power Rails/
+***** Sheet /Power/
+
+***** Sheet /UCE board/
+[multiple_net_names]: Both +3.3V and +3.3v Shunt Out are attached to the same items; +3.3V will be used in the netlist
+    ; warning
+    @(83.82 mm, 111.76 mm): Symbol #PWR031 Pin 1 [Power input, Line]
+    @(78.74 mm, 119.38 mm): Label '+3.3v Shunt Out'
+[multiple_net_names]: Both +12V and 12v Shunt Out are attached to the same items; +12V will be used in the netlist
+    ; warning
+    @(99.06 mm, 111.76 mm): Symbol #PWR023 Pin 1 [Power input, Line]
+    @(81.28 mm, 139.70 mm): Label '12v Shunt Out'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 114.30 mm): Symbol U2 Pin 20 [VREF+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(195.58 mm, 114.30 mm): Symbol U2 Pin 20 [VREF+, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 119.38 mm): Symbol U2 Pin 7 [PG10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 124.46 mm): Symbol U2 Pin 5 [PF0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 127.00 mm): Symbol U2 Pin 6 [PF1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(208.28 mm, 106.68 mm): Symbol U2 Pin 1 [VBAT, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(208.28 mm, 106.68 mm): Symbol U2 Pin 1 [VBAT, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 132.08 mm): Symbol U2 Pin 2 [PC13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 134.62 mm): Symbol U2 Pin 3 [PC14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 137.16 mm): Symbol U2 Pin 4 [PC15, Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(218.44 mm, 106.68 mm): Symbol U2 Pin 21 [VDDA, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 144.78 mm): Symbol U2 Pin 17 [PB1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 149.86 mm): Symbol U2 Pin 40 [PB3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 152.40 mm): Symbol U2 Pin 41 [PB4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 154.94 mm): Symbol U2 Pin 42 [PB5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 157.48 mm): Symbol U2 Pin 43 [PB6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 160.02 mm): Symbol U2 Pin 44 [PB7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 162.56 mm): Symbol U2 Pin 45 [PB8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 165.10 mm): Symbol U2 Pin 46 [PB9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 167.64 mm): Symbol U2 Pin 22 [PB10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 114.30 mm): Symbol U2 Pin 8 [PA0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 170.18 mm): Symbol U2 Pin 25 [PB11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 119.38 mm): Symbol U2 Pin 10 [PA2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 172.72 mm): Symbol U2 Pin 26 [PB12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 124.46 mm): Symbol U2 Pin 12 [PA4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 175.26 mm): Symbol U2 Pin 27 [PB13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 177.80 mm): Symbol U2 Pin 28 [PB14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 129.54 mm): Symbol U2 Pin 14 [PA6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 180.34 mm): Symbol U2 Pin 29 [PB15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 134.62 mm): Symbol U2 Pin 30 [PA8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 137.16 mm): Symbol U2 Pin 31 [PA9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 139.70 mm): Symbol U2 Pin 32 [PA10, Bidirectional, Line]
+[multiple_net_names]: Both +5V and +5v Shunt Out are attached to the same items; +5V will be used in the netlist
+    ; warning
+    @(91.44 mm, 111.76 mm): Symbol #PWR030 Pin 1 [Power input, Line]
+    @(236.22 mm, 132.08 mm): Label '+5v Shunt Out'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 142.24 mm): Symbol U2 Pin 33 [PA11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 144.78 mm): Symbol U2 Pin 34 [PA12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 147.32 mm): Symbol U2 Pin 37 [PA13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 149.86 mm): Symbol U2 Pin 38 [PA14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(231.14 mm, 152.40 mm): Symbol U2 Pin 39 [PA15, Bidirectional, Line]
 
 ***** Sheet /BUSes/UCE_Bus/
 [pin_not_connected]: Pin not connected
@@ -659,7 +868,7 @@ ERC report (2026-01-08T00:47:17+0000, Encoding UTF8)
     ; error
     @(248.92 mm, 256.54 mm): Symbol J8 Pin 8 [Pin_8, Passive, Line]
 
-***** Sheet /Power Rails/External Power Rails/
+***** Sheet /Power/External Power Rails/
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(45.72 mm, 22.86 mm): Symbol #PWR018 Pin 1 [Power input, Line]
@@ -693,4 +902,4 @@ ERC report (2026-01-08T00:47:17+0000, Encoding UTF8)
     ; error
     @(262.89 mm, 210.82 mm): Symbol #PWR06 Pin 1 [Power input, Line]
 
- ** ERC messages: 219  Errors 98  Warnings 121
+ ** ERC messages: 286  Errors 135  Warnings 151
