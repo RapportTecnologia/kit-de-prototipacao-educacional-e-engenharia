@@ -65,6 +65,8 @@ jobs:
             --width 1600 \
             --height 900 \
             --side top \
+            --rotate "-20,0,25" \
+            --perspective \
             --background transparent \
             --quality high \
             --floor \
