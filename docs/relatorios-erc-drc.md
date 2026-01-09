@@ -2,9 +2,8 @@
 layout: page
 title: "Relatórios ERC e DRC"
 subtitle: "Saídas do KiCad (ERC/DRC)"
-permalink: /relatorios-erc-drc/
+permalink: /erc-drc/
 ---
-
 Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad.
 
 ## Resumo
@@ -55,4 +54,3 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
-
