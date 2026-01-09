@@ -1,5 +1,5 @@
 ** Drc report for KEPR.kicad_pcb **
-** Created on 2026-01-09T11:52:01+0000 **
+** Created on 2026-01-09T12:34:57+0000 **
 
 ** Found 37 DRC violations **
 [track_dangling]: Track has unconnected end
@@ -228,7 +228,7 @@
     @(174.5500 mm, 70.2250 mm): Pad 73 [GND] of J11 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(86.3980 mm, 105.0000 mm): Track [GND] on F.Cu, length 7.1020 mm
+    @(93.5000 mm, 105.0000 mm): Track [GND] on F.Cu, length 9.5000 mm
     @(96.6000 mm, 100.5000 mm): Track [GND] on F.Cu, length 0.6000 mm
 [unconnected_items]: Missing connection between items
     Local override; error
@@ -256,7 +256,7 @@
     @(154.8000 mm, 201.0400 mm): Track [GND] on B.Cu, length 1.3576 mm
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(205.7200 mm, 198.5800 mm): Track [GND] on B.Cu, length 2.5400 mm
+    @(205.7200 mm, 201.1200 mm): Track [GND] on B.Cu, length 2.5400 mm
     @(206.9400 mm, 218.5800 mm): Track [GND] on B.Cu, length 0.5940 mm
 [unconnected_items]: Missing connection between items
     Local override; error
@@ -269,7 +269,7 @@
 [unconnected_items]: Missing connection between items
     Local override; error
     @(233.3600 mm, 219.0000 mm): PTH pad 4 [GND] of J20
-    @(233.6600 mm, 198.5800 mm): Track [GND] on B.Cu, length 2.5400 mm
+    @(233.6600 mm, 201.1200 mm): Track [GND] on B.Cu, length 2.5400 mm
 [unconnected_items]: Missing connection between items
     Local override; error
     @(269.0400 mm, 138.7800 mm): PTH pad 16 [GND] of J5
@@ -1357,7 +1357,7 @@
 [unconnected_items]: Missing connection between items
     Local override; error
     @(307.5400 mm, 209.0400 mm): PTH pad 5 [Net-(J16-Pad1)] of J30
-    @(306.0000 mm, 210.0400 mm): Track [Net-(J16-Pad1)] on F.Cu, length 4.9600 mm
+    @(305.0000 mm, 209.0400 mm): Track [Net-(J16-Pad1)] on F.Cu, length 1.4142 mm
 [unconnected_items]: Missing connection between items
     Local override; error
     @(293.3000 mm, 215.0000 mm): PTH pad 1 [Net-(J16-Pad1)] of J16
@@ -1440,8 +1440,8 @@
     @(92.0000 mm, 133.5963 mm): Track [+3.3V] on F.Cu, length 0.5709 mm
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(93.0000 mm, 127.5000 mm): Pad 2 [/UCE board/VDD_Z_MCU_CTL_3v3] of C2 on F.Cu
     @(93.0000 mm, 127.5000 mm): Track [/UCE board/VDD_Z_MCU_CTL_3v3] on B.Cu, length 2.8284 mm
+    @(93.0000 mm, 127.5000 mm): Track [/UCE board/VDD_Z_MCU_CTL_3v3] on F.Cu, length 1.2248 mm
 
 ** Found 4 Footprint errors **
 [net_conflict]: No pad found for pin MP1 in schematic.
