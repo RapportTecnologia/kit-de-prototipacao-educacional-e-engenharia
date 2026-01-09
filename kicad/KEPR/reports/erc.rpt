@@ -1,4 +1,4 @@
-ERC report (2026-01-09T17:56:47+0000, Encoding UTF8)
+ERC report (2026-01-09T20:54:16+0000, Encoding UTF8)
 
 ***** Sheet /
 [lib_symbol_issues]: The current configuration does not include the symbol library '10141995-005RLF'
@@ -301,12 +301,18 @@ ERC report (2026-01-09T17:56:47+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'CRCW0805100RFKEAC'
     ; warning
     @(200.66 mm, 71.12 mm): Symbol R1 [CRCW0805100RFKEAC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Device'
+    ; warning
+    @(185.42 mm, 106.68 mm): Symbol BT1 [Battery_Cell]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(185.42 mm, 110.49 mm): Symbol #PWR02 [GND]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Diode'
     ; warning
     @(200.66 mm, 88.90 mm): Symbol D1 [BZV55B3V3]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
-    @(200.66 mm, 99.06 mm): Symbol #PWR034 [GND]
+    @(200.66 mm, 93.98 mm): Symbol #PWR034 [GND]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'MCU_ST_STM32G4'
     ; warning
     @(213.36 mm, 147.32 mm): Symbol U2 [STM32G484CETx]
@@ -350,6 +356,9 @@ ERC report (2026-01-09T17:56:47+0000, Encoding UTF8)
     ; warning
     @(48.26 mm, 116.84 mm): Global Label '+5v Shunt'
     @(48.26 mm, 147.32 mm): Label '+5v Shunt In'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(185.42 mm, 110.49 mm): Symbol #PWR02 Pin 1 [Power input, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(195.58 mm, 114.30 mm): Symbol U2 Pin 20 [VREF+, Input, Line]
@@ -369,9 +378,6 @@ ERC report (2026-01-09T17:56:47+0000, Encoding UTF8)
     ; warning
     @(99.06 mm, 111.76 mm): Symbol #PWR023 Pin 1 [Power input, Line]
     @(185.42 mm, 142.24 mm): Label '+12v Shunt Out'
-[pin_not_connected]: Pin not connected
-    ; error
-    @(208.28 mm, 106.68 mm): Symbol U2 Pin 1 [VBAT, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(208.28 mm, 106.68 mm): Symbol U2 Pin 1 [VBAT, Power input, Line]
@@ -825,8 +831,5 @@ ERC report (2026-01-09T17:56:47+0000, Encoding UTF8)
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(66.04 mm, 172.72 mm): Symbol PS3 Pin 4 [ON/OFF, Input, Line]
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(262.89 mm, 210.82 mm): Symbol #PWR06 Pin 1 [Power input, Line]
 
- ** ERC messages: 261  Errors 132  Warnings 129
+ ** ERC messages: 262  Errors 131  Warnings 131

@@ -1,4 +1,5 @@
 "Refs","Value","Footprint","Qty","DNP"
+"BT1","Battery_Cell","Battery:BatteryHolder_Multicomp_BC-2001_1x2032","1",""
 "C1","4.7nF_Ceramic","Capacitor:C_0805_2012Metric","1",""
 "C2","4.7nF_Ceramic","Capacitor:C_0805_2012Metric","1",""
 "C3","4.7nF_Ceramic","Capacitor:C_0805_2012Metric","1",""

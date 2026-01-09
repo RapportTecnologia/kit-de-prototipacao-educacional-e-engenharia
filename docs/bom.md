@@ -19,6 +19,13 @@ permalink: /bom/
 </tr></thead>
 <tbody>
 <tr>
+<td>BT1</td>
+<td>Battery_Cell</td>
+<td>Battery:BatteryHolder_Multicomp_BC-2001_1x2032</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
 <td>C1</td>
 <td>4.7nF_Ceramic</td>
 <td>Capacitor:C_0805_2012Metric</td>
