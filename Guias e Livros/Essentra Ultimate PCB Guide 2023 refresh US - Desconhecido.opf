@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17395</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">525e1988-f7fc-4b0f-a6c9-3d2701bb8db3</dc:identifier>
+        <dc:title>Essentra Ultimate PCB Guide 2023 refresh US</dc:title>
+        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2020-03-11T17:13:05+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>pcb</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-04T18:19:47.172343+00:00"/>
+        <meta name="calibre:title_sort" content="Essentra Ultimate PCB Guide 2023 refresh US"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="Essentra Ultimate PCB Guide 2023 refresh US - Desconhecido.jpg"/>
+    </guide>
+</package>
