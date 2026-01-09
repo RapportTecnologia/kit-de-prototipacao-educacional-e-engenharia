@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17392</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d67e56f2-016f-43d6-ad2b-c19102012dda</dc:identifier>
+        <dc:title>PCB Design Tutorial RevA</dc:title>
+        <dc:creator opf:file-as="Jones, David L." opf:role="aut">David L. Jones</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>pcb</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-04T18:19:39.154471+00:00"/>
+        <meta name="calibre:title_sort" content="PCB Design Tutorial RevA"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="PCB Design Tutorial RevA - David L. Jones.jpg"/>
+    </guide>
+</package>
