@@ -9650,6 +9650,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA_MCU_CTL"
+		(shape passive)
+		(at 297.18 83.82 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a77baf39-3594-4a70-912d-f0029fc65113")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 297.18 102.5667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC_1V8"
 		(shape passive)
 		(at 281.94 83.82 270)
@@ -10199,6 +10221,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL_MCU_CTL"
+		(shape passive)
+		(at 294.64 83.82 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf37a395-18d9-46d1-9e4b-6cbfc77a0b2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.64 102.5062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

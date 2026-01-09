@@ -2625,7 +2625,7 @@
 	)
 	(rectangle
 		(start 39.37 92.71)
-		(end 102.87 147.32)
+		(end 104.14 170.18)
 		(stroke
 			(width 1)
 			(type dot)
@@ -2666,10 +2666,22 @@
 		(uuid "2502b2da-d3c5-4cee-98ca-34ecb7194157")
 	)
 	(junction
+		(at 99.06 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3814113a-662b-47f8-a3b5-23151b82ecb3")
+	)
+	(junction
 		(at 210.82 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "385e7b43-466d-4f50-b127-9ef115b678fc")
+	)
+	(junction
+		(at 91.44 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b865132-9564-4ac9-95d6-d37e6a64d7a3")
 	)
 	(junction
 		(at 213.36 190.5)
@@ -2684,10 +2696,28 @@
 		(uuid "6118292f-c6c3-4c17-b719-ad048bc1d641")
 	)
 	(junction
+		(at 48.26 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6513efde-167c-4d1f-98ef-1ba4ba86892c")
+	)
+	(junction
 		(at 157.48 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6adfe3df-5cec-4f66-86da-89bf531f67ec")
+	)
+	(junction
+		(at 50.8 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a193e2-3353-4f95-a493-1ed27f914314")
+	)
+	(junction
+		(at 45.72 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b26dd568-4d7b-47dc-a742-1b66dfeacbc5")
 	)
 	(junction
 		(at 147.32 246.38)
@@ -2700,6 +2730,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e47918aa-d5f4-4dc6-9bf0-0561beb2ac39")
+	)
+	(junction
+		(at 83.82 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8144188-7bad-47bb-bc03-2daf6d359b54")
 	)
 	(wire
 		(pts
@@ -2740,16 +2776,6 @@
 			(type default)
 		)
 		(uuid "0955ebc4-e2e6-48c7-9abd-b105d3f68189")
-	)
-	(wire
-		(pts
-			(xy 78.74 129.54) (xy 91.44 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f5e98c3-db5c-451a-9cd3-32420d3a27c5")
 	)
 	(wire
 		(pts
@@ -2823,6 +2849,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 149.86) (xy 241.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd672e9-3f75-4a32-9cd1-f18925a2c2fb")
+	)
+	(wire
+		(pts
 			(xy 213.36 190.5) (xy 215.9 190.5)
 		)
 		(stroke
@@ -2853,6 +2889,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 129.54) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b32d407-40d5-45b8-9331-eac22adc9dae")
+	)
+	(wire
+		(pts
+			(xy 50.8 119.38) (xy 50.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4f6719-ed2a-40e2-89de-1554e50a3a1e")
+	)
+	(wire
+		(pts
 			(xy 50.8 116.84) (xy 50.8 119.38)
 		)
 		(stroke
@@ -2870,6 +2926,16 @@
 			(type default)
 		)
 		(uuid "50511333-fea2-46a9-9d16-2bf287fc664c")
+	)
+	(wire
+		(pts
+			(xy 99.06 139.7) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5168f92e-5eb0-4540-9429-773fed1f5d7d")
 	)
 	(wire
 		(pts
@@ -2940,6 +3006,16 @@
 			(type default)
 		)
 		(uuid "79171871-eb5b-421a-8114-12bfcea27c8a")
+	)
+	(wire
+		(pts
+			(xy 48.26 129.54) (xy 48.26 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b123e67-1aed-4256-9032-b3caaf426c45")
 	)
 	(wire
 		(pts
@@ -3053,6 +3129,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 129.54) (xy 91.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb5e482-6f06-4c5e-993c-4cd7d47d42ab")
+	)
+	(wire
+		(pts
 			(xy 147.32 251.46) (xy 147.32 259.08)
 		)
 		(stroke
@@ -3070,6 +3156,16 @@
 			(type default)
 		)
 		(uuid "df52fc05-010c-43a2-959d-45743d8b8d18")
+	)
+	(wire
+		(pts
+			(xy 83.82 119.38) (xy 83.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3414a70-9545-4772-96b7-120da05bce17")
 	)
 	(wire
 		(pts
@@ -3103,6 +3199,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 139.7) (xy 45.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99bbc40-b368-456e-8d3c-339bfc3a99c5")
+	)
+	(wire
+		(pts
 			(xy 213.36 99.06) (xy 215.9 99.06)
 		)
 		(stroke
@@ -3110,6 +3216,16 @@
 			(type default)
 		)
 		(uuid "ea84a836-b8e3-4952-86d7-afe360d651a4")
+	)
+	(wire
+		(pts
+			(xy 241.3 147.32) (xy 231.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef351b4d-089a-4f17-bf82-c1d9a5434cfb")
 	)
 	(wire
 		(pts
@@ -3131,25 +3247,35 @@
 		)
 		(uuid "fc44839d-0ea2-4b0b-a14f-67e47050ae67")
 	)
-	(label "+3.3v Shunt Out"
-		(at 78.74 119.38 0)
+	(label "+3.3v Shunt In"
+		(at 236.22 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "27ed0897-993e-4123-8162-f594bd1cc255")
+		(uuid "310ff045-8bd1-4807-a8e3-38a62d718fd1")
 	)
-	(label "12v Shunt Out"
-		(at 81.28 139.7 0)
+	(label "+12v Shunt In"
+		(at 185.42 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2e808688-c774-47df-ad39-08b93ba03043")
+		(uuid "3c2418b5-0153-40c6-a5f1-4b0a6de378d8")
+	)
+	(label "+3.3v Shunt In"
+		(at 50.8 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54875425-66be-4f29-bb5a-1bbb4b3ff75f")
 	)
 	(label "+3.3v Shunt Out"
 		(at 236.22 116.84 0)
@@ -3171,17 +3297,17 @@
 		)
 		(uuid "6b52f688-56fe-41a4-9739-3549adbec993")
 	)
-	(label "+5v Shunt Out"
-		(at 78.74 129.54 0)
+	(label "+12v Shunt In"
+		(at 45.72 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "793f1fcf-1322-4af6-9f68-ca22b0783797")
+		(uuid "715a9633-2929-4574-a1de-f29cd5fad102")
 	)
-	(label "12v Shunt Out"
+	(label "+12v Shunt Out"
 		(at 185.42 142.24 180)
 		(effects
 			(font
@@ -3190,6 +3316,16 @@
 			(justify right bottom)
 		)
 		(uuid "7e1f402d-8102-4980-bb4b-07469c7bc64f")
+	)
+	(label "+3.3v Shunt Out"
+		(at 83.7774 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82d91d5f-b772-42d1-8608-f7e78cc5bdae")
 	)
 	(label "VDD_Z_MCU_CTL_3v3"
 		(at 147.32 236.22 90)
@@ -3201,6 +3337,26 @@
 		)
 		(uuid "9247f9e3-47db-4201-affd-717fda6b2f09")
 	)
+	(label "+5v Shunt Out"
+		(at 91.44 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7615070-46ee-4d97-8cac-a11feed3e0b3")
+	)
+	(label "+12v Shunt Out"
+		(at 99.06 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9a0292d-bf56-4909-9054-46d8670f04b3")
+	)
 	(label "VDD_Z_MCU_CTL_3v3"
 		(at 200.66 83.82 0)
 		(effects
@@ -3211,9 +3367,29 @@
 		)
 		(uuid "c1976170-951c-48de-bff3-304c70adfee8")
 	)
-	(global_label "+5v Shunt"
-		(shape input)
+	(label "+5v Shunt In"
+		(at 48.26 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7563408-f2be-46a1-b00e-a5d054208bfd")
+	)
+	(label "+5v Shunt In"
 		(at 236.22 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbc1c37d-48be-4de8-b6a1-b848fc8eb94e")
+	)
+	(global_label "I2C_SCL_MCU_CTL"
+		(shape passive)
+		(at 241.3 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3221,9 +3397,9 @@
 			)
 			(justify left)
 		)
-		(uuid "0568f3c9-1111-4a9f-a1a1-df0e7de104f7")
+		(uuid "733884dc-70d3-4087-92d1-e5559085d2eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.3045 127 0)
+			(at 259.9862 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,9 +3453,9 @@
 			)
 		)
 	)
-	(global_label "+12v Shunt"
-		(shape input)
-		(at 142.24 116.84 90)
+	(global_label "I2C_SDA_MCU_CTL"
+		(shape passive)
+		(at 241.3 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3287,53 +3463,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9ba406f4-7147-4be1-a8ac-a941881de03c")
+		(uuid "b0485f43-eea8-4d97-ad01-9dcdc1da6853")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 102.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+12v Shunt"
-		(shape input)
-		(at 185.42 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf727c55-acb8-4b37-8c70-d928f8f0c148")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.126 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3v3 Shunt"
-		(shape input)
-		(at 236.22 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c122f014-b1e4-438c-a096-fc6bdd833ffe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.514 121.92 0)
+			(at 260.0467 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3515,7 @@
 				)
 			)
 		)
-		(property "Value" "GMR320HJAAFD5L00"
+		(property "Value" "GMR320HJAAFE5L00"
 			(at 69.85 135.89 0)
 			(effects
 				(font
@@ -3651,7 +3783,7 @@
 				)
 			)
 		)
-		(property "Value" "GMR320HJAAFD5L00"
+		(property "Value" "GMR320HJAAFM5L00"
 			(at 69.85 115.57 0)
 			(effects
 				(font
@@ -3771,7 +3903,7 @@
 				)
 			)
 		)
-		(property "Value" "GMR320HJAAFD5L00"
+		(property "Value" "GMR320HJAAFS5L00"
 			(at 69.85 125.73 0)
 			(effects
 				(font
