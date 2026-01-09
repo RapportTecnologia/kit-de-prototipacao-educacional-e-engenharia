@@ -3,14 +3,60 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      {%- if page.title -%}
-        {{ page.title }} | {{ site.title }}
-      {%- else -%}
-        {{ site.title }}
-      {%- endif -%}
-    </title>
-    <meta name="description" content="{{ site.description }}" />
+    {%- assign seo_title = page.title | default: site.title -%}
+    {%- if page.title -%}
+      {%- assign seo_title = page.title | append: " | " | append: site.title -%}
+    {%- endif -%}
+    {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
+    {%- assign seo_description = seo_description | strip_html | strip_newlines | truncate: 160 -%}
+    {%- assign canonical_url = site.url | append: site.baseurl | append: page.url -%}
+    {%- assign seo_image = site.url | append: site.baseurl | append: "/assets/img/kepr-pcb-3d.png" -%}
+
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}" />
+    <link rel="canonical" href="{{ canonical_url }}" />
+
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:title" content="{{ seo_title }}" />
+    <meta property="og:description" content="{{ seo_description }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
+    <meta property="og:image" content="{{ seo_image }}" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="{%- if page.layout == 'post' -%}article{%- else -%}website{%- endif -%}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ seo_title }}" />
+    <meta name="twitter:description" content="{{ seo_description }}" />
+    <meta name="twitter:image" content="{{ seo_image }}" />
+
+    {%- if page.keywords and page.keywords.size > 0 -%}
+      <meta name="keywords" content="{{ page.keywords | join: ', ' }}" />
+    {%- endif -%}
+
+    {%- if page.layout == 'post' -%}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": {{ page.title | jsonify }},
+          "description": {{ seo_description | jsonify }},
+          "datePublished": "{{ page.date | date_to_xmlschema }}",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ canonical_url }}"
+          },
+          "author": {
+            "@type": "Organization",
+            "name": "Rapport Tecnologia"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Rapport Tecnologia"
+          },
+          "image": ["{{ seo_image }}"]
+        }
+      </script>
+    {%- endif -%}
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" />
     {% include google_analytics.html %}
   </head>

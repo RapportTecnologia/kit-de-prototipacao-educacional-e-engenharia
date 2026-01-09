@@ -3,6 +3,7 @@ layout: page
 title: "Fornecedores e bibliotecas (EDA)"
 subtitle: "Referências de componentes, distribuidores e bibliotecas (KiCad)"
 permalink: /fornecedores-eda/
+is_category: true
 ---
 
 Neste arquivo reuno sites que são referência em componentes, distribuidores e fontes de Simbolos, Footprints e modelos 3D (principalmente para KiCad), além de fabricantes de PCBs.

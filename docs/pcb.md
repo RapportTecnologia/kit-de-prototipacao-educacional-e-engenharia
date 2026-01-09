@@ -3,6 +3,7 @@ layout: page
 title: "PCB"
 subtitle: "Imagem gerada automaticamente a partir do KiCad"
 permalink: /pcb/
+is_category: true
 ---
 ## Visão 2D (SVG)
 

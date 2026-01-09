@@ -1,6 +1,7 @@
 ---
 title: "Esquemáticos"
 permalink: /esquematicos/
+is_category: true
 ---
 
 <div class="callout">
