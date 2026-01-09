@@ -8,7 +8,9 @@ permalink: /pcb/
 
 A imagem abaixo é gerada automaticamente a partir do arquivo `kicad/KEPR/KEPR.kicad_pcb`.
 
-![PCB (SVG)]({{ "/assets/img/kepr-pcb.svg" | relative_url }})
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ '/assets/img/kepr-pcb.svg' | relative_url }}" alt="PCB (SVG)" style="width: 100%; height: auto; display: block;" />
+</div>
 
 ## Render 3D (PNG)
 
