@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17419</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">df9fbfd1-dccc-4359-bab9-caefb5075b52</dc:identifier>
+        <dc:title>BSS138 - N-Channel Logic Level Enhancement Mode Field Effect Transistor</dc:title>
+        <dc:creator opf:file-as="onsemi" opf:role="aut">onsemi</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-04-23T16:48:16+00:00</dc:date>
+        <dc:description>These N−Channel enhancement mode field effect transistors are produced using onsemi’s proprietary, high cell density, DMOS technology.</dc:description>
+        <dc:language>pt</dc:language>
+        <dc:subject>These N−Channel enhancement mode field effect transistors are produced using onsemi’s proprietary</dc:subject>
+        <dc:subject>high cell density</dc:subject>
+        <dc:subject>DMOS technology.</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-04T19:34:43.762138+00:00"/>
+        <meta name="calibre:title_sort" content="BSS138 - N-Channel Logic Level Enhancement Mode Field Effect Transistor"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="BSS138 - N-Channel Logic Level Enhancement Mode Field Effect Transistor - onsemi.jpg"/>
+    </guide>
+</package>
