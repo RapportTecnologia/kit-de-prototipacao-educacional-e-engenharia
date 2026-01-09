@@ -4,12 +4,34 @@ title: "Relatórios ERC e DRC"
 subtitle: "Saídas do KiCad (ERC/DRC)"
 permalink: /erc-drc/
 ---
-Nesta página você encontra os relatórios de verificação do projeto gerados pelo KiCad.
 
-## ERC (Electrical Rules Check)
+Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad.
 
-- [Abrir relatório ERC (erc.rpt)](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/kicad/KEPR/reports/erc.rpt)
+## Resumo
 
-## DRC (Design Rules Check)
+### ERC (Electrical Rules Check)
 
-- [Abrir relatório DRC (drc.rpt)](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/kicad/KEPR/reports/drc.rpt)
+- Erros: **0**
+- Avisos: **0**
+
+### DRC (Design Rules Check)
+
+- Violações DRC: **0**
+- Pads desconectados: **0**
+- Erros: **0**
+- Avisos: **0**
+
+## Relatórios completos
+
+- [Abrir `erc.rpt`](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/kicad/KEPR/reports/erc.rpt)
+- [Abrir `drc.rpt`](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/kicad/KEPR/reports/drc.rpt)
+
+## Principais ocorrências (amostra)
+
+### ERC
+
+- (nenhuma)
+
+### DRC
+
+- (nenhuma)
