@@ -295,6 +295,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:BZV55B3V3"
 			(pin_numbers
 				(hide yes)
@@ -2759,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 92.71) (xy 200.66 99.06)
+			(xy 200.66 92.71) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3089,6 +3266,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 101.6) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ea0629-6da5-445a-be18-47f8dc138341")
+	)
+	(wire
+		(pts
 			(xy 147.32 236.22) (xy 147.32 246.38)
 		)
 		(stroke
@@ -3126,6 +3313,26 @@
 			(type default)
 		)
 		(uuid "c689bb47-b30f-48fd-9c4b-ad42164fc342")
+	)
+	(wire
+		(pts
+			(xy 185.42 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8b4133-8dc6-4150-ac9e-3773bcdff7ef")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.22) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaa134b-e9fb-4276-a677-f13cd4805287")
 	)
 	(wire
 		(pts
@@ -4416,6 +4623,142 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 185.42 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "835e3114-4094-4bda-83d2-63ba6504a0af")
+		(property "Reference" "#PWR02"
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21cfb9ce-77bd-4a19-a0cb-d6d36313d783")
+		)
+		(instances
+			(project "KEPR"
+				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/fdc41c7f-76d0-4a6a-9947-620e5325b70e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 185.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f8b3da6-2f75-4def-9ce3-98b542ca0a8c")
+		(property "Reference" "BT1"
+			(at 189.23 103.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 189.23 106.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Multicomp_BC-2001_1x2032"
+			(at 185.42 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48eeafec-3e64-432c-a8dc-6226a1711aa1")
+		)
+		(pin "2"
+			(uuid "fc0867da-d5ee-4532-8abd-bccc3525b2a5")
+		)
+		(instances
+			(project ""
+				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/fdc41c7f-76d0-4a6a-9947-620e5325b70e"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 147.32 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4681,7 +5024,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 99.06 0)
+		(at 200.66 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4690,7 +5033,7 @@
 		(fields_autoplaced yes)
 		(uuid "b95ac98e-18f2-4306-92c8-303f44974285")
 		(property "Reference" "#PWR034"
-			(at 200.66 105.41 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +5042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 104.14 0)
+			(at 200.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +5050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 99.06 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +5059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 99.06 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +5068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 99.06 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
