@@ -2,21 +2,22 @@
 layout: page
 title: "Relatórios ERC e DRC"
 subtitle: "Saídas do KiCad (ERC/DRC)"
-permalink: /erc-drc/
+permalink: /relatorios-erc-drc/
 ---
+
 Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad.
 
 ## Resumo
 
 ### ERC (Electrical Rules Check)
 
-- Gerado em: `2026-01-09T23:12:14+0000`
+- Gerado em: `2026-01-09T23:17:36+0000`
 - Erros: **131**
 - Avisos: **131**
 
 ### DRC (Design Rules Check)
 
-- Gerado em: `2026-01-09T23:12:15+0000`
+- Gerado em: `2026-01-09T23:17:37+0000`
 - Violações DRC: **58**
 - Pads desconectados: **315**
 - Erros: **323**
@@ -54,3 +55,4 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
+
