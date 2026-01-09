@@ -648,7 +648,8 @@ textarea:focus-visible {
   transform: translateY(-6px);
   pointer-events: none;
   max-height: 0;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   transition: opacity var(--transition), transform var(--transition), max-height var(--transition);
 }
 
@@ -656,7 +657,7 @@ textarea:focus-visible {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
-  max-height: 320px;
+  max-height: 420px;
 }
 
 .nav-dropdown__item {
