@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17413</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">41726370-0c35-45a5-b73b-e46f41020368</dc:identifier>
+        <dc:title>Differential Pairs in PCB Transmission Lines eBook</dc:title>
+        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2019-11-13T05:38:59+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>pcb</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-04T18:20:36.152412+00:00"/>
+        <meta name="calibre:title_sort" content="Differential Pairs in PCB Transmission Lines eBook"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="Differential Pairs in PCB Transmission Lines eBook - Desconhecido.jpg"/>
+    </guide>
+</package>
