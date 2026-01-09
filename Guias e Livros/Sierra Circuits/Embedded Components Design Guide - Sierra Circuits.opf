@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17398</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d1af6355-7475-496b-ad2e-b8b3de6f049a</dc:identifier>
+        <dc:title>Embedded Components Design Guide</dc:title>
+        <dc:creator opf:file-as="Circuits, Sierra" opf:role="aut">Sierra Circuits</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2025-10-27T10:17:39+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>PCB</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-04T18:19:55+00:00"/>
+        <meta name="calibre:title_sort" content="Embedded Components Design Guide"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="Embedded Components Design Guide - Sierra Circuits.jpg"/>
+    </guide>
+</package>

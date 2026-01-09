@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17399</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">50264af9-f8fb-4b2d-b8b5-784b7d3b9781</dc:identifier>
+        <dc:title>IPC DG All chap</dc:title>
+        <dc:creator opf:file-as="Circuits, Sierra" opf:role="aut">Sierra Circuits</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2025-07-25T07:13:32+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>PCB</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-04T18:19:57+00:00"/>
+        <meta name="calibre:title_sort" content="IPC DG All chap"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="IPC DG All chap - Sierra Circuits.jpg"/>
+    </guide>
+</package>
