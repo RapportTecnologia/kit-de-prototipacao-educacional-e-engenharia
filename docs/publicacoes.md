@@ -3,12 +3,13 @@ layout: page
 title: "Publicações"
 subtitle: "Tudo sobre o projeto KEPR"
 permalink: /publicacoes/
+render_with_liquid: true
 ---
 
 Abaixo estão as publicações relacionadas ao projeto **KEPR**.
 
-{%- assign posts = site.posts | where_exp: "p", "p.tags contains 'KEPR'" -%}
- {%- assign tutorials = site.posts | where_exp: "p", "p.categories contains 'Tutoriais'" -%}
+{%- assign tutorials = site.posts | where_exp: "p", "p.categories contains 'Tutoriais'" | sort: "date" | reverse -%}
+{%- assign posts = site.posts | where_exp: "p", "p.tags contains 'KEPR'" | where_exp: "p", "not (p.categories contains 'Tutoriais')" | sort: "date" | reverse -%}
 
 {%- if posts and posts.size > 0 -%}
 
