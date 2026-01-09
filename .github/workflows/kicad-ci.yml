@@ -57,11 +57,15 @@ jobs:
             --output "docs/assets/img/kepr-pcb.svg" \
             "kicad/KEPR/KEPR.kicad_pcb"
 
+      - name: Generate BOM (CSV + site page)
+        run: |
+          bash scripts/gen_bom_site.sh
+
       - name: Render PCB 3D TOP (PNG)
         continue-on-error: true
         run: |
           kicad-cli pcb render \
-            --output "docs/assets/img/kepr-pcb-3d-top.png" \
+            --output "docs/assets/img/kepr-pcb-top-3d.png" \
             --width 1600 \
             --height 900 \
             --side top \
@@ -71,11 +75,11 @@ jobs:
             --floor \
             "kicad/KEPR/KEPR.kicad_pcb"
 
-      - name: Render PCB 3D BOTTON (PNG)
+      - name: Render PCB 3D BOTTOM (PNG)
         continue-on-error: true
         run: |
          kicad-cli pcb render \
-            --output "docs/assets/img/kepr-pcb-3d-bottom.png" \
+            --output "docs/assets/img/kepr-pcb-bottom-3d.png" \
             --width 1600 \
             --height 900 \
             --side bottom \
@@ -90,7 +94,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ci: update KEPR PCB images"
-          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-3d.png kicad/KEPR/reports/*.rpt"
+          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-top-3d.png docs/assets/img/kepr-pcb-bottom-3d.png docs/assets/bom/*.csv docs/bom.md kicad/KEPR/reports/*.rpt"
 
       - name: Fail if ERC/DRC violations exist
         if: always()
