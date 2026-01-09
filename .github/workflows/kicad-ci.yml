@@ -52,8 +52,6 @@ jobs:
           kicad-cli pcb export svg \
             --mode-single \
             --layers "F.Cu,F.SilkS,Edge.Cuts" \
-            --fit-page-to-board \
-            --exclude-drawing-sheet \
             --output "docs/assets/img/kepr-pcb.svg" \
             "kicad/KEPR/KEPR.kicad_pcb"
 
