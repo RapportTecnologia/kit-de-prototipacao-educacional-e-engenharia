@@ -26,6 +26,7 @@ jobs:
       - name: Create output folders
         run: |
           mkdir -p docs/assets/img
+          mkdir -p docs/assets/guias-e-livros
           mkdir -p kicad/KEPR/reports
 
       - name: ERC (schematic)
@@ -73,6 +74,10 @@ jobs:
         run: |
           python3 scripts/gen_guias_e_livros.py
 
+      - name: Generate Datasheets page
+        run: |
+          python3 scripts/gen_datasheets.py
+
       - name: Render PCB 3D TOP (PNG)
         continue-on-error: true
         run: |
@@ -106,7 +111,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ci: update KEPR PCB images"
-          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-top-3d.png docs/assets/img/kepr-pcb-bottom-3d.png docs/assets/img/schematics/*.svg docs/assets/bom/*.csv docs/bom.md docs/esquematicos.md docs/relatorios-erc-drc.md docs/guias-e-livros.md kicad/KEPR/reports/*.rpt"
+          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-top-3d.png docs/assets/img/kepr-pcb-bottom-3d.png docs/assets/img/schematics/*.svg docs/assets/bom/*.csv docs/assets/guias-e-livros/** docs/bom.md docs/esquematicos.md docs/relatorios-erc-drc.md docs/guias-e-livros.md docs/datasheets.md kicad/KEPR/reports/*.rpt"
 
       - name: Fail if ERC/DRC violations exist
         if: always()
