@@ -57,15 +57,28 @@ jobs:
             --output "docs/assets/img/kepr-pcb.svg" \
             "kicad/KEPR/KEPR.kicad_pcb"
 
-      - name: Render PCB 3D (PNG)
+      - name: Render PCB 3D TOP (PNG)
         continue-on-error: true
         run: |
           kicad-cli pcb render \
-            --output "docs/assets/img/kepr-pcb-3d.png" \
+            --output "docs/assets/img/kepr-pcb-3d-top.png" \
             --width 1600 \
             --height 900 \
             --side top \
-            --rotate "-20,0,25" \
+            --perspective \
+            --background transparent \
+            --quality high \
+            --floor \
+            "kicad/KEPR/KEPR.kicad_pcb"
+
+      - name: Render PCB 3D BOTTON (PNG)
+        continue-on-error: true
+        run: |
+         kicad-cli pcb render \
+            --output "docs/assets/img/kepr-pcb-3d-bottom.png" \
+            --width 1600 \
+            --height 900 \
+            --side bottom \
             --perspective \
             --background transparent \
             --quality high \
