@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import datetime as _dt
 import pathlib
+import shutil
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from urllib.parse import quote
@@ -11,6 +12,7 @@ from urllib.parse import quote
 
 REPO_BLOB_BASE = "https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/"
 GUIAS_DIR_NAME = "Guias e Livros"
+JEKYLL_GUIAS_ASSETS_DIR = pathlib.Path("docs") / "assets" / "guias-e-livros"
 
 
 @dataclass(frozen=True)
@@ -91,6 +93,20 @@ def _blob_url(relpath: str) -> str:
     return REPO_BLOB_BASE + quote(relpath)
 
 
+def _escape_md_cell(s: str) -> str:
+    return s.replace("|", "\\|").replace("\n", " ")
+
+
+def _jekyll_relative_url(path_from_repo_root: pathlib.Path) -> str:
+    p = path_from_repo_root
+    try:
+        p = p.relative_to("docs")
+    except Exception:
+        pass
+    web_path = "/" + p.as_posix().lstrip("/")
+    return "{{ '" + quote(web_path) + "' | relative_url }}"
+
+
 def _fmt_date(date_raw: str | None) -> str | None:
     if not date_raw:
         return None
@@ -154,6 +170,8 @@ def main() -> None:
     for livro in livros:
         group = _group_key(livro.opf_relpath)
         if group != current_group:
+            if current_group is not None:
+                lines.append("")
             current_group = group
             lines.append(f"## {group}")
             lines.append("")
@@ -162,13 +180,21 @@ def main() -> None:
 
         cover_cell = ""
         if livro.cover_relpath:
-            cover_url = _blob_url(livro.cover_relpath)
-            cover_cell = f"<img src=\"{cover_url}\" alt=\"capa\" width=\"120\" />"
+            src_cover_path = repo_root / livro.cover_relpath
+            if src_cover_path.exists():
+                cover_rel_under_guias = pathlib.Path(livro.cover_relpath).relative_to(GUIAS_DIR_NAME)
+                cover_dest_relpath = JEKYLL_GUIAS_ASSETS_DIR / cover_rel_under_guias
+                cover_dest_path = repo_root / cover_dest_relpath
+                cover_dest_path.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(src_cover_path, cover_dest_path)
 
-        creators = ", ".join(livro.creators) if livro.creators else ""
+                cover_url = _jekyll_relative_url(cover_dest_relpath)
+                cover_cell = f"<img src=\"{cover_url}\" alt=\"capa\" width=\"120\" />"
+
+        creators = _escape_md_cell(", ".join(livro.creators)) if livro.creators else ""
         language = livro.language or ""
         date = _fmt_date(livro.date) or ""
-        subject = livro.subject or ""
+        subject = _escape_md_cell(livro.subject) if livro.subject else ""
 
         file_cell = ""
         if livro.pdf_relpath:
@@ -176,9 +202,10 @@ def main() -> None:
         else:
             file_cell = f"[OPF]({_blob_url(livro.opf_relpath)})"
 
-        title_cell = livro.title
+        title_raw = _escape_md_cell(livro.title)
+        title_cell = title_raw
         if livro.pdf_relpath:
-            title_cell = f"[{livro.title}]({_blob_url(livro.pdf_relpath)})"
+            title_cell = f"[{title_raw}]({_blob_url(livro.pdf_relpath)})"
 
         lines.append(
             "| "
