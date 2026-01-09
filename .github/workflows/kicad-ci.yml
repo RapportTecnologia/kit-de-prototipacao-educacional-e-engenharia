@@ -5,6 +5,8 @@ on:
     paths:
       - "kicad/**"
       - "docs/**"
+      - "Guias e Livros/**"
+      - "scripts/**"
       - ".github/workflows/kicad-ci.yml"
   workflow_dispatch:
 
@@ -47,6 +49,10 @@ jobs:
             kicad/KEPR/KEPR.kicad_pcb
           echo "DRC_EXIT_CODE=$?" >> "$GITHUB_ENV"
 
+      - name: Generate ERC/DRC site page
+        run: |
+          bash scripts/gen_erc_drc_site.sh
+
       - name: Export PCB 2D (SVG)
         run: |
           kicad-cli pcb export svg \
@@ -55,9 +61,17 @@ jobs:
             --output "docs/assets/img/kepr-pcb.svg" \
             "kicad/KEPR/KEPR.kicad_pcb"
 
+      - name: Export schematics (SVG) + generate schematics page
+        run: |
+          bash scripts/gen_schematics_site.sh
+
       - name: Generate BOM (CSV + site page)
         run: |
           bash scripts/gen_bom_site.sh
+
+      - name: Generate Guias e Livros page
+        run: |
+          python3 scripts/gen_guias_e_livros.py
 
       - name: Render PCB 3D TOP (PNG)
         continue-on-error: true
@@ -92,7 +106,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ci: update KEPR PCB images"
-          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-top-3d.png docs/assets/img/kepr-pcb-bottom-3d.png docs/assets/bom/*.csv docs/bom.md kicad/KEPR/reports/*.rpt"
+          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-top-3d.png docs/assets/img/kepr-pcb-bottom-3d.png docs/assets/img/schematics/*.svg docs/assets/bom/*.csv docs/bom.md docs/esquematicos.md docs/relatorios-erc-drc.md docs/guias-e-livros.md kicad/KEPR/reports/*.rpt"
 
       - name: Fail if ERC/DRC violations exist
         if: always()
