@@ -11,13 +11,13 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 
 ### ERC (Electrical Rules Check)
 
-- Gerado em: `2026-01-09T20:54:16+0000`
+- Gerado em: `2026-01-09T23:12:14+0000`
 - Erros: **131**
 - Avisos: **131**
 
 ### DRC (Design Rules Check)
 
-- Gerado em: `2026-01-09T20:54:17+0000`
+- Gerado em: `2026-01-09T23:12:15+0000`
 - Violações DRC: **58**
 - Pads desconectados: **315**
 - Erros: **323**
