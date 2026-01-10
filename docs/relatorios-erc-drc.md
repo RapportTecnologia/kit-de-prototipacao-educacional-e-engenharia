@@ -11,17 +11,17 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 
 ### ERC (Electrical Rules Check)
 
-- Gerado em: `2026-01-09T23:41:29+0000`
-- Erros: **131**
-- Avisos: **131**
+- Gerado em: `2026-01-10T17:08:02+0000`
+- Erros: **132**
+- Avisos: **132**
 
 ### DRC (Design Rules Check)
 
-- Gerado em: `2026-01-09T23:41:30+0000`
-- Violações DRC: **58**
-- Pads desconectados: **315**
+- Gerado em: `2026-01-10T17:08:03+0000`
+- Violações DRC: **67**
+- Pads desconectados: **316**
 - Erros: **323**
-- Avisos: **54**
+- Avisos: **67**
 
 ## Relatórios completos
 
@@ -47,10 +47,10 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
-- `[via_dangling]: Via is not connected or connected on only one layer`
-- `[via_dangling]: Via is not connected or connected on only one layer`
-- `[via_dangling]: Via is not connected or connected on only one layer`
 - `[track_dangling]: Track has unconnected end`
+- `[via_dangling]: Via is not connected or connected on only one layer`
+- `[via_dangling]: Via is not connected or connected on only one layer`
+- `[via_dangling]: Via is not connected or connected on only one layer`
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`

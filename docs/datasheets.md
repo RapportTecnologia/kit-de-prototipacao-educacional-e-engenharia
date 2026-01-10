@@ -44,6 +44,10 @@ Os datasheets ficam na pasta `datasheets/` no repositório.
 
 - [BSS138 - N-Channel Logic Level Enhancement Mode Field Effect Transistor - onsemi](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/MosFETs/BSS138%20-%20N-Channel%20Logic%20Level%20Enhancement%20Mode%20Field%20Effect%20Transistor%20-%20onsemi.pdf)
 
+## Power Rail
+
+- [REF19xSeries](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Power%20Rail/REF19xSeries.pdf)
+
 ## Resistors
 
 - [816258685 TE Connectivity](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Resistors/816258685_TE_Connectivity.pdf)
