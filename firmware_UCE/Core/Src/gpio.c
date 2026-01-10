@@ -32,34 +32,14 @@
 
 /* USER CODE END 1 */
 
-/** Configure pins
-     PA1   ------> OPAMP1_VINP
-     PA3   ------> OPAMP1_VINM0
-     PA5   ------> OPAMP2_VINM0
-     PA7   ------> OPAMP2_VINP
-     PB0   ------> OPAMP3_VINP
-     PB2   ------> OPAMP3_VINM0
+/** Pinout Configuration
 */
 void MX_GPIO_Init(void)
 {
 
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
-
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
-
-  /*Configure GPIO pins : shunt_3v3_in_Pin shunt_3v3out_Pin shunt_5v_out_Pin shunt_5v_in_Pin */
-  GPIO_InitStruct.Pin = shunt_3v3_in_Pin|shunt_3v3out_Pin|shunt_5v_out_Pin|shunt_5v_in_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : shunt_12v_in_Pin shunt_12v_out_Pin */
-  GPIO_InitStruct.Pin = shunt_12v_in_Pin|shunt_12v_out_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 

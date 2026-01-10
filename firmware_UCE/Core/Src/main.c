@@ -22,7 +22,6 @@
 #include "adc.h"
 #include "dma.h"
 #include "i2c.h"
-#include "opamp.h"
 #include "rtc.h"
 #include "gpio.h"
 
@@ -94,14 +93,12 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_OPAMP1_Init();
-  MX_OPAMP2_Init();
-  MX_OPAMP3_Init();
   MX_ADC1_Init();
   MX_ADC2_Init();
   MX_ADC3_Init();
   MX_I2C1_Init();
   MX_RTC_Init();
+  MX_ADC4_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */

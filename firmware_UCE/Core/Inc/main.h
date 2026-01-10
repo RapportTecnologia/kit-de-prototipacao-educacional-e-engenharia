@@ -57,18 +57,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define shunt_3v3_in_Pin GPIO_PIN_1
-#define shunt_3v3_in_GPIO_Port GPIOA
-#define shunt_3v3out_Pin GPIO_PIN_3
-#define shunt_3v3out_GPIO_Port GPIOA
-#define shunt_5v_out_Pin GPIO_PIN_5
-#define shunt_5v_out_GPIO_Port GPIOA
-#define shunt_5v_in_Pin GPIO_PIN_7
-#define shunt_5v_in_GPIO_Port GPIOA
-#define shunt_12v_in_Pin GPIO_PIN_0
-#define shunt_12v_in_GPIO_Port GPIOB
-#define shunt_12v_out_Pin GPIO_PIN_2
-#define shunt_12v_out_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
