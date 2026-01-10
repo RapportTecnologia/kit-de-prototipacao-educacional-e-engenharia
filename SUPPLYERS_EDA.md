@@ -32,6 +32,7 @@ Neste arquivo reuno sites que são referência em componentes, distribuidores e 
 
 * https://www.kicad.org/libraries/ (bibliotecas oficiais do KiCad)
 * https://gitlab.com/kicad/libraries (repositórios oficiais: símbolos, footprints e 3D)
+* https://gitlab.com/kicad/libraries/kicad-footprints
 
 ### Bibliotecas e geradores comunitários
 

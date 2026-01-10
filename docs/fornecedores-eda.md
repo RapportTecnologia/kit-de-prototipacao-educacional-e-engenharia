@@ -5,7 +5,6 @@ subtitle: "Referências de componentes, distribuidores e bibliotecas (KiCad)"
 permalink: /fornecedores-eda/
 is_category: true
 ---
-
 Neste arquivo reuno sites que são referência em componentes, distribuidores e fontes de Simbolos, Footprints e modelos 3D (principalmente para KiCad), além de fabricantes de PCBs.
 
 ## Fornecedores (componentes eletrônicos)
@@ -40,6 +39,7 @@ Neste arquivo reuno sites que são referência em componentes, distribuidores e 
 
 * https://www.kicad.org/libraries/ (bibliotecas oficiais do KiCad)
 * https://gitlab.com/kicad/libraries (repositórios oficiais: símbolos, footprints e 3D)
+* https://gitlab.com/kicad/libraries/kicad-footprints
 
 ### Bibliotecas e geradores comunitários
 
