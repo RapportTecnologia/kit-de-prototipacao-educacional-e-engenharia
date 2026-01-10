@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.6
+
+* Iniciado o trabalho na Versão 0.6.
+* Adotado novos conversores de tensão e sensores de corrente.
+* Desativado no firmware o uso dos OpAmps e reconfiguração dos ADCs.
+* Em andamento: detalhamento do conector principal do UCE, com adição de novos sinais a serem compartilhados.
+* Em andamento: estudo sobre adoção de PCB multilayer.
+* Em andamento: estudo sobre impedância, vias e conceitos relacionados (integridade de sinal, retorno de corrente, etc.).
+* Em andamento: estudo sobre nivelamento/conversão de nível de sinais entre o conector principal do UCE e o conector de externalização.
+* Em andamento: revisão da disponibilidade de tensões para uso externo (incluindo no conector UCE).
+* Em andamento: adição do circuito de clock do microcontrolador de controle da UCE.
+
 ## 0.5
 
 * Organização hierárquica das folhas de esquema, com `KEPR.kicad_sch` como folha raiz e as demais como filhas.

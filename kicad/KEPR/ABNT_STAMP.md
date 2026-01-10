@@ -23,7 +23,7 @@ A tabela abaixo mostra como cada campo do KiCad é exibido no carimbo NBR 6492:
 |-------------|------------------|-----------|---------|
 | **Título** | PROJETO | Nome do projeto | `KEPR` |
 | **Empresa** | EMPRESA | Nome da empresa responsável | `Rapport Tecnologia` |
-| **Revisão** | REVISÃO | Número da revisão atual | `0.5` |
+| **Revisão** | REVISÃO | Número da revisão atual | `0.6` |
 | **Data de Emissão** | DATA | Data de emissão do desenho | `2025-12-31` |
 | **Comentário1** | Endereço da Empresa | Endereço, CNPJ e telefone | `Rua Example, 123 - CNPJ: 00.000.000/0001-00` |
 | **Comentário2** | CLIENTE | Nome do cliente/contratante | `Cliente XYZ Ltda` |

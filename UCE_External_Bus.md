@@ -1,6 +1,6 @@
 # UCE – External Bus (UCE_External_Bus)
 
-* **Versão:** 0.5
+* **Versão:** 0.6
 * **Fonte:** `kicad/KEPR/UCE_External_Bus.kicad_sch` e `UCE_BOARD.md`
 
 ---

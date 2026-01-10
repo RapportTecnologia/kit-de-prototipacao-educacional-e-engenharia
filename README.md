@@ -7,7 +7,7 @@
 [![Stars](https://img.shields.io/github/stars/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia)](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/stargazers)
 [![Forks](https://img.shields.io/github/forks/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia)](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/network/members)
 
-* **Versão atual:** 0.5
+* **Versão atual:** 0.6
 
 ---
 

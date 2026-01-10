@@ -1,6 +1,6 @@
 # UCE – Universal Carrier Ecosystem
 
-* **Versão:** 0.5
+* **Versão:** 0.6
   **Status:** Draft de Arquitetura
   **Autor:** Carlos Delfino
   **Objetivo:** Plataforma universal modular para microcontroladores e SoCs para prototipação e aprendizado IoT e Embarcado

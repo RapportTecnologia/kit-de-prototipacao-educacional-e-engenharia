@@ -10,7 +10,7 @@
 	(title_block
 		(title "UCE Board")
 		(date "2026-01-01")
-		(rev "0.5")
+		(rev "0.6")
 		(company "Rapport Tecnologia")
 		(comment 1 "Carlos Delfino Carvalho Pinheiro")
 		(comment 2 "consultoria@carlosdelfino.eti.br")
@@ -18347,7 +18347,7 @@
 			(net 235 "Net-(BT1-+)")
 			(pinfunction "+")
 			(pintype "passive")
-			(uuid "5f30f78e-2687-4ccf-8c8a-ffa9165dda96")
+			(uuid "f836ae33-9f5b-4aae-ba64-03f469944061")
 		)
 		(pad "2" smd rect
 			(at 0 0 270)
@@ -19539,6 +19539,19 @@
 					(xy 145.375544 63.16454) (xy 145.205862 63.369061) (xy 145.065058 63.59529) (xy 144.970168 63.821521)
 				)
 			)
+		)
+	)
+	(gr_text "KEPR V0.6\n2025"
+		(at 42.5 93.5 0)
+		(layer "F.SilkS")
+		(uuid "871e0332-f621-4a3e-b54a-52cc156ab216")
+		(effects
+			(font
+				(size 7 5)
+				(thickness 1.25)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
