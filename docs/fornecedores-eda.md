@@ -46,7 +46,7 @@ Neste arquivo reuno sites que são referência em componentes, distribuidores e 
 * https://www.snapeda.com/ (símbolos/footprints e alguns modelos 3D)
 * https://www.samacsys.com/ (Library Loader; exporta para KiCad)
 * https://www.ultralibrarian.com/ (CAD + símbolos/footprints)
-* https://componentsearchengine.com/
+* https://componentsearchengine
 
 ### Modelos 3D (STEP/WRL)
 
