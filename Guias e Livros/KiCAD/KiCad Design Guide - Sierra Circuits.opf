@@ -4,7 +4,7 @@
         <dc:identifier opf:scheme="calibre" id="calibre_id">17418</dc:identifier>
         <dc:identifier opf:scheme="uuid" id="uuid_id">5f47a95b-8627-40ab-a75f-57dc6d9273f1</dc:identifier>
         <dc:title>KiCad Design Guide</dc:title>
-        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:creator opf:file-as="Sierra Circuits" opf:role="aut">Sierra Circuits</dc:creator>
         <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
         <dc:date>2024-09-11T11:15:10+00:00</dc:date>
         <dc:language>pt</dc:language>
@@ -14,6 +14,6 @@
         <meta name="calibre:title_sort" content="KiCad Design Guide"/>
     </metadata>
     <guide>
-        <reference type="cover" title="Capa" href="KiCad Design Guide - Desconhecido.jpg"/>
+        <reference type="cover" title="Capa" href="KiCad Design Guide - Sierra Circuits.jpg"/>
     </guide>
 </package>
