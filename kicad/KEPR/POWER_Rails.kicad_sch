@@ -35,7 +35,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4741b4dc-2a05-46d3-a722-9e7e2f449984")
-		(property "Sheetname" "External Power Rails"
+		(property "Sheetname" "Power Rails"
 			(at 35.56 24.6884 0)
 			(show_name yes)
 			(effects

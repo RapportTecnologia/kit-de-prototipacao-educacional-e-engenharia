@@ -795,6 +795,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 210.82 162.56)
+		(uuid "04587677-fa26-4597-960d-467a2def94af")
+	)
+	(no_connect
+		(at 210.82 180.34)
+		(uuid "3f28d230-79ac-4cd0-aa55-8709b57d2399")
+	)
+	(no_connect
+		(at 210.82 167.64)
+		(uuid "b8d9cf39-0caa-4cea-8578-813410fbbe2d")
+	)
+	(no_connect
+		(at 210.82 172.72)
+		(uuid "f9beb4d1-5f34-4cf3-b078-63d49241b9d8")
+	)
 	(wire
 		(pts
 			(xy 198.12 200.66) (xy 210.82 200.66)
@@ -2188,27 +2204,6 @@
 			"rkJggg=="
 		)
 	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 210.82 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0cdda2fc-e81d-442f-a253-1eaef7a9560a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 172.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NET_CTL0_EVEN"
 		(shape passive)
 		(at 226.06 132.08 0)
@@ -2347,27 +2342,6 @@
 		(uuid "3c2e9f9a-a745-4248-9a1e-5888a882c5f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.12 208.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 210.82 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "452aa1cb-c1c1-42ff-9ea4-6eec841b8d45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 167.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,27 +2981,6 @@
 			)
 		)
 	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 210.82 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b120948c-7f34-436a-9e4c-6902e54f74c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NET_CTL2_ODD"
 		(shape passive)
 		(at 182.88 137.16 180)
@@ -3385,27 +3338,6 @@
 			)
 		)
 	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 210.82 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e809c316-fa7c-4193-b7aa-e7e47fec9509")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 162.56 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PHY_RST_N_EVEN"
 		(shape passive)
 		(at 226.06 139.7 0)
@@ -3557,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch6.5mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Latch9.5mm_Vertical"
 			(at 200.66 101.6 0)
 			(effects
 				(font

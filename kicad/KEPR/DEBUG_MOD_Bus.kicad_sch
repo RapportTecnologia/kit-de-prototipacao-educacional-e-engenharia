@@ -970,9 +970,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pinagem"
+		(exclude_from_sim no)
+		(at 314.96 78.74 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "190eb333-f5ee-434a-b2e4-4d5a87d9f72d")
+	)
 	(text "Pino no barramento principal"
 		(exclude_from_sim no)
-		(at 198.12 208.28 0)
+		(at 165.1 208.28 0)
 		(effects
 			(font
 				(size 3 3)
@@ -990,6 +1000,30 @@
 			(justify left)
 		)
 		(uuid "eb202fe9-a16c-4c7a-be56-825cfbfba3a3")
+	)
+	(no_connect
+		(at 187.96 154.94)
+		(uuid "2230925b-7a8f-4800-9c9c-9bb944195484")
+	)
+	(no_connect
+		(at 187.96 152.4)
+		(uuid "522abeb9-a9f2-422e-9cce-7be1a3ca2657")
+	)
+	(no_connect
+		(at 187.96 157.48)
+		(uuid "55bd0126-81e5-4b66-9cdb-2f24cc176959")
+	)
+	(no_connect
+		(at 220.98 157.48)
+		(uuid "5851d5fd-374b-42d6-bd9a-57cf2341236c")
+	)
+	(no_connect
+		(at 220.98 154.94)
+		(uuid "b9975d85-5797-4597-913a-365c6f15e1a3")
+	)
+	(no_connect
+		(at 220.98 152.4)
+		(uuid "f4566824-ba27-41f7-9c65-686739ca141f")
 	)
 	(wire
 		(pts
@@ -2402,7 +2436,7 @@
 		)
 	)
 	(image
-		(at 200.66 248.92)
+		(at 167.64 248.92)
 		(scale 2.67888)
 		(uuid "8922eb4a-76c8-4462-8dc0-4c2df256017a")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAbAAAAFDCAIAAADUKszKAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -3024,27 +3058,6 @@
 			)
 		)
 	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 220.98 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "467c1af3-74c0-4cf1-b1e9-ce9a030d0416")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape passive)
 		(at 220.98 149.86 0)
@@ -3146,69 +3159,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 187.96 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ecabb53-786c-458b-87c2-8ebf00b86916")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 187.96 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83d9049b-e0c4-4dd7-85d5-2f092171733b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 220.98 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b44e467-9665-469f-83bd-acdd7f8bf680")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3381,27 +3331,6 @@
 			)
 		)
 	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 187.96 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b47fdc8b-8c1a-401c-8489-7c873983c916")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DBG_RESET_N"
 		(shape passive)
 		(at 187.96 137.16 180)
@@ -3419,27 +3348,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 220.98 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbdddb3f-6acb-4091-b793-3bce0d2488e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

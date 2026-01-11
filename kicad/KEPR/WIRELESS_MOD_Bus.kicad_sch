@@ -574,6 +574,14 @@
 		)
 		(uuid "2a55d06c-ab34-47f2-8a98-449ba110a2d8")
 	)
+	(no_connect
+		(at 190.5 139.7)
+		(uuid "0e77e03c-87b5-4822-a287-3b9887194d2e")
+	)
+	(no_connect
+		(at 190.5 142.24)
+		(uuid "b80ff507-0eb2-4f34-bd0b-ddd8b868d2de")
+	)
 	(wire
 		(pts
 			(xy 213.36 129.54) (xy 220.98 129.54)
@@ -1809,27 +1817,6 @@
 			)
 		)
 	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 190.5 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e3d671a-9481-41aa-8442-2f878d899ba1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDIO_D2"
 		(shape passive)
 		(at 190.5 132.08 180)
@@ -1842,27 +1829,6 @@
 		(uuid "4fb6f6a2-7d4f-4b7f-9d84-3f6b8e9b0d0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.5 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESERVADO"
-		(shape passive)
-		(at 190.5 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fbad95e-b351-445d-be86-95da8b79a1af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

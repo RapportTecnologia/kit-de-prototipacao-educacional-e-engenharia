@@ -5745,7 +5745,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF_Ceramic"
+		(property "Value" "0.1nF_Ceramic"
 			(at 208.28 261.62 0)
 			(effects
 				(font
@@ -5771,7 +5771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7nF Ceramic Capacitor"
+		(property "Description" "0.1nF Ceramic Capacitor"
 			(at 210.82 261.62 0)
 			(effects
 				(font
