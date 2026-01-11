@@ -11,17 +11,17 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 
 ### ERC (Electrical Rules Check)
 
-- Gerado em: `2026-01-10T17:36:29+0000`
-- Erros: **132**
-- Avisos: **132**
+- Gerado em: `2026-01-11T23:07:50+0000`
+- Erros: **207**
+- Avisos: **145**
 
 ### DRC (Design Rules Check)
 
-- Gerado em: `2026-01-10T17:36:31+0000`
-- Violações DRC: **67**
-- Pads desconectados: **316**
-- Erros: **323**
-- Avisos: **67**
+- Gerado em: `2026-01-11T23:07:52+0000`
+- Violações DRC: **170**
+- Pads desconectados: **250**
+- Erros: **277**
+- Avisos: **166**
 
 ## Relatórios completos
 
@@ -33,24 +33,24 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 ### ERC
 
 - `[lib_symbol_issues]: The current configuration does not include the symbol library '10141995-005RLF'`
-- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
-- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
-- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
-- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
-- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
-- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
-- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
 - `[unconnected_wire_endpoint]: Unconnected wire endpoint`
 - `[unconnected_wire_endpoint]: Unconnected wire endpoint`
+- `[global_label_dangling]: Global label not connected anywhere else in the schematic`
+- `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'`
+- `[unconnected_wire_endpoint]: Unconnected wire endpoint`
+- `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'`
+- `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'`
+- `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'`
+- `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'`
 
 ### DRC
 
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
+- `[via_dangling]: Via is not connected or connected on only one layer`
+- `[via_dangling]: Via is not connected or connected on only one layer`
+- `[via_dangling]: Via is not connected or connected on only one layer`
 - `[track_dangling]: Track has unconnected end`
-- `[via_dangling]: Via is not connected or connected on only one layer`
-- `[via_dangling]: Via is not connected or connected on only one layer`
-- `[via_dangling]: Via is not connected or connected on only one layer`
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`

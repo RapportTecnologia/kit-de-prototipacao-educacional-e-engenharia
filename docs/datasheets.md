@@ -46,7 +46,10 @@ Os datasheets ficam na pasta `datasheets/` no repositório.
 
 ## Power Rail
 
+- [ADMSS00087-1](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Power%20Rail/ADMSS00087-1.pdf)
+- [lm1117](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Power%20Rail/lm1117.pdf)
 - [REF19xSeries](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Power%20Rail/REF19xSeries.pdf)
+- [tdn1wism datasheet](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Power%20Rail/tdn1wism_datasheet.pdf)
 
 ## Resistors
 

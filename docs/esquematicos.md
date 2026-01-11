@@ -14,6 +14,9 @@ is_category: true
 - <a href="#sch-debug-mod-bus">DEBUG_MOD_Bus</a>
 - <a href="#sch-external-power-rails">External_Power_Rails</a>
 - <a href="#sch-kepr">KEPR</a>
+- <a href="#sch-mcu-board-stm32n6">MCU_Board_STM32N6</a>
+- <a href="#sch-mcu-board-stm32n6-bus">MCU_Board_STM32N6_Bus</a>
+- <a href="#sch-mcu-boards">MCU_Boards</a>
 - <a href="#sch-network-mod-bus">NETWORK_MOD_Bus</a>
 - <a href="#sch-power-rails">POWER_Rails</a>
 - <a href="#sch-uce-bus">UCE_Bus</a>
@@ -48,9 +51,28 @@ is_category: true
 <div style="position: relative; width: 100%;">
 <img src="{{ "/assets/img/schematics/KEPR.svg" | relative_url }}" alt="KEPR" loading="lazy" style="width: 100%; height: auto; display: block;" />
 <a href="#sch-buses" title="BUSes" style="position: absolute; left: 7.2571%; top: 6.8418%; width: 18.7476%; height: 13.6835%; display: block;"></a>
+<a href="#sch-mcu-boards" title="MCU Boards" style="position: absolute; left: 7.2571%; top: 24.8013%; width: 18.7476%; height: 15.3939%; display: block;"></a>
 <a href="#sch-power-rails" title="Power" style="position: absolute; left: 32.6571%; top: 6.8418%; width: 17.5381%; height: 13.6835%; display: block;"></a>
 <a href="#sch-uce-board" title="UCE board" style="position: absolute; left: 56.8476%; top: 6.8418%; width: 19.3524%; height: 13.6835%; display: block;"></a>
 </div>
+
+### MCU_Board_STM32N6
+
+<a id="sch-mcu-board-stm32n6"></a>
+
+<img src="{{ "/assets/img/schematics/MCU_Board_STM32N6.svg" | relative_url }}" alt="MCU_Board_STM32N6" loading="lazy" style="width: 100%; height: auto;" />
+
+### MCU_Board_STM32N6_Bus
+
+<a id="sch-mcu-board-stm32n6-bus"></a>
+
+<img src="{{ "/assets/img/schematics/MCU_Board_STM32N6_Bus.svg" | relative_url }}" alt="MCU_Board_STM32N6_Bus" loading="lazy" style="width: 100%; height: auto;" />
+
+### MCU_Boards
+
+<a id="sch-mcu-boards"></a>
+
+<img src="{{ "/assets/img/schematics/MCU_Boards.svg" | relative_url }}" alt="MCU_Boards" loading="lazy" style="width: 100%; height: auto;" />
 
 ### NETWORK_MOD_Bus
 

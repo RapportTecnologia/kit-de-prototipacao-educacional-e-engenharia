@@ -55,7 +55,7 @@ permalink: /bom/
 </tr>
 <tr>
 <td>C5</td>
-<td>1uF_Ceramic</td>
+<td>0.1nF_Ceramic</td>
 <td>Capacitor:C_0805_2012Metric</td>
 <td>1</td>
 <td></td>
@@ -91,7 +91,7 @@ permalink: /bom/
 <tr>
 <td>J3</td>
 <td>Conn_02x12_Odd_Even</td>
-<td>Connector_IDC:IDC-Header_2x25_P2.54mm_Latch6.5mm_Vertical</td>
+<td>Connector_IDC:IDC-Header_2x12_P2.54mm_Latch9.5mm_Vertical</td>
 <td>1</td>
 <td></td>
 </tr>
@@ -195,8 +195,8 @@ permalink: /bom/
 </tr>
 <tr>
 <td>J24</td>
-<td>PINHD_2x3_Male</td>
-<td>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</td>
+<td>PINHD_2x2_Male</td>
+<td>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</td>
 <td>1</td>
 <td></td>
 </tr>
@@ -209,8 +209,8 @@ permalink: /bom/
 </tr>
 <tr>
 <td>J30</td>
-<td>PINHD_2x3_Male</td>
-<td>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</td>
+<td>PINHD_2x2_Male</td>
+<td>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</td>
 <td>1</td>
 <td></td>
 </tr>
@@ -252,6 +252,13 @@ permalink: /bom/
 <tr>
 <td>U3</td>
 <td>AMS1117-3.3</td>
+<td>Package_TO_SOT_SMD:SOT-223-3_TabPin2</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>U4</td>
+<td>AMS1117-1.8</td>
 <td>Package_TO_SOT_SMD:SOT-223-3_TabPin2</td>
 <td>1</td>
 <td></td>
