@@ -753,10 +753,6 @@
       "UCE_External_Bus"
     ],
     [
-      "c9208e2d-6caf-4554-9c76-dc48f53ea3ac",
-      "MCU Board STM32N6 Bus"
-    ],
-    [
       "4741b4dc-2a05-46d3-a722-9e7e2f449984",
       "Power Rails"
     ],
