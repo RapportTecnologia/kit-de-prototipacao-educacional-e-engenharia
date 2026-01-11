@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.05,
+        "board_outline_line_width": 0.1,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -30,34 +30,28 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.1,
+        "other_line_width": 0.15,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.38,
-          "width": 0.92
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -139,6 +133,8 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -158,7 +154,7 @@
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 3.0,
+          "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
@@ -169,7 +165,7 @@
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 3.0,
+          "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
@@ -180,15 +176,13 @@
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 3.0,
+          "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,12 +209,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -464,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KEPR.kicad_pro",
+    "filename": "MCU_Board_STM32N6.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -480,26 +469,12 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.4
-      },
-      {
-        "name": "GND Thin",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0
       }
     ],
     "meta": {
@@ -507,39 +482,21 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "GND",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "GND Thin",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gebers/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://abnt.kicad_wks"
-  },
-  "project": {
-    "comment": [
-      "Universal Carrier Ecosystem - Barramento base para o MCU Module",
-      "Gerado a partir do README.md do repositório"
-    ],
-    "company": "",
-    "rev": "0.6",
-    "title": "UCE Bus (SO-DIMM 200)"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -605,68 +562,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Descrição",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referência"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -681,24 +584,51 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
-    "legacy_lib_list": [],
+    "legacy_lib_list": [
+      "power",
+      "device",
+      "transistors",
+      "conn",
+      "linear",
+      "regul",
+      "74xx",
+      "cmos4000",
+      "adc-dac",
+      "memory",
+      "xilinx",
+      "microcontrollers",
+      "dsp",
+      "microchip",
+      "analog_switches",
+      "motorola",
+      "texas",
+      "intel",
+      "audio",
+      "interface",
+      "digital-audio",
+      "philips",
+      "display",
+      "cypress",
+      "siliconi",
+      "opto",
+      "atmel",
+      "contrib",
+      "valves"
+    ],
     "meta": {
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "models": []
-    },
     "page_layout_descr_file": "kicad-embed://rapport_abnt_with_logo.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -713,56 +643,8 @@
   },
   "sheets": [
     [
-      "5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1",
+      "2d414745-05a2-4117-a9fe-9e30f42a3232",
       "Root"
-    ],
-    [
-      "0260e008-78ae-4c2c-85f8-b31739d2ea08",
-      "BUSes"
-    ],
-    [
-      "51ee32d1-fe48-4676-ab84-bc891947886f",
-      "Power"
-    ],
-    [
-      "fdc41c7f-76d0-4a6a-9947-620e5325b70e",
-      "UCE board"
-    ],
-    [
-      "1cd915e9-b6a1-4312-a94d-16c089904735",
-      "MCU Boards"
-    ],
-    [
-      "f6e289d8-1e57-42c9-86d8-5b4c62dbd3c6",
-      "UCE_Bus"
-    ],
-    [
-      "81da33e8-b949-40cf-b6bb-f99db92e18ff",
-      "NETWORK_MOD_Bus"
-    ],
-    [
-      "32d5f829-b169-471c-a009-0492c35731ba",
-      "DEBUG_MOD_Bus"
-    ],
-    [
-      "89baefaa-37bd-4fe5-ae03-63909fd895b0",
-      "WIRELESS_MOD_Bus"
-    ],
-    [
-      "3ddfbbf2-c792-4085-8f54-b8dc39bf204d",
-      "UCE_External_Bus"
-    ],
-    [
-      "c9208e2d-6caf-4554-9c76-dc48f53ea3ac",
-      "MCU Board STM32N6 Bus"
-    ],
-    [
-      "4741b4dc-2a05-46d3-a722-9e7e2f449984",
-      "Power Rails"
-    ],
-    [
-      "c0875fd3-a70c-47d9-bddc-5211ef11e643",
-      "MCU Board STM32N6"
     ]
   ],
   "text_variables": {}

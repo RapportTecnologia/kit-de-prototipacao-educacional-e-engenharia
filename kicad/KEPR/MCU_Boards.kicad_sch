@@ -1,0 +1,59 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "30464063-c621-4327-9926-4f3503bbec04")
+	(paper "A3")
+	(title_block
+		(date "2025-12-31")
+		(rev "0.6")
+		(company "Rapport Tecnologia")
+		(comment 1 "Rua José Alves Pereira, 50, Casa 1")
+		(comment 4 "Aquiraz, CE, Brasil")
+		(comment 6 "Carlos Delfino Carvalho Pinheiro")
+		(comment 7 "Carlos Delfino Carvalho Pinheiro")
+	)
+	(lib_symbols)
+	(sheet
+		(at 30.48 27.94)
+		(size 91.44 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0875fd3-a70c-47d9-bddc-5211ef11e643")
+		(property "Sheetname" "MCU Board STM32N6"
+			(at 30.48 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Board_STM32N6.kicad_sch"
+			(at 30.48 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KEPR"
+				(path "/5d9e1dfb-5ec5-4e06-bbdb-9cbfa1c0b9f1/1cd915e9-b6a1-4312-a94d-16c089904735"
+					(page "A050001")
+				)
+			)
+		)
+	)
+)
