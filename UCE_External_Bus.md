@@ -23,6 +23,7 @@ A intenção é padronizar um **contrato elétrico e funcional** para que difere
 
 Os seguintes domínios aparecem na especificação do UCE e são utilizados/propagados no barramento:
 
+- `VCC_12V`
 - `VCC_5V`
 - `VCC_3V3`
 - `VCC_1V8`
@@ -31,7 +32,6 @@ Os seguintes domínios aparecem na especificação do UCE e são utilizados/prop
 ### 2.2 Referência e níveis lógicos
 
 - `VREF_IO`: referência de IO (associada ao domínio lógico exposto).
-- `VIO_BANK0`, `VIO_BANK1`, `VIO_BANK2`, `VIO_BANK3`: tensões por banco de IO, alinhadas ao princípio de **level shifting por bancos** (OFF / 3V3 / 5V) descrito em `UCE_BOARD.md`.
 - `PWR_GOOD`: sinal de “power good” do sistema.
 
 ### 2.3 Direção dos sinais
@@ -64,33 +64,33 @@ Abaixo está o catálogo dos sinais observados no esquemático (principalmente v
 
 ### 4.1 Alimentação e controle
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `VCC_5V` | Power | — | Alimentação 5 V |
-| `VCC_3V3` | Power | — | Alimentação 3,3 V |
-| `VCC_1V8` | Power | — | Alimentação 1,8 V |
-| `GND` | Power | — | Terra |
-| `VREF_IO` | Referência | — | Referência para IO/level shifting |
-| `VIO_BANK0` | Power/IO ref | — | Tensão do banco 0 |
-| `VIO_BANK1` | Power/IO ref | — | Tensão do banco 1 |
-| `VIO_BANK2` | Power/IO ref | — | Tensão do banco 2 |
-| `VIO_BANK3` | Power/IO ref | — | Tensão do banco 3 |
-| `PWR_GOOD` | Status | MCU → EXT | Indica tensões estáveis (ou habilitação do domínio) |
+| Sinal         | Tipo         | Direção  | Observação                                             |
+| ------------- | ------------ | ---------- | -------------------------------------------------------- |
+| `VCC_12V`   | Power        | —         | Alimentação 12 V                                        |
+| `VCC_5V`    | Power        | —         | Alimentação 5 V                                        |
+| `VCC_3V3`   | Power        | —         | Alimentação 3,3 V                                      |
+| `VCC_1V8`   | Power        | —         | Alimentação 1,8 V                                      |
+| `GND`       | Power        | —         | Terra                                                    |
+| `VREF_IO`   | Referência  | —         | Referência para IO/level shifting                       |
+| `PWR_GOOD`  | Status       | MCU → EXT | Indica tensões estáveis (ou habilitação do domínio) |
 
 ### 4.2 Sinais de boot/reset/enable
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `MCU_EN` | Controle | EXT → MCU | Enable do módulo/MCU (conforme arquitetura) |
+| Sinal         | Tipo     | Direção  | Observação                                 |
+| ------------- | -------- | ---------- | -------------------------------------------- |
+| `MCU_EN`    | Controle | EXT → MCU | Enable do módulo/MCU (conforme arquitetura) |
 | `MCU_BOOT0` | Controle | EXT → MCU | Seleção de boot/perfil (dependente do MCU) |
 
 ### 4.3 I²C
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `I2C0_SCL` | I²C | Bidirecional (open-drain) | Clock I²C0 |
-| `I2C1_SCL` | I²C | Bidirecional (open-drain) | Clock I²C1 |
-| `I2C2_SDA` | I²C | Bidirecional (open-drain) | Data I²C2 |
+| Sinal        | Tipo | Direção                 | Observação |
+| ------------ | ---- | ------------------------- | ------------ |
+| `I2C0_SDA` | I²C | Bidirecional (open-drain) | Data I²C0  |
+| `I2C0_SCL` | I²C | Bidirecional (open-drain) | Clock I²C0  |
+| `I2C1_SDA` | I²C | Bidirecional (open-drain) | Data I²C1  |
+| `I2C1_SCL` | I²C | Bidirecional (open-drain) | Clock I²C1  |
+| `I2C2_SDA` | I²C | Bidirecional (open-drain) | Data I²C2   |
+| `I2C2_SCL` | I²C | Bidirecional (open-drain) | Clock I²C2  |
 
 > Nota: o esquemático listado aqui inclui alguns sinais I²C pontuais; a UCE prevê pares `SCL/SDA` por barramento.
 
@@ -98,75 +98,83 @@ Abaixo está o catálogo dos sinais observados no esquemático (principalmente v
 
 #### SPI0
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `SPI0_SCK` | SPI | MCU → EXT | Clock |
-| `SPI0_MOSI` | SPI | MCU → EXT | Master Out / Slave In |
-| `SPI0_MISO` | SPI | EXT → MCU | Master In / Slave Out |
-| `SPI0_CS0` | SPI | MCU → EXT | Chip Select 0 |
-| `SPI0_CS1` | SPI | MCU → EXT | Chip Select 1 |
+| Sinal         | Tipo | Direção  | Observação          |
+| ------------- | ---- | ---------- | --------------------- |
+| `SPI0_SCK`  | SPI  | MCU → EXT | Clock                 |
+| `SPI0_MOSI` | SPI  | MCU → EXT | Master Out / Slave In |
+| `SPI0_MISO` | SPI  | EXT → MCU | Master In / Slave Out |
+| `SPI0_CS0`  | SPI  | MCU → EXT | Chip Select 0         |
+| `SPI0_CS1`  | SPI  | MCU → EXT | Chip Select 1         |
 
 #### SPI1
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `SPI1_CS0` | SPI | MCU → EXT | Chip Select 0 |
+| Sinal        | Tipo | Direção  | Observação  |
+| ------------ | ---- | ---------- | ------------- |
+| `SPI1_CS0` | SPI  | MCU → EXT | Chip Select 0 |
+| `SPI1_SCK` | SPI  | MCU → EXT | Clock       |
+| `SPI1_MOSI` | SPI  | MCU → EXT | Master Out / Slave In |
+| `SPI1_MISO` | SPI  | EXT → MCU | Master In / Slave Out |
 
 ### 4.5 UART
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `UART0_TX` | UART | MCU → EXT | Transmit |
-| `UART1_RX` | UART | EXT → MCU | Receive |
-| `UART2_TX` | UART | MCU → EXT | Transmit |
+| Sinal        | Tipo | Direção  | Observação |
+| ------------ | ---- | ---------- | ------------ |
+| `UART0_TX` | UART | MCU → EXT | Transmit     |
+| `UART0_RX` | UART | EXT → MCU | Receive      |
+| `UART1_TX` | UART | MCU → EXT | Transmit     |
+| `UART1_RX` | UART | EXT → MCU | Receive      |
+| `UART2_TX` | UART | MCU → EXT | Transmit     |
+| `UART2_RX` | UART | EXT → MCU | Receive      |
 
 > Nota: a UCE define `UART0..UART3` e, no caso da `UART0`, sinais de controle adicionais. Nem todos aparecem explicitamente neste sheet do barramento externo.
 
 ### 4.6 GPIO e PWM
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `GPIO1` | GPIO | Bidirecional | Uso geral |
-| `GPIO3` | GPIO | Bidirecional | Uso geral |
-| `GPIO6` | GPIO | Bidirecional | Uso geral |
-| `GPIO7` | GPIO | Bidirecional | Uso geral |
-| `GPIO8` | GPIO | Bidirecional | Uso geral |
-| `GPIO9` | GPIO | Bidirecional | Uso geral |
-| `PWM1` | PWM | MCU → EXT | Saída PWM |
-| `PWM3` | PWM | MCU → EXT | Saída PWM |
-| `PWM6` | PWM | MCU → EXT | Saída PWM |
+| Sinal     | Tipo | Direção    | Observação |
+| --------- | ---- | ------------ | ------------ |
+| `GPIO1` | GPIO | Bidirecional | Uso geral    |
+| `GPIO3` | GPIO | Bidirecional | Uso geral    |
+| `GPIO6` | GPIO | Bidirecional | Uso geral    |
+| `GPIO7` | GPIO | Bidirecional | Uso geral    |
+| `GPIO8` | GPIO | Bidirecional | Uso geral    |
+| `GPIO9` | GPIO | Bidirecional | Uso geral    |
+| `PWM1`  | PWM  | MCU → EXT   | Saída PWM   |
+| `PWM3`  | PWM  | MCU → EXT   | Saída PWM   |
+| `PWM6`  | PWM  | MCU → EXT   | Saída PWM   |
 
 ### 4.7 IR
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `IR_TX_OUT` | IR | MCU → EXT | Transmissão IR |
+| Sinal         | Tipo | Direção  | Observação    |
+| ------------- | ---- | ---------- | --------------- |
+| `IR_TX_OUT` | IR   | MCU → EXT | Transmissão IR |
 
 ### 4.8 Analógicos (ADC/DAC)
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `AIN3` | Analógico | EXT → MCU | Entrada analógica |
-| `AOUT1` | Analógico | MCU → EXT | Saída analógica |
+| Sinal     | Tipo       | Direção  | Observação       |
+| --------- | ---------- | ---------- | ------------------ |
+| `AIN3`  | Analógico | EXT → MCU | Entrada analógica |
+| `AOUT1` | Analógico | MCU → EXT | Saída analógica  |
 
 ### 4.9 Áudio (I²S)
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `I2S_BCLK` | I²S | MCU → EXT | Bit clock |
+| Sinal        | Tipo | Direção  | Observação |
+| ------------ | ---- | ---------- | ------------ |
+| `I2S_BCLK` | I²S | MCU → EXT | Bit clock    |
+| `I2S_LRC` | I²S | MCU → EXT | Left/Right clock    |
+| `I2S_SD` | I²S | MCU → EXT | Serial data    |
 
 ### 4.10 SDIO
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `SDIO_D0` | SDIO | Bidirecional | Data 0 |
-| `SDIO_D2` | SDIO | Bidirecional | Data 2 |
+| Sinal       | Tipo | Direção    | Observação |
+| ----------- | ---- | ------------ | ------------ |
+| `SDIO_D0` | SDIO | Bidirecional | Data 0       |
+| `SDIO_D2` | SDIO | Bidirecional | Data 2       |
 
 ### 4.11 Debug
 
-| Sinal | Tipo | Direção | Observação |
-| --- | --- | --- | --- |
-| `DBG_VREF` | Debug ref | — | Referência do domínio de debug |
+| Sinal        | Tipo      | Direção | Observação                     |
+| ------------ | --------- | --------- | -------------------------------- |
+| `DBG_VREF` | Debug ref | —        | Referência do domínio de debug |
 
 ### 4.12 Reservados
 

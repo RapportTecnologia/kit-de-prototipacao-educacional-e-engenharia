@@ -3658,6 +3658,12 @@
 		(uuid "103ad94c-66a8-447d-8ab5-c814e1d63fd1")
 	)
 	(junction
+		(at 119.38 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17e4a8fd-689b-4f94-98de-26cba128487a")
+	)
+	(junction
 		(at 193.04 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5095,6 +5101,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 35.56) (xy 111.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa4fc5b-abcf-4ac5-91a8-528b31eaa362")
+	)
+	(wire
+		(pts
 			(xy 99.06 139.7) (xy 99.06 142.24)
 		)
 		(stroke
@@ -6225,6 +6241,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 55.88) (xy 193.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf711a30-7331-4cbc-bc02-a6f9a0d21be2")
+	)
+	(wire
+		(pts
 			(xy 172.72 35.56) (xy 172.72 45.72)
 		)
 		(stroke
@@ -6835,6 +6861,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 55.88) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f882dc15-02df-46d6-9f61-948bb71715e6")
+	)
+	(wire
+		(pts
 			(xy 130.81 154.94) (xy 130.81 157.48)
 		)
 		(stroke
@@ -6882,16 +6918,6 @@
 			(type default)
 		)
 		(uuid "fb95b4e2-e515-4486-b9f2-f5bd35b01d21")
-	)
-	(wire
-		(pts
-			(xy 193.04 55.88) (xy 119.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbebed5f-d343-400d-9e21-0b617aa8f5fd")
 	)
 	(wire
 		(pts
@@ -7022,6 +7048,28 @@
 			(justify left bottom)
 		)
 		(uuid "c936f60e-4511-4db7-9ceb-7999d7a561d9")
+	)
+	(global_label "+1v8"
+		(shape input)
+		(at 111.76 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "536be17b-1961-430f-97e9-9b06987a3ece")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 27.6158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "+12v Shunt"
 		(shape input)
@@ -7305,7 +7353,7 @@
 		(lib_id "PCM_SL_Pin_Headers:PINHD_2x2_Male")
 		(at 114.3 76.2 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9672,7 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_3.3V"
+		(property "Value" "VCC_3V3"
 			(at 177.8 30.48 0)
 			(effects
 				(font
@@ -10272,7 +10320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_1.8V"
+		(property "Value" "VCC_1V8"
 			(at 193.04 30.48 0)
 			(effects
 				(font
