@@ -1,24 +1,74 @@
 ---
 layout: page
 title: "PCB"
-subtitle: "Imagem gerada automaticamente a partir do KiCad"
+subtitle: "Imagens geradas automaticamente a partir do KiCad"
 permalink: /pcb/
 is_category: true
 ---
-## Visão 2D (SVG)
 
-A imagem abaixo é gerada automaticamente a partir do arquivo `kicad/KEPR/KEPR.kicad_pcb`.
+## Lista de PCBs
+
+- <a href="#pcb-ddr4-sodimm-260pin-smt-8-0h-standard-version-board">DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board</a>
+- <a href="#pcb-kepr">KEPR</a>
+- <a href="#pcb-mcu-board-stm32n6">MCU_Board_STM32N6</a>
+
+## DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board
+
+<a id="pcb-ddr4-sodimm-260pin-smt-8-0h-standard-version-board"></a>
+
+### Visão 2D (SVG)
 
 <div style="max-width: 1100px; margin: 0 auto;">
-  <img src="{{ '/assets/img/kepr-pcb.svg' | relative_url }}" alt="PCB (SVG)" style="width: 100%; height: auto; display: block;" />
+  <img src="{{ "/assets/img/pcbs/ddr4-sodimm-260pin-smt-8-0h-standard-version-board/pcb.svg" | relative_url }}" alt="DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board (SVG)" style="width: 100%; height: auto; display: block;" />
 </div>
 
-## Render 3D (PNG)
-
-<div style="max-width: 1100px; margin: 0 auto;">
-  <img src="{{ '/assets/img/kepr-pcb-top-3d.png' | relative_url }}" alt="PCB Top (3D)" style="width: 100%; height: auto; display: block;" />
-</div>
+### Render 3D (PNG)
 
 <div style="max-width: 1100px; margin: 0 auto;">
-  <img src="{{ '/assets/img/kepr-pcb-bottom-3d.png' | relative_url }}" alt="PCB Bottom (3D)" style="width: 100%; height: auto; display: block;" />
+  <img src="{{ "/assets/img/pcbs/ddr4-sodimm-260pin-smt-8-0h-standard-version-board/top-3d.png" | relative_url }}" alt="DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board Top (3D)" style="width: 100%; height: auto; display: block;" />
 </div>
+
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ "/assets/img/pcbs/ddr4-sodimm-260pin-smt-8-0h-standard-version-board/bottom-3d.png" | relative_url }}" alt="DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board Bottom (3D)" style="width: 100%; height: auto; display: block;" />
+</div>
+
+## KEPR
+
+<a id="pcb-kepr"></a>
+
+### Visão 2D (SVG)
+
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ "/assets/img/pcbs/kepr/pcb.svg" | relative_url }}" alt="KEPR (SVG)" style="width: 100%; height: auto; display: block;" />
+</div>
+
+### Render 3D (PNG)
+
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ "/assets/img/pcbs/kepr/top-3d.png" | relative_url }}" alt="KEPR Top (3D)" style="width: 100%; height: auto; display: block;" />
+</div>
+
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ "/assets/img/pcbs/kepr/bottom-3d.png" | relative_url }}" alt="KEPR Bottom (3D)" style="width: 100%; height: auto; display: block;" />
+</div>
+
+## MCU_Board_STM32N6
+
+<a id="pcb-mcu-board-stm32n6"></a>
+
+### Visão 2D (SVG)
+
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ "/assets/img/pcbs/mcu-board-stm32n6/pcb.svg" | relative_url }}" alt="MCU_Board_STM32N6 (SVG)" style="width: 100%; height: auto; display: block;" />
+</div>
+
+### Render 3D (PNG)
+
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ "/assets/img/pcbs/mcu-board-stm32n6/top-3d.png" | relative_url }}" alt="MCU_Board_STM32N6 Top (3D)" style="width: 100%; height: auto; display: block;" />
+</div>
+
+<div style="max-width: 1100px; margin: 0 auto;">
+  <img src="{{ "/assets/img/pcbs/mcu-board-stm32n6/bottom-3d.png" | relative_url }}" alt="MCU_Board_STM32N6 Bottom (3D)" style="width: 100%; height: auto; display: block;" />
+</div>
+

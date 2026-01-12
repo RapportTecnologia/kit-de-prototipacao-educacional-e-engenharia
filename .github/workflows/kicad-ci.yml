@@ -56,11 +56,7 @@ jobs:
 
       - name: Export PCB 2D (SVG)
         run: |
-          kicad-cli pcb export svg \
-            --mode-single \
-            --layers "F.Cu,F.SilkS,Edge.Cuts" \
-            --output "docs/assets/img/kepr-pcb.svg" \
-            "kicad/KEPR/KEPR.kicad_pcb"
+          bash scripts/gen_pcbs_site.sh
 
       - name: Export schematics (SVG) + generate schematics page
         run: |
@@ -78,40 +74,12 @@ jobs:
         run: |
           python3 scripts/gen_datasheets.py
 
-      - name: Render PCB 3D TOP (PNG)
-        continue-on-error: true
-        run: |
-          kicad-cli pcb render \
-            --output "docs/assets/img/kepr-pcb-top-3d.png" \
-            --width 1600 \
-            --height 900 \
-            --side top \
-            --perspective \
-            --background transparent \
-            --quality high \
-            --floor \
-            "kicad/KEPR/KEPR.kicad_pcb"
-
-      - name: Render PCB 3D BOTTOM (PNG)
-        continue-on-error: true
-        run: |
-         kicad-cli pcb render \
-            --output "docs/assets/img/kepr-pcb-bottom-3d.png" \
-            --width 1600 \
-            --height 900 \
-            --side bottom \
-            --perspective \
-            --background transparent \
-            --quality high \
-            --floor \
-            "kicad/KEPR/KEPR.kicad_pcb"
-
       - name: Auto-commit updated images
         if: always()
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ci: update KEPR PCB images"
-          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-top-3d.png docs/assets/img/kepr-pcb-bottom-3d.png docs/assets/img/schematics/*.svg docs/assets/bom/*.csv docs/assets/guias-e-livros/** docs/bom.md docs/esquematicos.md docs/relatorios-erc-drc.md docs/guias-e-livros.md docs/datasheets.md kicad/KEPR/reports/*.rpt"
+          file_pattern: "docs/assets/img/kepr-pcb.svg docs/assets/img/kepr-pcb-top-3d.png docs/assets/img/kepr-pcb-bottom-3d.png docs/assets/img/pcbs/** docs/assets/img/schematics/*.svg docs/assets/bom/*.csv docs/assets/guias-e-livros/** docs/bom.md docs/esquematicos.md docs/pcb.md docs/relatorios-erc-drc.md docs/guias-e-livros.md docs/datasheets.md kicad/KEPR/reports/*.rpt"
 
       - name: Fail if ERC/DRC violations exist
         if: always()
