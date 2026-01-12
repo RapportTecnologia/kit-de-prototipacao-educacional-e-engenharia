@@ -8,6 +8,10 @@ is_category: true
 
 Os datasheets ficam na pasta `datasheets/` no repositório.
 
+## Connectors
+
+- [DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, Right  Angle](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Connectors/DDR4%20SODIMM%20260pin%20SMT%2C%208.0H%2C%20STANDARD%20VERSION%2C%20Right%20%20Angle.pdf)
+
 ## Current Sensors
 
 - [01332b](https://github.com/RapportTecnologia/kit-de-prototipacao-educacional-e-engenharia/blob/main/datasheets/Current%20Sensors/01332b.pdf)
