@@ -4903,6 +4903,18 @@
 		(uuid "0dbad3dd-0b83-42be-99f6-a606935f84f8")
 	)
 	(no_connect
+		(at 60.96 83.82)
+		(uuid "12a66784-a066-45e7-a716-b49bc76c00f8")
+	)
+	(no_connect
+		(at 289.56 83.82)
+		(uuid "1ae51149-b2a4-4b1b-819d-98502e13a60a")
+	)
+	(no_connect
+		(at 289.56 38.1)
+		(uuid "30ebb0f9-2e97-48a9-860b-396cef7423ec")
+	)
+	(no_connect
 		(at 243.84 83.82)
 		(uuid "3e90eca4-03c7-4c30-bd0e-a9e3677c84d0")
 	)
@@ -4911,8 +4923,28 @@
 		(uuid "3f43022b-28ba-46ef-ba6f-514fa8e3f36f")
 	)
 	(no_connect
+		(at 297.18 38.1)
+		(uuid "42d18da6-596c-4cc7-821e-6b42a9d81c0e")
+	)
+	(no_connect
+		(at 63.5 83.82)
+		(uuid "565b89a1-8ecd-4905-bda3-4aef2644826b")
+	)
+	(no_connect
+		(at 220.98 83.82)
+		(uuid "623a4d91-8bde-4a90-b2d9-7ce39a92b0cf")
+	)
+	(no_connect
 		(at 251.46 83.82)
 		(uuid "67c43932-2744-426a-af52-84394cef84e4")
+	)
+	(no_connect
+		(at 60.96 38.1)
+		(uuid "856d8ada-be0c-4d0f-abc4-f09a67b6bed3")
+	)
+	(no_connect
+		(at 287.02 38.1)
+		(uuid "8d19038e-84ae-4c81-b7b6-dc15f0aeb5e4")
 	)
 	(no_connect
 		(at 251.46 38.1)
@@ -4925,6 +4957,18 @@
 	(no_connect
 		(at 248.92 38.1)
 		(uuid "a1cefa08-b7e8-4a44-b54d-73563b16cad7")
+	)
+	(no_connect
+		(at 63.5 38.1)
+		(uuid "a30565e4-dd8d-4137-b8a3-a0c4cb3e4423")
+	)
+	(no_connect
+		(at 223.52 83.82)
+		(uuid "adc4713a-2f66-4056-b4d9-9716b5ca765d")
+	)
+	(no_connect
+		(at 287.02 83.82)
+		(uuid "b8846566-6880-4974-94ee-c14c976f7fd6")
 	)
 	(no_connect
 		(at 248.92 83.82)
@@ -4941,6 +4985,10 @@
 	(no_connect
 		(at 241.3 83.82)
 		(uuid "c7f6a413-a4de-4eb7-857d-c2ef937b483f")
+	)
+	(no_connect
+		(at 294.64 38.1)
+		(uuid "f54d6199-82a4-4499-ba01-60d0300c5be3")
 	)
 	(no_connect
 		(at 246.38 38.1)
@@ -7052,27 +7100,6 @@
 			)
 		)
 	)
-	(global_label "VIO_BANK2"
-		(shape passive)
-		(at 223.52 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0792e480-9adc-491e-9fcb-40638b0063ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART0_RX"
 		(shape passive)
 		(at 88.9 38.1 90)
@@ -7726,26 +7753,6 @@
 			)
 		)
 	)
-	(global_label "VIO_BANK0"
-		(shape passive)
-		(at 220.98 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "362a181a-4770-4d9b-b97c-a43a3fbc1dc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VREF_IO"
 		(shape passive)
 		(at 284.48 38.1 90)
@@ -8133,27 +8140,6 @@
 			)
 		)
 	)
-	(global_label "VIO_BANK2"
-		(shape passive)
-		(at 63.5 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54baf52c-f2e2-4cc1-8b94-8ffabfcfdab0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI0_CS1"
 		(shape passive)
 		(at 111.76 83.82 270)
@@ -8297,27 +8283,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK0"
-		(shape passive)
-		(at 60.96 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64d89786-2e99-4246-a91d-9a89d92591a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8686,27 +8651,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK3"
-		(shape passive)
-		(at 289.56 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7760dfcc-f5df-4044-b660-ece386e92356")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9200,48 +9144,6 @@
 			)
 		)
 	)
-	(global_label "VIO_BANK3"
-		(shape passive)
-		(at 63.5 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93012598-1163-4a38-a93f-d77b2dd9ab4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK1"
-		(shape passive)
-		(at 287.02 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "931e9e78-99ad-4e91-a2a5-3915b7462b2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.02 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C0_SCL"
 		(shape passive)
 		(at 81.28 83.82 270)
@@ -9530,7 +9432,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA_MCU_CTL"
+	(global_label "MCU_CTL_I2C_SDA"
 		(shape passive)
 		(at 297.18 83.82 270)
 		(fields_autoplaced yes)
@@ -10005,7 +9907,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL_MCU_CTL"
+	(global_label "MCU_CTL_I2C_SCL"
 		(shape passive)
 		(at 294.64 83.82 270)
 		(fields_autoplaced yes)
@@ -10064,27 +9966,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK1"
-		(shape passive)
-		(at 60.96 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc62b2b9-aa47-4697-971f-03cdce2cbb8d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10186,27 +10067,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK2"
-		(shape passive)
-		(at 289.56 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9e4053d-cbe8-4d3d-8649-63c7b72e2f8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10798,27 +10658,6 @@
 		(uuid "fe7f8bc2-7405-479f-8582-de3d69886144")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 264.16 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK0"
-		(shape passive)
-		(at 287.02 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff76d590-829f-44b7-b6e5-f5e8738b8c2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.02 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)

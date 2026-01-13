@@ -1,0 +1,54 @@
+Informação: Processando o símbolo 'J24:Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J8:'.
+Informação: Processando o símbolo 'Brd1:SSD1306:128x64OLED'.
+Informação: Processando o símbolo 'J10:Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J11:Connector_PCBEdge:SODIMM-260_DDR4_H4.0-5.2_OrientationStd_Socket'.
+Informação: Processando o símbolo 'J12:Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J13:Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J16:Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J17:Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J19:Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J22:Barrel Jack:BarrelJack_Horizontal'.
+Informação: Processando o símbolo 'J23:Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J9:Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J26:Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J30:Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'PS1:TDN 5WISM Series, 5 Watt:CONV_TDN5-2411WISM'.
+Informação: Processando o símbolo 'PS2:TDN 5WISM Series, 5 Watt:CONV_TDN5-2411WISM'.
+Informação: Processando o símbolo 'PS3:TDN 5WISM Series, 5 Watt:CONV_TDN5-2411WISM'.
+Informação: Processando o símbolo 'U1:REF193:SOIC127P600X175-8N'.
+Informação: Processando o símbolo 'U2:Package_QFP:LQFP-48_7x7mm_P0.5mm'.
+Informação: Processando o símbolo 'U3:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Informação: Processando o símbolo 'U4:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Informação: Total de avisos: 5, erros: 2.
+Informação: Processando o símbolo 'J4:Connector_IDC:IDC-Header_2x15-1MP_P2.54mm_Latch_Vertical'.
+Informação: Processando o símbolo 'IC1:APS12628LLHALTBAP'.
+Informação: Processando o símbolo 'IC2:APS12628LLHALTBAP'.
+Informação: Processando o símbolo 'C5:Capacitor:C_0805_2012Metric'.
+Informação: Processando o símbolo 'IC3:APS12628LLHALTBAP'.
+Informação: Processando o símbolo 'C4:Capacitor:C_0805_2012Metric'.
+Informação: Processando o símbolo 'C3:Capacitor:C_0805_2012Metric'.
+Informação: Processando o símbolo 'J1:Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J3:Connector_IDC:IDC-Header_2x12_P2.54mm_Latch9.5mm_Vertical'.
+Informação: Processando o símbolo 'C2:Capacitor:C_0805_2012Metric'.
+Informação: Processando o símbolo 'C1:Capacitor:C_0805_2012Metric'.
+Informação: Processando o símbolo 'BT1:Battery:BatteryHolder_Multicomp_BC-2001_1x2032'.
+Informação: Processando o símbolo 'J5:Connector_IDC:IDC-Header_2x08_P2.54mm_Latch12.0mm_Vertical'.
+Informação: Processando o símbolo 'J6:Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Informação: Processando o símbolo 'J7:'.
+Adiciona Brd1 (footprint 'SSD1306:128x64OLED').
+
+
+Troca o footprint IC1 de 'ACS37041:APS12628LLHALTBAP' para 'APS12628LLHALTBAP'.
+Troca o footprint IC2 de 'ACS37041:APS12628LLHALTBAP' para 'APS12628LLHALTBAP'.
+Troca o footprint IC3 de 'ACS37041:APS12628LLHALTBAP' para 'APS12628LLHALTBAP'.
+Atenção: Nenhuma rede foi encontrada para o componente J22 ilha 3 (nenhum pino 3 no símbolo).
+Atenção: Nenhuma rede foi encontrada para o componente J4 ilha MP (nenhum pino MP no símbolo).
+Atenção: Nenhuma rede foi encontrada para o componente J4 ilha MP (nenhum pino MP no símbolo).
+Atenção: Nenhuma rede foi encontrada para o componente J11 ilha MP (nenhum pino MP no símbolo).
+Atenção: Nenhuma rede foi encontrada para o componente J11 ilha MP (nenhum pino MP no símbolo).
+Erro: Não é possível adicionar J8 (nenhum footprint associado).
+Erro: Não é possível adicionar J7 (nenhum footprint associado).
+
+
+Informação: Total de avisos: 5, erros: 2.
