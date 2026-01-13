@@ -1,4 +1,5 @@
 "Refs","Value","Footprint","Qty","DNP"
+"Brd1","SSD1306","SSD1306:128x64OLED","1",""
 "BT1","Battery_Cell","Battery:BatteryHolder_Multicomp_BC-2001_1x2032","1",""
 "C1","4.7nF_Ceramic","Capacitor:C_0805_2012Metric","1",""
 "C2","4.7nF_Ceramic","Capacitor:C_0805_2012Metric","1",""
@@ -19,6 +20,7 @@
 "J10","Conn_02x40_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical","1",""
 "J11","10141995-005RLF","Connector_PCBEdge:SODIMM-260_DDR4_H4.0-5.2_OrientationStd_Socket","1",""
 "J12","PINHD_1x20_Male","Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical","1",""
+"J13","PINHD_2x2_Male","Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical","1",""
 "J16","PINHD_1x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","1",""
 "J17","PINHD_1x20_Male","Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical","1",""
 "J19","PINHD_1x20_Male","Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical","1",""

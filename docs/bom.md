@@ -145,10 +145,10 @@ permalink: /bom/
 <td></td>
 </tr>
 <tr>
-<td>KEPR:J24;KEPR:J30</td>
+<td>KEPR:J13;KEPR:J24;KEPR:J30</td>
 <td>PINHD_2x2_Male</td>
 <td>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</td>
-<td>2</td>
+<td>3</td>
 <td></td>
 </tr>
 <tr>
@@ -162,6 +162,13 @@ permalink: /bom/
 <td>KEPR:U1</td>
 <td>REF193</td>
 <td>REF193:SOIC127P600X175-8N</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>KEPR:Brd1</td>
+<td>SSD1306</td>
+<td>SSD1306:128x64OLED</td>
 <td>1</td>
 <td></td>
 </tr>
