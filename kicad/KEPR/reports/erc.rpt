@@ -1,4 +1,4 @@
-ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
+ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 
 ***** Sheet /
 [lib_symbol_issues]: The current configuration does not include the symbol library '10141995-005RLF'
@@ -10,54 +10,15 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(215.90 mm, 373.38 mm): Global Label 'PWR_GOOD'
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(96.52 mm, 101.60 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(96.52 mm, 104.14 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(96.52 mm, 106.68 mm): Horizontal Wire, length 10.16 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
     ; warning
     @(111.76 mm, 109.22 mm): Symbol J6 [Conn_02x20_Odd_Even]
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
-    @(119.38 mm, 101.60 mm): Horizontal Wire, length 7.62 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(119.38 mm, 104.14 mm): Horizontal Wire, length 7.62 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
     @(167.64 mm, 91.44 mm): Horizontal Wire, length 12.70 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(170.18 mm, 147.32 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(170.18 mm, 149.86 mm): Horizontal Wire, length 10.16 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
     ; warning
     @(185.42 mm, 132.08 mm): Symbol J9 [Conn_02x40_Odd_Even]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(170.18 mm, 152.40 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(170.18 mm, 154.94 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(193.04 mm, 147.32 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(193.04 mm, 149.86 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(193.04 mm, 152.40 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(193.04 mm, 154.94 mm): Horizontal Wire, length 10.16 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(120.65 mm, 228.60 mm): Symbol #PWR08 [+5V]
@@ -201,25 +162,19 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
     @(119.38 mm, 35.56 mm): Symbol #PWR040 [+3.3V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
-    @(111.76 mm, 68.58 mm): Symbol #PWR07 [+5V]
+    @(107.95 mm, 68.58 mm): Symbol #PWR07 [+5V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(127.00 mm, 35.56 mm): Symbol #PWR039 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
+    ; warning
+    @(113.03 mm, 76.20 mm): Symbol J24 [PINHD_2x2_Male]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(118.11 mm, 68.58 mm): Symbol #PWR01 [+3.3V]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(118.11 mm, 68.58 mm): Vertical Wire, length 1.27 mm
-[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
-    ; warning
-    @(114.30 mm, 76.20 mm): Symbol J24 [PINHD_2x2_Male]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(134.62 mm, 35.56 mm): Symbol #PWR038 [+5V]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(114.30 mm, 83.82 mm): Horizontal Wire, length 15.24 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Regulator_Linear'
     ; warning
     @(78.74 mm, 119.38 mm): Symbol U4 [AMS1117-1.8]
@@ -306,16 +261,16 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
     @(130.81 mm, 210.82 mm): Symbol #PWR028 [GND]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
-    @(243.84 mm, 68.58 mm): Symbol #PWR021 [+5V]
+    @(241.30 mm, 68.58 mm): Symbol #PWR021 [+5V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(109.22 mm, 228.60 mm): Symbol #PWR032 [GND]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
     ; warning
-    @(243.84 mm, 76.20 mm): Symbol J30 [PINHD_2x2_Male]
+    @(245.11 mm, 76.20 mm): Symbol J30 [PINHD_2x2_Male]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
-    @(250.19 mm, 68.58 mm): Symbol #PWR022 [+3.3V]
+    @(248.92 mm, 68.58 mm): Symbol #PWR022 [+3.3V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
     ; warning
     @(200.66 mm, 179.07 mm): Symbol J19 [PINHD_1x20_Male]
@@ -824,45 +779,6 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
 ***** Sheet /BUSes/UCE_External_Bus/
 [pin_not_connected]: Pin not connected
     ; error
-    @(106.68 mm, 101.60 mm): Symbol J6 Pin 13 [Pin_13, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(106.68 mm, 104.14 mm): Symbol J6 Pin 15 [Pin_15, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(106.68 mm, 106.68 mm): Symbol J6 Pin 17 [Pin_17, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(119.38 mm, 101.60 mm): Symbol J6 Pin 14 [Pin_14, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(119.38 mm, 104.14 mm): Symbol J6 Pin 16 [Pin_16, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(180.34 mm, 147.32 mm): Symbol J9 Pin 51 [Pin_51, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(180.34 mm, 149.86 mm): Symbol J9 Pin 53 [Pin_53, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(180.34 mm, 152.40 mm): Symbol J9 Pin 55 [Pin_55, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(180.34 mm, 154.94 mm): Symbol J9 Pin 57 [Pin_57, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(193.04 mm, 147.32 mm): Symbol J9 Pin 52 [Pin_52, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(193.04 mm, 149.86 mm): Symbol J9 Pin 54 [Pin_54, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(193.04 mm, 152.40 mm): Symbol J9 Pin 56 [Pin_56, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(193.04 mm, 154.94 mm): Symbol J9 Pin 58 [Pin_58, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
     @(120.65 mm, 228.60 mm): Symbol #PWR08 Pin 1 [Power input, Line]
 [pin_not_connected]: Pin not connected
     ; error
@@ -939,27 +855,12 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
     ; warning
     @(111.76 mm, 35.56 mm): Global Label '+1v8'
     @(119.38 mm, 35.56 mm): Symbol #PWR040 Pin 1 [Power input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(111.76 mm, 68.58 mm): Symbol #PWR07 Pin 1 [Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(111.76 mm, 68.58 mm): Symbol #PWR07 Pin 1 [Power input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(113.03 mm, 71.12 mm): Symbol J24 Pin 2 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(115.57 mm, 71.12 mm): Symbol J24 Pin 4 [Passive, Line]
+    @(107.95 mm, 68.58 mm): Symbol #PWR07 Pin 1 [Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(118.11 mm, 68.58 mm): Symbol #PWR01 Pin 1 [Power input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(113.03 mm, 81.28 mm): Symbol J24 Pin 1 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(115.57 mm, 81.28 mm): Symbol J24 Pin 3 [Passive, Line]
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(63.50 mm, 147.32 mm): Symbol PS1 Pin 4 [ON/OFF, Input, Line]
@@ -969,7 +870,7 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
     @(162.56 mm, 35.56 mm): Symbol #PWR025 Pin 1 [Power input, Line]
 [multiple_net_names]: Both +5V and VCC_5V are attached to the same items; +5V will be used in the netlist
     ; warning
-    @(111.76 mm, 68.58 mm): Symbol #PWR07 Pin 1 [Power input, Line]
+    @(107.95 mm, 68.58 mm): Symbol #PWR07 Pin 1 [Power input, Line]
     @(172.72 mm, 35.56 mm): Symbol #PWR027 Pin 1 [Power input, Line]
 [pin_to_pin]: Pins of type Output and Output are connected
     ; error
@@ -989,24 +890,6 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(66.04 mm, 210.82 mm): Symbol PS3 Pin 4 [ON/OFF, Input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(242.57 mm, 71.12 mm): Symbol J30 Pin 2 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(243.84 mm, 68.58 mm): Symbol #PWR021 Pin 1 [Power input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(245.11 mm, 71.12 mm): Symbol J30 Pin 4 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(242.57 mm, 81.28 mm): Symbol J30 Pin 1 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(245.11 mm, 81.28 mm): Symbol J30 Pin 3 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(250.19 mm, 68.58 mm): Symbol #PWR022 Pin 1 [Power input, Line]
 
 ***** Sheet /MCU Boards/MCU Board STM32N6/
 [pin_not_connected]: Pin not connected
@@ -1190,4 +1073,4 @@ ERC report (2026-01-13T01:23:35+0000, Encoding UTF8)
     ; error
     @(378.46 mm, 205.74 mm): Symbol J2 Pin 131 [131, Passive, Line]
 
- ** ERC messages: 380  Errors 214  Warnings 166
+ ** ERC messages: 341  Errors 190  Warnings 151

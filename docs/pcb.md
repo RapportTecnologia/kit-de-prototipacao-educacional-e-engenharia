@@ -8,29 +8,8 @@ is_category: true
 
 ## Lista de PCBs
 
-- <a href="#pcb-ddr4-sodimm-260pin-smt-8-0h-standard-version-board">DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board</a>
 - <a href="#pcb-kepr">KEPR</a>
 - <a href="#pcb-mcu-board-stm32n6">MCU_Board_STM32N6</a>
-
-## DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board
-
-<a id="pcb-ddr4-sodimm-260pin-smt-8-0h-standard-version-board"></a>
-
-### Visão 2D (SVG)
-
-<div style="max-width: 1100px; margin: 0 auto;">
-  <img src="{{ "/assets/img/pcbs/ddr4-sodimm-260pin-smt-8-0h-standard-version-board/pcb.svg" | relative_url }}" alt="DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board (SVG)" style="width: 100%; height: auto; display: block;" />
-</div>
-
-### Render 3D (PNG)
-
-<div style="max-width: 1100px; margin: 0 auto;">
-  <img src="{{ "/assets/img/pcbs/ddr4-sodimm-260pin-smt-8-0h-standard-version-board/top-3d.png" | relative_url }}" alt="DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board Top (3D)" style="width: 100%; height: auto; display: block;" />
-</div>
-
-<div style="max-width: 1100px; margin: 0 auto;">
-  <img src="{{ "/assets/img/pcbs/ddr4-sodimm-260pin-smt-8-0h-standard-version-board/bottom-3d.png" | relative_url }}" alt="DDR4 SODIMM 260pin SMT, 8.0H, STANDARD VERSION, board Bottom (3D)" style="width: 100%; height: auto; display: block;" />
-</div>
 
 ## KEPR
 
