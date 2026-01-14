@@ -5229,8 +5229,20 @@
 		(uuid "ea9e61b6-ffa8-42d7-a24e-21db67a0408b")
 	)
 	(no_connect
+		(at 96.52 104.14)
+		(uuid "0008daf6-30fb-464d-8c12-1499897f844b")
+	)
+	(no_connect
 		(at 254 165.1)
 		(uuid "0522466e-924a-4fe7-9cfd-434a474270b8")
+	)
+	(no_connect
+		(at 203.2 152.4)
+		(uuid "091adf3e-c1fe-4cd6-91f0-1985938be94b")
+	)
+	(no_connect
+		(at 170.18 152.4)
+		(uuid "0abeb367-9e1b-43ef-92ea-48dd2fd378cd")
 	)
 	(no_connect
 		(at 287.02 170.18)
@@ -5245,16 +5257,52 @@
 		(uuid "15213cc6-b9b7-432a-b14d-516bd61179bf")
 	)
 	(no_connect
+		(at 96.52 106.68)
+		(uuid "250f287c-67cb-48ef-9bbe-bfcdbd54f359")
+	)
+	(no_connect
+		(at 203.2 154.94)
+		(uuid "347e51b1-432a-4ed4-ad99-877dbf6a7196")
+	)
+	(no_connect
 		(at 287.02 175.26)
 		(uuid "3e59abaa-c772-4552-b063-54f1a59ce7f9")
+	)
+	(no_connect
+		(at 287.02 160.02)
+		(uuid "3f6acba5-39ba-40d8-8f38-d4ec1905991f")
+	)
+	(no_connect
+		(at 254 157.48)
+		(uuid "40bb9e1b-0d5c-4585-bf85-193e9c9b8a53")
 	)
 	(no_connect
 		(at 193.04 88.9)
 		(uuid "468c9364-45a5-44e9-a8f1-04158314a0d8")
 	)
 	(no_connect
+		(at 287.02 165.1)
+		(uuid "47fffbb9-aea5-479e-852d-a487d776e10f")
+	)
+	(no_connect
+		(at 203.2 149.86)
+		(uuid "4c956005-a720-4da7-a5f0-f85b8b767a5a")
+	)
+	(no_connect
 		(at 287.02 167.64)
 		(uuid "5a1ee676-080a-42af-bc82-e7b2aba668c1")
+	)
+	(no_connect
+		(at 170.18 154.94)
+		(uuid "5f91a5fb-21ec-4dfe-b9de-4cf1692064c0")
+	)
+	(no_connect
+		(at 127 104.14)
+		(uuid "666dba51-6c6e-4329-a148-a2472408c0f7")
+	)
+	(no_connect
+		(at 287.02 157.48)
+		(uuid "6875a20b-955d-48b0-8b00-c3b7976a52be")
 	)
 	(no_connect
 		(at 254 177.8)
@@ -5269,8 +5317,32 @@
 		(uuid "8a09e481-b228-4d20-915a-db5eab4a53d4")
 	)
 	(no_connect
+		(at 170.18 149.86)
+		(uuid "8b8bb092-2788-4759-8c39-ff4f1c5577ca")
+	)
+	(no_connect
+		(at 203.2 147.32)
+		(uuid "a1a98ada-5c2a-43c4-a098-6be591e8f56c")
+	)
+	(no_connect
+		(at 254 160.02)
+		(uuid "b5059da2-5629-404d-a626-93f0748b6043")
+	)
+	(no_connect
+		(at 127 101.6)
+		(uuid "b5c34116-ac40-4418-a637-53a6de6f507e")
+	)
+	(no_connect
+		(at 170.18 147.32)
+		(uuid "b8b78690-ff19-495e-9425-0b1991fa3c18")
+	)
+	(no_connect
 		(at 254 170.18)
 		(uuid "bb40fb46-5d05-44c7-9ffa-bb4a6d3070b6")
+	)
+	(no_connect
+		(at 96.52 101.6)
+		(uuid "bc1f4bad-f5aa-4064-89c3-b19464ac5a6d")
 	)
 	(no_connect
 		(at 254 172.72)
@@ -7670,26 +7742,6 @@
 			)
 		)
 	)
-	(global_label "RESERVED"
-		(shape passive)
-		(at 287.02 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d94ffb2-fbc8-424c-99ce-e24dcf176c04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.02 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape passive)
 		(at 96.52 111.76 180)
@@ -8060,27 +8112,6 @@
 			)
 		)
 	)
-	(global_label "VIO_BANK2"
-		(shape passive)
-		(at 254 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "356406eb-6e26-48e6-afec-d63672f2fcba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCC_1V8"
 		(shape passive)
 		(at 203.2 96.52 0)
@@ -8343,27 +8374,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK0"
-		(shape passive)
-		(at 254 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44a6a331-a436-4f68-99bc-e9cfb0df1cf6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10266,27 +10276,6 @@
 			)
 		)
 	)
-	(global_label "VIO_BANK1"
-		(shape passive)
-		(at 287.02 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3a3acbb-0330-4716-93ef-c98511a0be4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.02 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO11"
 		(shape passive)
 		(at 203.2 134.62 0)
@@ -10426,27 +10415,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_BANK3"
-		(shape passive)
-		(at 287.02 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb403621-10db-4512-a6ca-1237e01a319d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.02 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
