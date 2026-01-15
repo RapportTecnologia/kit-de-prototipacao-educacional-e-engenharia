@@ -973,16 +973,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 172.72) (xy 198.12 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c8a953d-5d38-4b55-a349-531f01a7d776")
-	)
-	(wire
-		(pts
 			(xy 198.12 218.44) (xy 210.82 218.44)
 		)
 		(stroke
@@ -1040,16 +1030,6 @@
 			(type default)
 		)
 		(uuid "7215d1fa-91b9-43a9-986b-edfb151288e4")
-	)
-	(wire
-		(pts
-			(xy 198.12 172.72) (xy 210.82 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ce075b-3162-46e5-b1fe-d50bdc76a49b")
 	)
 	(wire
 		(pts
@@ -3461,6 +3441,53 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 176.53 154.94) (xy 234.95 154.94) (xy 234.95 226.06) (xy 176.53 226.06)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 21b462c3-905b-4df7-bdbc-32b7db88c4c0)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 201.93 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06f4231b-3274-4f63-9cfe-ddaf52d25a4e")
+		(property "Netclass" "Network"
+			(at 202.6285 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -127 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
 			)
 		)
 	)

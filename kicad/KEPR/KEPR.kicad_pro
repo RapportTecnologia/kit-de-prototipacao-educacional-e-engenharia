@@ -490,23 +490,147 @@
       {
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.4
       },
       {
         "name": "GND Thin",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(107, 255, 115)"
+      },
+      {
+        "name": "Main Power Rail",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(152, 74, 255)"
+      },
+      {
+        "name": "Network",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Shunt",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 57, 38)"
+      },
+      {
+        "name": "VDD_MCU_CTL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+12V": [
+        "Main Power Rail"
+      ],
+      "+12v Shunt": [
+        "Shunt"
+      ],
+      "+1v8": [
+        "Main Power Rail"
+      ],
+      "+3.3V": [
+        "Main Power Rail"
+      ],
+      "+3v3 Shunt": [
+        "Shunt"
+      ],
+      "+5V": [
+        "Main Power Rail"
+      ],
+      "+5v Shunt": [
+        "Shunt"
+      ],
+      "MCU_CTL_I2C_SCL": [
+        "I2C"
+      ],
+      "MCU_CTL_I2C_SDA": [
+        "I2C"
+      ],
+      "MDIO": [
+        "Network"
+      ],
+      "NET_CLK_EVEN": [
+        "Network"
+      ],
+      "NET_CLK_ODD": [
+        "Network"
+      ],
+      "NET_CMD_EVEN": [
+        "Network"
+      ],
+      "NET_CTL0_EVEN": [
+        "Network"
+      ],
+      "NET_CTL0_ODD": [
+        "Network"
+      ],
+      "NET_CTL1_EVEN": [
+        "Network"
+      ],
+      "NET_CTL1_ODD": [
+        "Network"
+      ],
+      "NET_CTL2_EVEN": [
+        "Network"
+      ],
+      "NET_CTL2_ODD": [
+        "Network"
+      ],
+      "NET_D0_EVEN": [
+        "Network"
+      ],
+      "NET_D0_ODD": [
+        "Network"
+      ],
+      "NET_D1_EVEN": [
+        "Network"
+      ],
+      "NET_D1_ODD": [
+        "Network"
+      ],
+      "NET_D2_EVEN": [
+        "Network"
+      ],
+      "NET_D2_ODD": [
+        "Network"
+      ],
+      "NET_D3_EVEN": [
+        "Network"
+      ],
+      "NET_D3_ODD": [
+        "Network"
+      ],
+      "NET_SPI_RST_N": [
+        "Network"
+      ],
+      "VDD_MCU_CTL_3v3": [
+        "VDD_MCU_CTL"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "GND",
@@ -515,6 +639,14 @@
       {
         "netclass": "GND Thin",
         "pattern": "GND"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "I2C"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI"
       }
     ]
   },

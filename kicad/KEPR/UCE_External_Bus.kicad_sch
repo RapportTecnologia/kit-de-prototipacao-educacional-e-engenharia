@@ -5309,6 +5309,10 @@
 		(uuid "7804019b-33fe-4ef9-b38f-307968d60005")
 	)
 	(no_connect
+		(at 254 121.92)
+		(uuid "7f90eb41-a29a-485e-ba95-a0176964d9fa")
+	)
+	(no_connect
 		(at 287.02 177.8)
 		(uuid "85cc2abb-1352-45e9-a6b8-794775ff824b")
 	)
@@ -5351,6 +5355,10 @@
 	(no_connect
 		(at 287.02 172.72)
 		(uuid "ec927b02-286f-45d4-b4d6-53e5be67df41")
+	)
+	(no_connect
+		(at 287.02 121.92)
+		(uuid "feda614e-9a3b-4fd7-9ce6-84e0b6e1e478")
 	)
 	(wire
 		(pts
@@ -8784,26 +8792,6 @@
 			)
 		)
 	)
-	(global_label "RESERVED"
-		(shape passive)
-		(at 287.02 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6010a528-4820-45e3-bc20-564473c66a9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI1_SCK"
 		(shape passive)
 		(at 170.18 119.38 180)
@@ -8979,26 +8967,6 @@
 		(uuid "6dc0d01e-62cf-409c-9432-725779e96ed1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESERVED"
-		(shape passive)
-		(at 254 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e742172-7b29-4f51-a0e2-cf21d5000a30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
