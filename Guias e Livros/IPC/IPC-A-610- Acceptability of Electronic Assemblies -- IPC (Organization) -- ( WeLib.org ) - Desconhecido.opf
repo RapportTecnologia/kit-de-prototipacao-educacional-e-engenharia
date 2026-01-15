@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17331</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">be1e43e7-5963-4f12-82ce-fb76bc755c6e</dc:identifier>
+        <dc:title>IPC-A-610- Acceptability of Electronic Assemblies -- IPC (Organization) -- ( WeLib.org )</dc:title>
+        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>PCI</dc:subject>
+        <dc:subject>PCB</dc:subject>
+        <dc:subject>Circuito Impresso</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-03T12:52:52+00:00"/>
+        <meta name="calibre:title_sort" content="IPC-A-610- Acceptability of Electronic Assemblies -- IPC (Organization) -- ( WeLib.org )"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="IPC-A-610- Acceptability of Electronic Assemblies -- IPC (Organization) -- ( WeLib.org ) - Desconhecido.jpg"/>
+    </guide>
+</package>

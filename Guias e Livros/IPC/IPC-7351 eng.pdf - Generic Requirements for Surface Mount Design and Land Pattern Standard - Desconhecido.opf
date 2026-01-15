@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17329</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">2f77c0eb-a5c4-4b06-ad8f-ab94908d5a20</dc:identifier>
+        <dc:title>IPC-7351 eng.pdf - Generic Requirements for Surface Mount Design and Land Pattern Standard</dc:title>
+        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2011-09-10T17:33:27+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>PCI</dc:subject>
+        <dc:subject>PCB</dc:subject>
+        <dc:subject>Circuito Impresso</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-03T12:52:47+00:00"/>
+        <meta name="calibre:title_sort" content="IPC-7351 eng.pdf - Generic Requirements for Surface Mount Design and Land Pattern Standard"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="IPC-7351 eng.pdf - Generic Requirements for Surface Mount Design and Land Pattern Standard - Desconhecido.jpg"/>
+    </guide>
+</package>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17330</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d391c7fa-6459-4f37-b042-9da63fd6cea0</dc:identifier>
+        <dc:title>IPC-2222 eng - Sectional Design Standard for Rigid Organic Printed Boards</dc:title>
+        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2011-09-10T16:54:12+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>PCI</dc:subject>
+        <dc:subject>PCB</dc:subject>
+        <dc:subject>Circuito Impresso</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-03T12:52:50+00:00"/>
+        <meta name="calibre:title_sort" content="IPC-2222 eng - Sectional Design Standard for Rigid Organic Printed Boards"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="IPC-2222 eng - Sectional Design Standard for Rigid Organic Printed Boards - Desconhecido.jpg"/>
+    </guide>
+</package>

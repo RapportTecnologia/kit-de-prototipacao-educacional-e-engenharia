@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17480</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">feb45fb5-42d6-472d-bfe2-d2386177e71f</dc:identifier>
+        <dc:title>IPC-2152 Standard for Determining Current Carrying Capacity in Printed Board Design</dc:title>
+        <dc:creator opf:file-as="IPC" opf:role="aut">IPC</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2009-08-19T15:37:31+00:00</dc:date>
+        <dc:description>Determine the appropriate conductor size as a function of current carrying capacity required and the acceptable conductor temperature rise.</dc:description>
+        <dc:language>pt</dc:language>
+        <dc:subject>CURRENT CARRYING CAPACITY</dc:subject>
+        <dc:subject>CONDUCTOR SIZING</dc:subject>
+        <dc:subject>TEMPERATURE RISE</dc:subject>
+        <dc:subject>IPC</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-10T20:44:00+00:00"/>
+        <meta name="calibre:title_sort" content="IPC-2152 Standard for Determining Current Carrying Capacity in Printed Board Design"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="IPC-2152 Standard for Determining Current Carrying Capacity in Printed Board Design - IPC.jpg"/>
+    </guide>
+</package>
