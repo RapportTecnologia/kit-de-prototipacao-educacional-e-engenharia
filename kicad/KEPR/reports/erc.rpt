@@ -1,12 +1,9 @@
-ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
+ERC report (2026-01-16T01:00:54+0000, Encoding UTF8)
 
 ***** Sheet /
 [lib_symbol_issues]: The current configuration does not include the symbol library '10141995-005RLF'
     ; warning
     @(45.72 mm, 73.66 mm): Symbol J11 [10141995-005RLF]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(241.30 mm, 48.26 mm): Vertical Wire, length 10.16 mm
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(215.90 mm, 373.38 mm): Global Label 'PWR_GOOD'
@@ -21,16 +18,22 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
     @(185.42 mm, 132.08 mm): Symbol J9 [Conn_02x40_Odd_Even]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
-    @(120.65 mm, 228.60 mm): Symbol #PWR08 [+5V]
+    @(154.94 mm, 229.87 mm): Symbol #PWR015 [+3.3V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
-    @(127.00 mm, 228.60 mm): Symbol #PWR015 [+3.3V]
-[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
-    ; warning
-    @(121.92 mm, 236.22 mm): Symbol J13 [PINHD_2x2_Male]
+    @(157.48 mm, 229.87 mm): Symbol #PWR08 [+5V]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
     ; warning
-    @(152.40 mm, 243.84 mm): Symbol J7 [Conn_02x08_Odd_Even]
+    @(130.81 mm, 246.38 mm): Symbol J7 [Conn_02x08_Odd_Even]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
+    ; warning
+    @(156.21 mm, 237.49 mm): Symbol J13 [PINHD_2x2_Male]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(125.73 mm, 262.89 mm): Symbol #PWR042 [GND]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(191.77 mm, 226.06 mm): Directive Label [Net Class PWM]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
     ; warning
     @(269.24 mm, 132.08 mm): Symbol J10 [Conn_02x40_Odd_Even]
@@ -61,12 +64,21 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(226.06 mm, 116.84 mm): Global Label 'NET_CLK_EVEN'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(201.93 mm, 154.94 mm): Directive Label [Net Class Network]
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(198.12 mm, 160.02 mm): Global Label 'NET_CLK_EVEN'
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
+    @(198.12 mm, 172.72 mm): Global Label 'NET_D3_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
     @(226.06 mm, 134.62 mm): Global Label 'NET_CTL1_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(226.06 mm, 137.16 mm): Global Label 'NET_CTL2_EVEN'
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(210.82 mm, 160.02 mm): Global Label 'NET_SPI_CLK'
@@ -76,6 +88,9 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(198.12 mm, 177.80 mm): Global Label 'NET_CTL1_EVEN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(198.12 mm, 180.34 mm): Global Label 'NET_CTL2_EVEN'
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(198.12 mm, 182.88 mm): Global Label 'PHY_RST_N_EVEN'
@@ -163,9 +178,15 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(107.95 mm, 68.58 mm): Symbol #PWR07 [+5V]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(128.27 mm, 22.86 mm): Directive Label [Net Class Main Power Rail]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(127.00 mm, 35.56 mm): Symbol #PWR039 [+3.3V]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 87.63 mm): Directive Label [Net Class Shunt]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'
     ; warning
     @(113.03 mm, 76.20 mm): Symbol J24 [PINHD_2x2_Male]
@@ -199,10 +220,6 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(172.72 mm, 35.56 mm): Symbol #PWR027 [+5V]
-[no_connect_connected]: Pin with 'no connection' type is connected
-    ; warning
-    @(99.06 mm, 147.32 mm): Symbol PS1 Pin 5 [NC, Unconnected, Line]
-    @(99.06 mm, 147.32 mm): Vertical Wire, length 5.08 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(170.18 mm, 68.58 mm): Symbol #PWR05 [+12V]
@@ -230,10 +247,6 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(193.04 mm, 35.56 mm): Symbol #PWR041 [+3.3V]
-[no_connect_connected]: Pin with 'no connection' type is connected
-    ; warning
-    @(99.06 mm, 177.80 mm): Symbol PS2 Pin 5 [NC, Unconnected, Line]
-    @(99.06 mm, 177.80 mm): Vertical Wire, length 2.54 mm
 [label_dangling]: Label not connected to anything
     ; error
     @(45.72 mm, 210.82 mm): Label 'UCE_MCU_VCTL_12v'
@@ -252,10 +265,6 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(40.64 mm, 226.06 mm): Symbol #PWR024 [GND]
-[no_connect_connected]: Pin with 'no connection' type is connected
-    ; warning
-    @(101.60 mm, 210.82 mm): Symbol PS3 Pin 5 [NC, Unconnected, Line]
-    @(101.60 mm, 210.82 mm): Vertical Wire, length 5.08 mm
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(130.81 mm, 210.82 mm): Symbol #PWR028 [GND]
@@ -382,12 +391,24 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 [label_dangling]: Label not connected to anything
     ; error
     @(210.82 mm, 248.92 mm): Label 'VDDA_MCU_CTL_3v3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(323.85 mm, 54.61 mm): Label 'VDD_MCU_CTL_3v3'
 [footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor'.
     ; warning
     @(200.66 mm, 261.62 mm): Symbol C4 [4.7nF_Ceramic]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Capacitors'
     ; warning
     @(200.66 mm, 261.62 mm): Symbol C4 [4.7nF_Ceramic]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(326.39 mm, 49.53 mm): Directive Label [Net Class VDD_MCU_CTL]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(328.93 mm, 29.21 mm): Global Label 'MCU_CTL_I2C_SCL'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(328.93 mm, 31.75 mm): Global Label 'MCU_CTL_I2C_SDA'
 [lib_symbol_issues]: The current configuration does not include the symbol library 'power'
     ; warning
     @(314.96 mm, 101.60 mm): Symbol #PWR017 [+3.3V]
@@ -529,192 +550,16 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
 ***** Sheet /BUSes/UCE_Bus/
 [pin_not_connected]: Pin not connected
     ; error
-    @(241.30 mm, 48.26 mm): Symbol J11 Pin 209 [209, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(299.72 mm, 48.26 mm): Symbol J11 Pin 232 [232, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(302.26 mm, 48.26 mm): Symbol J11 Pin 233 [233, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(304.80 mm, 48.26 mm): Symbol J11 Pin 234 [234, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(299.72 mm, 73.66 mm): Symbol J11 Pin 101 [101, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(302.26 mm, 73.66 mm): Symbol J11 Pin 102 [102, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(304.80 mm, 73.66 mm): Symbol J11 Pin 103 [103, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(309.88 mm, 48.26 mm): Symbol J11 Pin 236 [236, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(307.34 mm, 73.66 mm): Symbol J11 Pin 104 [104, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(312.42 mm, 48.26 mm): Symbol J11 Pin 237 [237, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(309.88 mm, 73.66 mm): Symbol J11 Pin 105 [105, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(314.96 mm, 48.26 mm): Symbol J11 Pin 238 [238, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(312.42 mm, 73.66 mm): Symbol J11 Pin 106 [106, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(317.50 mm, 48.26 mm): Symbol J11 Pin 239 [239, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(314.96 mm, 73.66 mm): Symbol J11 Pin 107 [107, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(320.04 mm, 48.26 mm): Symbol J11 Pin 240 [240, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(317.50 mm, 73.66 mm): Symbol J11 Pin 108 [108, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(322.58 mm, 48.26 mm): Symbol J11 Pin 241 [241, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(320.04 mm, 73.66 mm): Symbol J11 Pin 109 [109, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(325.12 mm, 48.26 mm): Symbol J11 Pin 242 [242, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(322.58 mm, 73.66 mm): Symbol J11 Pin 110 [110, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(327.66 mm, 48.26 mm): Symbol J11 Pin 243 [243, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(325.12 mm, 73.66 mm): Symbol J11 Pin 111 [111, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(330.20 mm, 48.26 mm): Symbol J11 Pin 244 [244, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(327.66 mm, 73.66 mm): Symbol J11 Pin 112 [112, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(332.74 mm, 48.26 mm): Symbol J11 Pin 245 [245, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(330.20 mm, 73.66 mm): Symbol J11 Pin 113 [113, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(335.28 mm, 48.26 mm): Symbol J11 Pin 246 [246, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(332.74 mm, 73.66 mm): Symbol J11 Pin 114 [114, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(337.82 mm, 48.26 mm): Symbol J11 Pin 247 [247, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(335.28 mm, 73.66 mm): Symbol J11 Pin 115 [115, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(340.36 mm, 48.26 mm): Symbol J11 Pin 248 [248, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(337.82 mm, 73.66 mm): Symbol J11 Pin 116 [116, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(342.90 mm, 48.26 mm): Symbol J11 Pin 249 [249, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(340.36 mm, 73.66 mm): Symbol J11 Pin 117 [117, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(345.44 mm, 48.26 mm): Symbol J11 Pin 250 [250, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(342.90 mm, 73.66 mm): Symbol J11 Pin 118 [118, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(347.98 mm, 48.26 mm): Symbol J11 Pin 251 [251, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(345.44 mm, 73.66 mm): Symbol J11 Pin 119 [119, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(350.52 mm, 48.26 mm): Symbol J11 Pin 252 [252, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(347.98 mm, 73.66 mm): Symbol J11 Pin 120 [120, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(353.06 mm, 48.26 mm): Symbol J11 Pin 253 [253, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(350.52 mm, 73.66 mm): Symbol J11 Pin 121 [121, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(355.60 mm, 48.26 mm): Symbol J11 Pin 254 [254, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(353.06 mm, 73.66 mm): Symbol J11 Pin 122 [122, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(358.14 mm, 48.26 mm): Symbol J11 Pin 255 [255, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(355.60 mm, 73.66 mm): Symbol J11 Pin 123 [123, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(360.68 mm, 48.26 mm): Symbol J11 Pin 256 [256, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(358.14 mm, 73.66 mm): Symbol J11 Pin 124 [124, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(363.22 mm, 48.26 mm): Symbol J11 Pin 257 [257, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(360.68 mm, 73.66 mm): Symbol J11 Pin 125 [125, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(365.76 mm, 48.26 mm): Symbol J11 Pin 258 [258, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(363.22 mm, 73.66 mm): Symbol J11 Pin 126 [126, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(365.76 mm, 73.66 mm): Symbol J11 Pin 127 [127, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
     @(373.38 mm, 48.26 mm): Symbol J11 Pin MP1 [MP1, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(375.92 mm, 48.26 mm): Symbol J11 Pin MP2 [MP2, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(373.38 mm, 73.66 mm): Symbol J11 Pin 130 [130, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(375.92 mm, 73.66 mm): Symbol J11 Pin 131 [131, Passive, Line]
 
 ***** Sheet /BUSes/NETWORK_MOD_Bus/
 [multiple_net_names]: Both MDIO and NET_CMD_ODD are attached to the same items; MDIO will be used in the netlist
     ; warning
     @(210.82 mm, 198.12 mm): Global Label 'MDIO'
     @(182.88 mm, 119.38 mm): Global Label 'NET_CMD_ODD'
-[no_connect_connected]: A pin with a "no connection" flag is connected
-    ; warning
-    @(208.28 mm, 127.00 mm): Symbol J3 Pin 14 [Pin_14, Passive, Line]
-    @(210.82 mm, 172.72 mm): No Connect
-[multiple_net_names]: Both NET_D2_EVEN and NET_D3_EVEN are attached to the same items; NET_D2_EVEN will be used in the netlist
-    ; warning
-    @(226.06 mm, 127.00 mm): Global Label 'NET_D2_EVEN'
-    @(198.12 mm, 172.72 mm): Global Label 'NET_D3_EVEN'
 [multiple_net_names]: Both NET_CLK_EVEN and NET_SPI_CLK are attached to the same items; NET_CLK_EVEN will be used in the netlist
     ; warning
     @(198.12 mm, 160.02 mm): Global Label 'NET_CLK_EVEN'
@@ -727,6 +572,13 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
     ; warning
     @(210.82 mm, 182.88 mm): Global Label 'NET_SPI_RST_N'
     @(198.12 mm, 182.88 mm): Global Label 'PHY_RST_N_EVEN'
+[multiple_net_names]: Both NET_D2_EVEN and NET_SPI_MISO are attached to the same items; NET_D2_EVEN will be used in the netlist
+    ; warning
+    @(226.06 mm, 127.00 mm): Global Label 'NET_D2_EVEN'
+    @(210.82 mm, 170.18 mm): Global Label 'NET_SPI_MISO'
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(210.82 mm, 172.72 mm): No Connect
 [multiple_net_names]: Both NET_CTL0_EVEN and NET_SPI_CS are attached to the same items; NET_CTL0_EVEN will be used in the netlist
     ; warning
     @(226.06 mm, 132.08 mm): Global Label 'NET_CTL0_EVEN'
@@ -777,72 +629,6 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
     @(190.50 mm, 129.54 mm): Global Label 'SDIO_D0'
 
 ***** Sheet /BUSes/UCE_External_Bus/
-[pin_not_connected]: Pin not connected
-    ; error
-    @(120.65 mm, 228.60 mm): Symbol #PWR08 Pin 1 [Power input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(120.65 mm, 231.14 mm): Symbol J13 Pin 2 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(127.00 mm, 228.60 mm): Symbol #PWR015 Pin 1 [Power input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(123.19 mm, 231.14 mm): Symbol J13 Pin 4 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(120.65 mm, 241.30 mm): Symbol J13 Pin 1 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(123.19 mm, 241.30 mm): Symbol J13 Pin 3 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 236.22 mm): Symbol J7 Pin 1 [Pin_1, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 238.76 mm): Symbol J7 Pin 3 [Pin_3, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 241.30 mm): Symbol J7 Pin 5 [Pin_5, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 243.84 mm): Symbol J7 Pin 7 [Pin_7, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 236.22 mm): Symbol J7 Pin 2 [Pin_2, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 246.38 mm): Symbol J7 Pin 9 [Pin_9, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 238.76 mm): Symbol J7 Pin 4 [Pin_4, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 248.92 mm): Symbol J7 Pin 11 [Pin_11, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 241.30 mm): Symbol J7 Pin 6 [Pin_6, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 251.46 mm): Symbol J7 Pin 13 [Pin_13, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 243.84 mm): Symbol J7 Pin 8 [Pin_8, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(147.32 mm, 254.00 mm): Symbol J7 Pin 15 [Pin_15, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 246.38 mm): Symbol J7 Pin 10 [Pin_10, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 248.92 mm): Symbol J7 Pin 12 [Pin_12, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 251.46 mm): Symbol J7 Pin 14 [Pin_14, Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(160.02 mm, 254.00 mm): Symbol J7 Pin 16 [Pin_16, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(151.13 mm, 391.16 mm): Symbol #PWR016 Pin 1 [Power input, Line]
@@ -1073,4 +859,4 @@ ERC report (2026-01-14T22:44:22+0000, Encoding UTF8)
     ; error
     @(378.46 mm, 205.74 mm): Symbol J2 Pin 131 [131, Passive, Line]
 
- ** ERC messages: 341  Errors 190  Warnings 151
+ ** ERC messages: 271  Errors 118  Warnings 153

@@ -11,17 +11,17 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 
 ### ERC (Electrical Rules Check)
 
-- Gerado em: `2026-01-14T22:44:22+0000`
-- Erros: **190**
-- Avisos: **151**
+- Gerado em: `2026-01-16T01:00:54+0000`
+- Erros: **118**
+- Avisos: **153**
 
 ### DRC (Design Rules Check)
 
-- Gerado em: `2026-01-14T22:44:23+0000`
-- Violações DRC: **214**
-- Pads desconectados: **186**
-- Erros: **213**
-- Avisos: **194**
+- Gerado em: `2026-01-16T01:00:56+0000`
+- Violações DRC: **177**
+- Pads desconectados: **117**
+- Erros: **126**
+- Avisos: **173**
 
 ## Relatórios completos
 
@@ -33,15 +33,15 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 ### ERC
 
 - `[lib_symbol_issues]: The current configuration does not include the symbol library '10141995-005RLF'`
-- `[unconnected_wire_endpoint]: Unconnected wire endpoint`
 - `[global_label_dangling]: Global label not connected anywhere else in the schematic`
 - `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'`
 - `[unconnected_wire_endpoint]: Unconnected wire endpoint`
 - `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'`
 - `[lib_symbol_issues]: The current configuration does not include the symbol library 'power'`
 - `[lib_symbol_issues]: The current configuration does not include the symbol library 'power'`
-- `[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'`
 - `[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'`
+- `[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'`
+- `[lib_symbol_issues]: The current configuration does not include the symbol library 'power'`
 
 ### DRC
 
@@ -51,8 +51,8 @@ Esta página é gerada automaticamente pelo CI a partir dos relatórios do KiCad
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
 - `[track_dangling]: Track has unconnected end`
-- `[track_dangling]: Track has unconnected end`
-- `[track_dangling]: Track has unconnected end`
-- `[track_dangling]: Track has unconnected end`
+- `[via_dangling]: Via is not connected or connected on only one layer`
+- `[via_dangling]: Via is not connected or connected on only one layer`
+- `[via_dangling]: Via is not connected or connected on only one layer`
 - `[via_dangling]: Via is not connected or connected on only one layer`
 
