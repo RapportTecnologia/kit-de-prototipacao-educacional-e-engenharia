@@ -4911,6 +4911,10 @@
 		(uuid "0dcc49b1-0160-4c48-bfa7-bf8d593f9cda")
 	)
 	(no_connect
+		(at 292.1 38.1)
+		(uuid "0e9a8db1-a4d0-4c69-9130-1a169d60ae7b")
+	)
+	(no_connect
 		(at 347.98 73.66)
 		(uuid "0fead778-6ce2-46a2-8a0c-dd39fc30706f")
 	)
@@ -4949,6 +4953,10 @@
 	(no_connect
 		(at 289.56 38.1)
 		(uuid "30ebb0f9-2e97-48a9-860b-396cef7423ec")
+	)
+	(no_connect
+		(at 284.48 38.1)
+		(uuid "3204bcc3-e511-4bda-8591-cdb9f00cb30d")
 	)
 	(no_connect
 		(at 340.36 73.66)
@@ -5063,6 +5071,10 @@
 		(uuid "7d3a04f8-4a30-4886-8bab-c731eb8584e1")
 	)
 	(no_connect
+		(at 284.48 83.82)
+		(uuid "830b9d7f-d03a-476c-8a91-1c28e351a534")
+	)
+	(no_connect
 		(at 299.72 48.26)
 		(uuid "85241b93-9413-43b3-94e8-2fb2f2f8403f")
 	)
@@ -5073,6 +5085,10 @@
 	(no_connect
 		(at 363.22 48.26)
 		(uuid "86472b55-13bc-43ea-a158-200ea7bb3dbe")
+	)
+	(no_connect
+		(at 218.44 38.1)
+		(uuid "8949412d-9fd5-4dd0-a2e3-f1f27d6aaf64")
 	)
 	(no_connect
 		(at 358.14 48.26)
@@ -5113,6 +5129,10 @@
 	(no_connect
 		(at 335.28 73.66)
 		(uuid "9a683a2c-294f-43bd-93bd-123dee4ac34a")
+	)
+	(no_connect
+		(at 241.3 38.1)
+		(uuid "9b3f917c-2007-4297-aef0-dbc2044e385b")
 	)
 	(no_connect
 		(at 233.68 38.1)
@@ -5179,6 +5199,10 @@
 		(uuid "c48d0c5a-7178-4af4-995a-1d4b0530f0f9")
 	)
 	(no_connect
+		(at 218.44 83.82)
+		(uuid "c494d9a5-dffc-4925-8420-fa6c758fb0ab")
+	)
+	(no_connect
 		(at 350.52 48.26)
 		(uuid "c6031e09-b296-4481-855d-ae93c3fe486f")
 	)
@@ -5193,6 +5217,10 @@
 	(no_connect
 		(at 353.06 73.66)
 		(uuid "d4109538-a8fa-48bf-b343-70bbe35d26c9")
+	)
+	(no_connect
+		(at 292.1 83.82)
+		(uuid "dd974cee-8f2f-4a0f-af67-b531dd151120")
 	)
 	(no_connect
 		(at 302.26 48.26)
@@ -7973,26 +8001,6 @@
 			)
 		)
 	)
-	(global_label "VREF_IO"
-		(shape passive)
-		(at 284.48 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3631d402-8f76-4c71-ba75-bd9021956246")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AIN4"
 		(shape passive)
 		(at 154.94 38.1 90)
@@ -8895,26 +8903,6 @@
 			)
 		)
 	)
-	(global_label "VREF_IO"
-		(shape passive)
-		(at 218.44 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "784bf255-0828-488b-95c3-d52697b90711")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART0_RTS"
 		(shape passive)
 		(at 99.06 38.1 90)
@@ -9216,27 +9204,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWR_GOOD"
-		(shape passive)
-		(at 292.1 38.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9044dd8d-84fa-4a69-b175-94362daa6e35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.1 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9961,27 +9928,6 @@
 			)
 		)
 	)
-	(global_label "PWR_GOOD"
-		(shape passive)
-		(at 292.1 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba09bc3b-7944-449b-a847-4b9a8e4fc9a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.1 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_BOOT1"
 		(shape passive)
 		(at 78.74 38.1 90)
@@ -10015,27 +9961,6 @@
 		(uuid "bade43b4-6fcc-4452-8870-beb019165bfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.24 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREF_IO"
-		(shape passive)
-		(at 284.48 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bb0b1fa6-a708-4284-9b43-be1d8cda6c33")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,26 +10418,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREF_IO"
-		(shape passive)
-		(at 218.44 83.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3ead1b4-f859-4d25-84bd-05cba2253250")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)

@@ -490,31 +490,37 @@
       {
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.4
       },
       {
         "name": "GND Thin",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0
       },
       {
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(107, 255, 115)"
       },
       {
         "name": "Main Power Rail",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(152, 74, 255)"
       },
       {
         "name": "Network",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 255, 4)"
+      },
+      {
+        "name": "PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
@@ -522,19 +528,19 @@
       {
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Shunt",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 57, 38)"
       },
       {
         "name": "VDD_MCU_CTL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -626,6 +632,30 @@
       ],
       "NET_SPI_RST_N": [
         "Network"
+      ],
+      "PWM0": [
+        "PWM"
+      ],
+      "PWM1": [
+        "PWM"
+      ],
+      "PWM2": [
+        "PWM"
+      ],
+      "PWM3": [
+        "PWM"
+      ],
+      "PWM4": [
+        "PWM"
+      ],
+      "PWM5": [
+        "PWM"
+      ],
+      "PWM6": [
+        "PWM"
+      ],
+      "PWM7": [
+        "PWM"
       ],
       "VDD_MCU_CTL_3v3": [
         "VDD_MCU_CTL"
